@@ -1,6 +1,6 @@
 {
     "Header": {
-        "live-map": "Harta live",
+        "live-map": "Harta Live",
         "cts": "Dispecerat",
         "tt2": "Track 2",
         "tms": "TMS",
@@ -85,12 +85,12 @@
         "username": "Utilizator",
         "description": "Vă rugăm să introduceți numele de utilizator pentru pornirea aplicației!",
         "resetPassword": "Resetează parola",
-        "emailSent":"Pe adresa de email utilizată la activarea contului a fost trimis un link pentru resetarea parolei. Linkul pentru resetarea parolei este activ pe o perioadă de 10 minute, în aceasta perioadă nu se va putea face o nouă cerere de recuperare parola. Dacă nu cunoașteți adresa de email sau nu mai aveți acces la aceasta va rugăm sa ne contactați!",
+        "emailSent": "Pe adresa de email utilizată la activarea contului a fost trimis un link pentru resetarea parolei. Linkul pentru resetarea parolei este activ pe o perioadă de 10 minute, în aceasta perioadă nu se va putea face o nouă cerere de recuperare parola. Dacă nu cunoașteți adresa de email sau nu mai aveți acces la aceasta va rugăm sa ne contactați!",
         "emailModal": "Emailul a fost trimis cu success",
-        "de":"Deutsch",
-        "en":"English",
-        "ro":"Română",
-        "it":"Italiano",
+        "de": "Deutsch",
+        "en": "English",
+        "ro": "Română",
+        "it": "Italiano",
         "invalidCredentialsTitle": "Date incorecte!",
         "invalidCredentials": "Numele de utilizator sau parola utilizate sunt incorecte!",
         "oldPasswordTitle": "Ați utilizat o parolă veche!",
@@ -110,7 +110,7 @@
         "passwdnotequal": "Parola nu coincide!",
         "unknownerror": "A intervenit o eroare! Va rugam sa incercati mai tarziu!",
         "mailNotFound": "Adresa de email / username-ul introdus nu exista in baza de date",
-        "emailSent":"Pe adresa de email utilizata la activarea contului a fost trimis un link pentru resetarea parolei. Linkul pentru resetarea parolei este activ pe o perioada de 10 minute, in aceasta perioada nu se va putea face o noua cerere de recuperare parola. Daca nu cunoasteti adresa de email sau nu mai aveti acces la aceasta va rugam ne contactați!",
+        "emailSent": "Pe adresa de email utilizata la activarea contului a fost trimis un link pentru resetarea parolei. Linkul pentru resetarea parolei este activ pe o perioada de 10 minute, in aceasta perioada nu se va putea face o noua cerere de recuperare parola. Daca nu cunoasteti adresa de email sau nu mai aveti acces la aceasta va rugam ne contactați!",
         "emailModal": "Emailul a fost trimis cu success",
         "linkExpired": "Link-ul pentru resetarea parolei a expirat. Va rugam să reluați procesul sau să contactați echipa de suport!"
     },
@@ -130,8 +130,8 @@
             "name": "Nume",
             "description": "Descriere"
         },
-        "pageTitle" : {
-            "empty" : "Configurator Traseu"
+        "pageTitle": {
+            "empty": "Configurator Traseu"
         }
     },
     "Coordinates": {
@@ -178,7 +178,7 @@
         "unread": "necitite"
     },
     "Accounting": {
-        "invoice" : {
+        "invoice": {
             "number": "Nr factura",
             "company": "Firma",
             "date": "Data emiterii",
@@ -217,7 +217,7 @@
             "recurency": "Plata recurenta",
             "cancelRecurency": "Dezactiveaza",
             "successfullyCanceled": "Plata recurenta a fost anulata cu success!",
-            "paymentMethod" :{
+            "paymentMethod": {
                 "paymentInformation": "Informatii de plata",
                 "transilvaniaBank": "Banca Transilvania",
                 "anotherBank": "Alta banca"
@@ -256,7 +256,7 @@
         "fuelLevelGraph": "Grafic alimentari / scurgeri",
         "errorGenerate": "Raportul nu a putut fi generat.",
         "contactSupport": "Vă rugăm să contactați echipa de suport!",
-        "doorSensor":"Afisare senzor usa",
+        "doorSensor": "Afisare senzor usa",
         "raportType": {
             "refuelings": {
                 "label": "Raport Alimentari",
@@ -277,13 +277,13 @@
                 "total_distance": "Distanța",
                 "refuel_no": "Nr. alimentari",
                 "consumption_mean": "Consum mediu",
-                "pdfFileHeadername" : "Raport Alimentari"
+                "pdfFileHeadername": "Raport Alimentari"
             }
         }
     },
     "Dispatcher": {
-        "pageTitle" : {
-            "empty" : "Comunicare"
+        "pageTitle": {
+            "empty": "Comunicare"
         }
     },
     "startTime": "Oră început",
@@ -358,7 +358,7 @@
     "forgotPassword": "Ai uitat parola?",
     "remember": "Ține-mă minte",
     "dateRange": "Perioadă",
-    "loadArchive":"Incarcă arhivă",
+    "loadArchive": "Incarcă arhivă",
     "warning": "Atentie!!!",
     "pay": "Plateste"
 }
