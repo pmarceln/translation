@@ -360,5 +360,7 @@
     "dateRange": "Perioadă",
     "loadArchive": "Incarcă arhivă",
     "warning": "Atentie!!!",
-    "pay": "Plateste"
+    "pay": "Plateste",
+    "test": "Test",
+    "testMandatory": "Testul este nevoit!"
 }
