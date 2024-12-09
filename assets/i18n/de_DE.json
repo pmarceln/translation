@@ -88,10 +88,10 @@
         "resetPassword": "Passwort zurücksetzen",
         "emailSent": "Ein Link zum Zurücksetzen des Passworts wurde an die E-Mail-Adresse gesendet, die zur Aktivierung des Kontos verwendet wird. Der Link zum Zurücksetzen des Passworts ist für einen Zeitraum von 10 Minuten aktiv. Während dieser Zeit ist keine erneute Passwortwiederherstellanfrage möglich. Wenn Sie die E-Mail-Adresse nicht kennen oder nicht auf sie zugreifen können, wenden Sie sich bitte an den Support! ",
         "emailModal": "E-Mail erfolgreich gesendet",
-        "de":"Deutsch",
-        "en":"Englisch",
-        "ro":"Română",
-        "it":"Italienisch",
+        "de": "Deutsch",
+        "en": "Englisch",
+        "ro": "Română",
+        "it": "Italienisch",
         "invalidCredentialsTitle": "Invalid credentials!",
         "invalidCredentials": "The username or password provided are incorrect!",
         "oldPasswordTitle": "You entered an old password!",
@@ -218,7 +218,7 @@
             "recurency": "Recurency",
             "cancelRecurency": "Cancel recurency",
             "successfullyCanceled": "Recurent payment successfully canceled!",
-            "paymentMethod" :{
+            "paymentMethod": {
                 "paymentInformation": "Payment Information",
                 "transilvaniaBank": "Transilvania Bank",
                 "anotherBank": "Other Bank"
@@ -257,7 +257,7 @@
         "fuelLevelGraph": "Refuel / Leaks graph",
         "errorGenerate": "Report could not be generated.",
         "contactSupport": "Please contact the support team!",
-        "doorSensor":"Türsensor Anzeigen",
+        "doorSensor": "Türsensor Anzeigen",
         "raportType": {
             "refuelings": {
                 "label": "Fuel Level Report",
@@ -278,7 +278,7 @@
                 "total_distance": "Distance",
                 "refuel_no": "Total Refuels",
                 "consumption_mean": "Average Consumption",
-                "pdfFileHeadername" : "Fuel Level Report"
+                "pdfFileHeadername": "Fuel Level Report"
             }
         }
     },
@@ -352,7 +352,7 @@
     "generalError": "There was an error, please try again!",
     "legend": "Legend",
     "note": "Note",
-    "back": "back",
+    "back": "indietro",
     "customPdf": "Custom pdf",
     "selectAll": "Select All",
     "apply": "Apply",
