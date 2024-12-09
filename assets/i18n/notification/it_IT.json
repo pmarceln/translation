@@ -1,0 +1,36 @@
+{
+    "Notification": {
+        "quickSearch": "Quick search ...",
+        "filters": "Filters",
+        "notificationList": "Notification List",
+        "notificationType": {
+            "allNotifications": "All notifications",
+            "Financial": "Financial notifications",
+            "System": "System notifications",
+            "Events": "Events notifications",
+            "Reports": "Reports notifications",
+            "Marketing": "Marketing notifications"
+        },
+        "dataTable": {
+            "created_at": "Date created",
+            "date_read": "Date read",
+            "priority": "Priority",
+            "user_notification_type": "Category",
+            "summary": "Summary",
+            "info": "Info",
+            "actions": {
+                "markAsRead": "mark as read",
+                "markAsUnread": "mark as unread",
+                "confirmDeleteAction": "Do you really want to delete notifications?",
+                "confirmMarkAsReadAction": "Do you really want to mark as read notifications?",
+                "confirmMarkAsUnreadAction": "Do you really want to mark as unread notifications?"
+            }
+        },
+        "priority": {
+            "1": "low",
+            "2": "medium",
+            "3": "high",
+            "4": "highest"
+        }
+    }
+}

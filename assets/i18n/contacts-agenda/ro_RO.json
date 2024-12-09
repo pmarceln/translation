@@ -1,0 +1,40 @@
+{
+    "ContactsAgenda": {
+        "quickSearch": "Cautare rapida",
+        "contacts": {
+            "label": "Contacte",
+            "newContact": "Contact nou",
+            "confirmDeleteAction": "Sunteti sigur ca doriti sa stergeti contactul?",
+            "dataTable": {
+                "name": "Nume",
+                "phone1": "Telefon 1",
+                "phone2": "Telefon 2",
+                "phone3": "Telefon 3",
+                "email1": "Email 1",
+                "email2": "Email 2",
+                "email3": "Email 3",
+                "description": "Descriere",
+                "actions": "Actiuni",
+                "default": "Implicit"
+            }
+        },
+        "sendSms": {
+            "label": "Trimite sms",
+            "contactsList": "Lista de contacte",
+            "message": "Mesaj"
+        },
+        "smsLog": {
+            "label": "Inregistrari SMS",
+            "date": "Data",
+            "from": "De la",
+            "toName": "Catre (Nume)",
+            "toNumber": "Catre (Numar)",
+            "message": "Mesaj",
+            "missingContact": "Trebuie sa selectati cel putin 1 contact!",
+            "missingMessage": "Mesajul nu poate fi gol!",
+            "messageSend": "Mesajul a fost trimis!",
+            "messageFailed": "Ceva nu a mers. Va rugam incercati din nou!",
+            "customFailedMessage": "A esuat trimiterea mesajelor catre {{ count }} contacte."
+        }
+    }
+}

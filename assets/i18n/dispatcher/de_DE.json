@@ -1,0 +1,22 @@
+{
+    "Dispatcher": {
+        "searchmessage": "Nachricht finden",
+        "searchuser": "Benutzer suchen",
+        "writehere": "Schreiben Sie hier eine Nachricht",
+        "sendSms": "Nachricht",
+        "smsNotSent": "Nachricht wurde nicht gesendet ",
+        "smsMessage": "SMS-Nachricht",
+        "couldNotBeSent": "konnte nicht gesendet werden!",
+        "createroute": "Erstellen Sie die Route",
+        "userListFilter": {
+            "name": "Benutzername",
+            "userIcon": "Symbol",
+            "lastMessage": "letzte Nachricht",
+            "lastMessageDatetime": "letzte Nachricht Datum Uhrzeit"
+        },
+        "pageTitle" : {
+            "empty" : "Versand",
+            "vehicleDetail" : "Versand - "
+        }
+    }
+}

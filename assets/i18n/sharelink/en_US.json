@@ -1,0 +1,52 @@
+{
+    "ShareLink": {
+        "newsharelink": "New Share Link",
+        "selectVehicles": "Select vehicles",
+        "dateRange": "Chose time interval",
+        "comments": "Notes",
+        "generatedsharelist": "Generated Share Links",
+        "created": "Generated",
+        "device_names": "Vehicles",
+        "valid_from": "Start Date",
+        "valid_to": "End Date",
+        "sendShareLink": "Send Share Link",
+        "sendSms": "Send share link through sms",
+        "smsnumber": "Phone number",
+        "smsname": "Name",
+        "sendEmail": "Send share link through email",
+        "emailaddress": "Email address",
+        "emailname": "Name",
+        "confirmRemoveAction": "Do you really want to remove this link?",
+        "confirmDeleteAction": "Do you really want to delete this link?",
+        "save": "Generate share link",
+        "emptydata": "You must provide at least one contact information.",
+        "sent": "Success",
+        "wassent": "The messages was successfully sent.",
+        "failed": "Failed",
+        "notsent": "The message wasn't sent.",
+        "notSentToValidNumber": "The message did not reach any recipient. Please check the data.",
+        "selectContacts": "Select contats",
+        "selectButton": "Select",
+        "selectFromContacts": "Add contacts",
+        "addNewRow": "Add new row",
+        "quickSearch": "Quick search"
+    },
+    "ShareLinkview": {
+        "viewlink": "Devices shared view",
+        "valid_to": "Share link activ until",
+        "valid_to_mobile": "Valid until",
+        "invalid_mobile": "Invalid.",
+        "invalid": "Invalid share link. Sharelink active period: ",
+        "invalidToken": "Share link in unaviable!",
+        "expiredOn": "Share link expired on {{ date }}",
+        "willBeAvailable": "Sharelink will be aviable starting from {{ date }}"
+    },
+    "infobox": {
+        "date": "Date",
+        "speed": "Speed",
+        "fuellevel": "Fuel level",
+        "gpscoordonates": "GPS",
+        "mileage": "Mileage",
+        "address": "Address"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "Route": {
+        "title": "Create Route",
+        "vehicles": "Vehicles",
+        "none": "None",
+        "changeToDeliveryLocation": "CHANGE TO DELIVERY",
+        "changeToPickupLocation": "CHANGE TO PICKUP",
+        "changeToPassingPoint": "CHANGE TO PASSING POINT",
+        "calculator": "Cost Calculations",
+        "summary": "Route Summary",
+        "distance": "Distance",
+        "price": "Price",
+        "saveTmsRoute": "Save Route in TMS",
+        "saveDeviceRoute": "Save route for vehicle",
+        "addRouteNotification": "Route for vehicle {{ name }} has been saved!",
+        "addRouteVisibilityNotification": "Visibility interval is: {{ interval }}.",
+        "activeShippingDialog": {
+            "title": "The selected vehicle is currently performing a shipment or has already a scheduled shipment. Would you like to:",
+            "actualPosition": "use vehicles current position",
+            "lastDeliveryPosition": "use the position from last the last delivery",
+            "manual": "manually enter an address"
+        },
+        "pageTitle" : {
+            "empty" : "Planning Loads",
+            "vehicleDetail" : " - Planning Loads"
+        },
+        "addRouteDialog": {
+            "visibilityRange": "Visibility Interval",
+            "invalidDates": "Invalid dates",
+            "routeDatesOverlaps": "Date Overlaps",
+            "unprocessableEntity": "The data could not be saved in the database"
+        }
+    }   
+}

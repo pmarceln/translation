@@ -1,0 +1,31 @@
+{
+    "Package" : {
+        "availableTabTitle" : "Available",
+        "installedTabTitle" : "Installed",
+        "freeText" : "Free : 30 days trial period",
+        "description" : "Description",
+        "details" : "Details",
+        "features" : "Features",
+        "licence" : "Licence",
+        "tryNow" : "Try now",
+        "buy" : "Buy",
+        "activate": "Activate",
+        "trialExpired" : "Trial expired",
+        "packageInstalled" : "The selected package was successfully installed!",
+        "packageInstallationError" : "The selected package could not be installed in demo! You have already tested it in the past.  Please contact the suport team for more details!",
+        "moduleDemoExpired" : "The selected package contains a module you already had in demo, but the demo period has expired. For more details please contact our support department!",
+        "requestSupport": "Request Support",
+        "getSupportSuccess" : "A notification for your request was created in our system. We will contact you as soon as posible!",
+        "moduleActivation": {
+            "title": "Module Activation",
+            "content": "You will be contacted by a sales representative as soon as posible"
+        },
+        "package": {
+            "description": "Description",
+            "features": "Features",
+            "details": "Details",
+            "addDemoPackageSuccessMessage": "The module {{ name }} is activated for 30 days trial. You can purchase it at any time by clicking the BUY NOW button! . After closing this window, please log in again!",
+            "demoExpiresIn": "trial expires in {{ days }} days"
+        }
+    }
+}

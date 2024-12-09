@@ -1,0 +1,274 @@
+{
+    "Map": {
+        "vehicles": {
+            "unallocated": "Treiber nicht zugewiesen",
+            "badDeviceMessage" : "Selected device is currently unavailable. Please contact our support team.",
+            "vehicle" : "Vehicle",
+            "vehicles" : "Vehicles",
+            "group" : "Group",
+            "groups" : "Groups",
+            "allGroups" : "All Groups",
+            "selectGroups" : "Select Groups",
+            "ungrouped": "Ungrouped"
+        },
+        "vehicleInfo": {
+            "info": "informationen ",
+            "history": "historisch",
+            "cmd": "Befehle",
+            "summary": "Zusammenfassung",
+            "details": "Einzelheiten",
+            "address": "Adresse",
+            "gpscoordonates": "GPS-Koordinaten",
+            "mileage": "Geschwindigkeitsmesser ",
+            "speed": "Geschwindigkeit",
+            "datetime": "Letzte Aktualisierung",
+            "fuellevel": "Kraftstoffstand",
+            "options": "Optionen",
+            "followup": "Fahrzeug folgen",
+            "followupDetailed": "Keep the current view focused on the vehicle position.",
+            "showtrace": "Spur anzeigen",
+            "showtraceDetailed": "Highlight the vehicle route for a predefined interval.",
+            "showothers": "zeige andere",
+            "showothersDetailed": "Display all my vehicles on the map.",
+            "liter": "ˈLiter",
+            "activityduration": "Dauer der Tätigkeit",
+            "driver": "Fahrer",
+            "unknown": "unbekannt",
+            "vehicleState": "Unbekannter Status von",
+            "vehicleState-1": "Bewegt sich mit abgestelltem Motor",
+            "vehicleState0": "stationiert seit ",
+            "vehicleState1": "stationiert mit laufendem Motor",
+            "vehicleState2": "Se deplasează de",
+            "moreThanADay": "mehr als ein Tag",
+            "vehicleAlert": "Fahreralarm",
+            "vehicleBlock": "Immobilisierung des Fahrzeugs",
+            "vehicleCamera": "Fahrzeugkammer",
+            "positionsTransmition": "Übertragung von Fahrzeugpositionen",
+            "notes": "Aufzeichnungen",
+            "fuelConsumption": {
+                "fromDateConsumption": "The average consumption from {{ datetime }} until today",
+                "editConsumptionDate": "Modify the date from which the consumption is calculated",
+                "date": "Date",
+                "noPositionError": "No positions found!",
+                "serverError": "Server error, please try again!"
+            },
+            "door_status": {
+                "0": "Open",
+                "1": "Closed",
+                "nosenzor": "No sensor"
+            }
+        },
+        "vehicleHistory": {
+            "generatehistory": "Geschichte erzeugen",
+            "changeperiod": "Ändern Sie den Zeitraum",
+            "exportPdf": "PDF Report",
+            "noHistoryFound": "No history data found",
+            "exportXls": "Excel Report",
+            "exportXlsExceededPeriod": "Exceeded period, the export interval is maximum 7 days.",
+            "detailedPdf": "Ausführlicher Bericht",
+            "withDuration": "Zeitdauer",
+            "roadMap": "Fahrplan",
+            "activityoverview": "Allgemeine Aktivität",
+            "activitydetails": "Aktivitätsdetails",
+            "distance": "Entfernung",
+            "distanceCan": "Distance CAN",
+            "distanceGps": "Distance GPS",
+            "drivingtime": "Fahrzeit",
+            "stopped": "gestoppt",
+            "stationed": "stationiert",
+            "averageSpeed": "Average speed",
+            "fuelConsumtion": "Consumtion",
+            "validstop": "Minimale Anzeigezeit (in Minuten)",
+            "dateRange": "Zeit",
+            "stopsUnder": "Tracks unten ",
+            "minutesAreHidden": " Minuten sind versteckt!",
+            "date": "Datum",
+            "showDetails": "Show Details",
+            "warning": "Vorsichtig!",
+            "tooManyStops": "Der ausgewählte Zeitraum enthält eine sehr große Anzahl von Stopps. Um die Adressen sehen zu können, wählen Sie bitte einen kürzeren Zeitraum!",
+            "noPositionsReturned": "Es liegen keine Informationen für den gewünschten Zeitraum vor!",
+            "cancelGenerateHistory": "Laden Sie den Verlauf ab",
+            "integratedStops": "Auf diesem Straßenabschnitt haben Sie {{Stops}} weniger als {{time}} min. ",
+            "periodTooLongError": "Die maximale Generierungszeit für die Historie beträgt 366 Tage",
+            "vehicleHistoryResponseError": "Ein Fehler ist aufgetreten, wenden Sie sich an die technische Abteilung",
+            "details": {
+                "on": "auf",
+                "off": "Aus ",
+                "idling": "stationär",
+                "movingEngineOff": "Reisen mit dem ausgeschalteten Motor",
+                "unknown": "Unbekannt"
+            },
+            "chooseParams": "Wählen Sie Detailberichtspalten",
+            "availableColumns": "verfügbare Spalten",
+            "selectedColumns": "Ausgewählte Säulen",
+            "showChart": {
+                "name": "Show Chart",
+                "info": "Graphically displays any of the parameters available for the vehicle"
+            },
+            "showGeofence": {
+                "name": "Show Geozone",
+                "info": "Displays on the map the geozones through which the vehicle passed"
+            },
+            "chart": {
+                "speed": "Geschwindigkeit",
+                "fuelLevel": "Kraftstoffstand",
+                "ignition": "Zündung",
+                "moveMapCenter": "Das Fahrzeug auf der Karte zentrieren",
+                "parametersList": "Parameterliste"
+            },
+            "highlightedSegment": {
+                "title": "Options",
+                "attribute": "Attribute",
+                "status": {
+                    "label": "Status",
+                    "equal": "Equal with",
+                    "different": "Different from",
+                    "smaller": "Smaller than",
+                    "bigger": "Bigger than",
+                    "lessorequal": "Less or equal",
+                    "greaterorequal": "Greater or equal"
+                },
+                "value": "Value",
+                "color": {
+                    "label": "Color",
+                    "red": "Red",
+                    "blue": "Blue",
+                    "green": "Green",
+                    "orange": "Orange",
+                    "yellow": "Yellow",
+                    "black": "Black",
+                    "gray": "Gray",
+                    "brown": "Brown",
+                    "cyan": "Cyan",
+                    "purple": "Purple",
+                    "white": "White"
+                }
+            },
+            "export" : {
+                "date": "Date",
+                "travelReport": "Trip Report",
+                "period": "Period",
+                "generated": "The report was generated",
+                "driver": "Driver",
+                "summaryReport": "Summary Report",
+                "vehicle": "Vehicle",
+                "startingActivity": "Starting Activity Date",
+                "endingActivity": "Ending Activity Date",
+                "activityStartLocation": "Activity start location",
+                "activityEndLocation": "Activity end location",
+                "traveledDistance": "Traveled distance",
+                "daySummary": "Summary of the day",
+                "tripDetails": "Trip details",
+                "activityTotalDuration": "Total duration of activity",
+                "excelName": "Trip_Report"
+            },
+            "invalidDateTimeInterval": "Invalid date interval. Start Datetime is after End Datetime!"
+        },
+        "vehicleRoute": {
+            "label" : "Route",
+            "confirmDeleteAction": "Do you really want to delete the route?",
+            "noHistoryFound": "No history found!",
+            "emptyRouteListMessage": "Currently you have no routes saved",
+            "newRoute": "New route"
+        },
+        "vehicleCmd": {
+            "eventEmail": "Email",
+            "eventSms": "Nachricht",
+            "eventCoordinates": "Koordinaten",
+            "eventAddress": "Adresse",
+            "eventVehicleState": "Fahrzeugzustand",
+            "eventSpeed": "Geschwindigkeit",
+            "active": "aktiviert",
+            "activateMessage": "Deaktivieren Sie zuerst den Befehl, um E-Mail oder SMS zu ändern / hinzuzufügen",
+            "inactive": "Dezactiviert ",
+            "eventFrequency": "Informationsintervall ",
+            "sharedInformations": "Übermittelte Informationen",
+            "vehicleAlertTime": "Dauer in Sekunden",
+            "vehicleAlertStart": "Started",
+            "vehicleAlertStop": "unstarted",
+            "vehicleImobilizerStart": "Halt ",
+            "vehicleImobilizerStop": "Entsperren",
+            "wrongMail": "ungültige E-Mail-Adresse",
+            "wrongPhone": "ungültige Telefonnummer",
+            "commandState": {
+                "state": "Zustand",
+                "-1": "in wartezeit ",
+                "0": "gestoppt.",
+                "1": "eingeschaltet,"
+            },
+            "imobilizerCmmandState": {
+                "state": "Zustand",
+                "-1": "in wartezeit",
+                "0": " freigegeben.",
+                "1": "immobilisiert"
+            },
+            "immobiliser": {
+                "on": "entsperrt",
+                "off": "immobilisiert",
+                "0": "Versagt",
+                "1": "erfolgt",
+                "null": "in wartezeit"
+            },
+            "buzzer": {
+                "on": "gestartet",
+                "off": "ausgestarted",
+                "0": "Versagt",
+                "1": "erfolgt",
+                "null": "in wartezeit"
+            },
+            "frequency": {
+                "15": "fünfzehn Minuten (15 minuten)",
+                "30": "dreißig Minuten (30 Minuten)",
+                "60": "eine Stunde(1 stunde) ",
+                "120": "zwei stunden (2 stunden)",
+                "180": "Drei stunden (3 stunden)",
+                "360": "Sechs Stunden (6 Stunden)",
+                "720": "zwölf Stunnden (12 Stunden)",
+                "1440": "vierundzwanzig Stunden (24 Stunden)"
+            }
+        },
+        "refueling": {
+            "title" : "Refuelings",
+            "totalRefueling": "Total Refuelings",
+            "totalLeaks": "Total Leakage",
+            "hideRefuelingsSmallerThan": "Hide Refuelings smaller than",
+            "hideLeaksSmallerThan": "Hide Leaks smaller than",
+            "address": "Address",
+            "refBeginDate": "Refueling Begin Date",
+            "refEndDate": "Refueling End Date",
+            "leakBeginDate": "Leak Begin Date",
+            "leakEndDate": "Leak End Date",
+            "initialQuantity": "Initial Quantity",
+            "finalQuantity": "Final Quantity",
+            "refueledQuantity": "Refueled Quantity",
+            "leakedQuantity": "Leaked Quantity",
+            "chart": {
+                "name": "Show chart",
+                "info": "Graphically displays Refuelings available for the vehicle"
+            }
+        },
+        "vehicleListFilter": {
+            "name": "Plate number",
+            "locationAddress": "Adresse",
+            "driverName": "Fahrer name",
+            "countryFlag": "Landesflagge",
+            "gpsCoordinates": "GPS-Koordinaten",
+            "speed": "Geschwindigkeit",
+            "directionIcon": "Richtungssymbol",
+            "datetime": "Letzte Aktualisierung",
+            "vehicleParameters": "Fahrzeugparameter"
+        },
+        "selectParameters": "Wählen Sie die anzuzeigenden Parameter",
+        "pageTitle" : {
+            "empty" : "Lebenhafte Karte",
+            "vehicleDetail" : " - Die Lebenhafte Karte",
+            "vehicleHistory": " - Vorgeschichte",
+            "vehicleCommands": " - Befehle"
+        },
+        "mapcontrols": {
+            "traffic": "Show google traffic",
+            "fittobounds": "Fit to bounds",
+            "hugo": "Show HU-GO topup stations"
+        }
+    }
+}

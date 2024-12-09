@@ -1,0 +1,34 @@
+{
+    "Route": {
+        "title": "Create Route",
+        "vehicles": "Fahrzeuge",
+        "none": "Keine",
+        "changeToDeliveryLocation": "CHANGE TO DELIVERY",
+        "changeToPickupLocation": "CHANGE TO PICKUP",
+        "changeToPassingPoint": "CHANGE TO PASSING POINT",
+        "calculator": "Rechner-Kosten",
+        "summary": "Rennen-Zsfg.",
+        "distance": "Entfernung (km)",
+        "price": "Preis",
+        "saveTmsRoute": "Speichern Sie die Route in TMS",
+        "saveDeviceRoute": "Speichern Sie die Route für das Auto",
+        "addRouteNotification": "Route for vehicle {{ name }} has been saved!",
+        "addRouteVisibilityNotification": "Visibility interval is: {{ interval }}.",
+        "activeShippingDialog": {
+            "title": "Das ausgewählte Auto befindet sich derzeit in einem Rennen oder hat ein geplantes Rennen. Du willst es:",
+            "actualPosition": "Verwenden Sie Ihre aktuelle Position",
+            "lastDeliveryPosition": "Verwenden Sie die Position seit dem letzten Entlastung",
+            "manual": "Geben Sie manuell eine Adresse ein"
+        },
+        "pageTitle" : {
+            "empty" : "Rennen-Planung",
+            "vehicleDetail" : " - Rennen-Planung"
+        },
+        "addRouteDialog": {
+            "visibilityRange": "Visibility Interval",
+            "invalidDates": "Ungültige Daten",
+            "routeDatesOverlaps": "Datum ist überlappt",
+            "unprocessableEntity": "Die Daten konnten nicht in der Datenbank gespeichert werden"
+        }
+    }
+}

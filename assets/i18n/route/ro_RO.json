@@ -1,0 +1,34 @@
+{
+    "Route": {
+        "title": "Creaza Ruta",
+        "vehicles": "Vehicule",
+        "none": "Nici unul",
+        "changeToDeliveryLocation": "SCHIMBA IN DESCARCARE",
+        "changeToPickupLocation": "SCHIMBA IN INCARCARE",
+        "changeToPassingPoint": "SCHIMBA IN TRECERE",
+        "calculator": "Calculator Costuri",
+        "summary": "Sumar cursa",
+        "distance": "Distantă (km)",
+        "price": "Preț",
+        "saveTmsRoute": "Salveaza ruta in TMS",
+        "saveDeviceRoute": "Salveaza ruta pe masina",
+        "addRouteNotification": "Ruta pentru vehiculul {{ name }} a fost salvata!",
+        "addRouteVisibilityNotification": "Intervalul de vizibilitate este: {{ interval }}.",
+        "activeShippingDialog": {
+            "title": "Masina selectata se afla in acest moment intr-o cursa sau are o cursa programata. Doriti sa:",
+            "actualPosition": "utilizati pozitia actuala",
+            "lastDeliveryPosition": "utilizati pozitia de la ultima descarcare",
+            "manual": "introduceti manual o adresa"
+        },
+        "pageTitle" : {
+            "empty" : "Planificare curse",
+            "vehicleDetail" : " - Planificare curse"
+        },
+        "addRouteDialog": {
+            "visibilityRange": "Interval Vizibilitate",
+            "invalidDates": "Date invalide",
+            "routeDatesOverlaps": "Date suprapuse",
+            "unprocessableEntity": "Datele nu au putut fi salvate in baza de date"
+        }
+    }
+}

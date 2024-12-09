@@ -1,0 +1,23 @@
+{
+    "Driver": {
+        "topbarTitle": "Drivers",
+        "searchDriver": "Search drivers",
+        "addDriver": "Add driver",
+        "updateDriver": "Update driver",
+        "deletedriver": "Delete Driver",
+        "confirmdelete": "Do you really want to delete driver?",
+        "successfullsaved": "Successfull saved!",
+        "partner": "Partner",
+        "tablehead": {
+            "name": "Name",
+            "phone": "Phone",
+            "email": "Email",
+            "cardId": "Card ID",
+            "partner": "Partner",
+            "identitycard": "Identity card number",
+            "description": "Description",
+            "dateCreated": "Date created",
+            "actions": "Actions"
+        }
+    }
+}

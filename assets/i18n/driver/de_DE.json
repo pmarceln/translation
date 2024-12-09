@@ -1,0 +1,23 @@
+{
+    "Driver": {
+        "topbarTitle": "Fahrer/Treibern",
+        "searchDriver": "Nach Treibern suchen",
+        "addDriver": "Treiber hinzufügen",
+        "updateDriver": "Ändern Sie den Treiber",
+        "deletedriver": "Treiber löschen",
+        "confirmdelete": "Sie möchten den Treiber löschen?",
+        "successfullsaved": "Daten gespeichert!",
+        "partner": "Partner",
+        "tablehead": {
+            "name": "Name",
+            "phone": "Telefon",
+            "email": "Email",
+            "cardId": "Card ID",
+            "partner": "Partner",
+            "identitycard": "Personalausweis Serie und Zahl.",
+            "description": "Beschreibung",
+            "dateCreated": "Datum der Erstellung",
+            "actions": "Aktionen"
+        }
+    }
+}

@@ -1,0 +1,887 @@
+{
+    "Rer": {
+        "loadList": "Incarca Lista",
+        "selectCity": "Alege Oras",
+        "selectDivision": "Alege Diviziune",
+        "selectType": "Alege Tip",
+        "selectStreet": "Alege Strada",
+        "selectClientCode": "Alege Cod Client",
+        "selectBinOwnership": "Alege tip proprietate",
+        "allocation_log": "Alocare/Dezalocare",
+        "status_log": "Modificari stare",
+        "rfid_all_log": "Alocare RFID",
+        "clients": {
+            "label": "Clienti",
+            "newClient": "Client nou",
+            "list": {
+                "quickSearch": "Cautare Rapida ...",
+                "dataTable": {
+                    "code": "Cod client",
+                    "type": "Tip",
+                    "name": "Denumire client",
+                    "address": "Adresa",
+                    "division": "Diviziune",
+                    "street": "Strada",
+                    "streetNumber": "Numar strada",
+                    "city": "Oras",
+                    "status": "Stare",
+                    "delegate_name": "Persoana de contact",
+                    "phone": "Telefon",
+                    "objects": "Pubele",
+                    "confirmDeleteAction": "Doriti sa stergeti clientul?"
+                },
+                "recoverDeletedClient": "Recupereaza client sters"
+            },
+            "addEdit": {
+                "overview": {
+                    "label": "Informatii General",
+                    "tile": "Detalii client",
+                    "type": "Tip client",
+                    "name": "Nume client",
+                    "code": "Cod client",
+                    "phone": "Telefon",
+                    "email": "Adresă e-mail",
+                    "contactPerson": "Persoana de contact",
+                    "description": "Descriere (Optional)",
+                    "fixedInvoicing": "Facturare fixă"
+                },
+                "address": {
+                    "label": "Adrese",
+                    "addAddress": "Adauga Adresa",
+                    "editAddress": "Editeaza Adresa",
+                    "goToGeozone": "Mergi la geozonă",
+                    "hasGeozone": "Are geozonă definită",
+                    "hasNoGeozone": "Nu are geozonă definită",
+                    "dataTable": {
+                        "reference_date": "Data",
+                        "code": "Cod",
+                        "name": "Nume",
+                        "address": "Adresa",
+                        "city": "Oras",
+                        "division": "Divisiune",
+                        "street": "Strada",
+                        "street_number": "Nr.",
+                        "description": "Observatii",
+                        "is_default": "Implicita",
+                        "objects_number": "Nr. pubele",
+                        "area": "Zona de facturare",
+                        "confirmDeleteAction": "Doriti sa stergeti adresa?"
+                    },
+                    "isDefaultDeleteError": "Nu se poate sterge o adresa marcata ca adresa implicita!",
+                    "hasObjectDeleteError": "Nu se poate sterge o adresa ce are atasata o pubela!"
+                },
+                "objects": {
+                    "label": "Pubele",
+                    "addObject": "Adauga pubele",
+                    "editObject": "Editeaza pubela",
+                    "suspendObject": "Suspendare pubela",
+                    "suspendationDate": "Data suspendarii",
+                    "dataTable": {
+                        "code": "Cod",
+                        "wasteType": "Tip deseu",
+                        "name": "Nume",
+                        "address": "Adresa",
+                        "binType": "Tip recipient",
+                        "type": "Tip",
+                        "rfid": "Cod RFID",
+                        "description": "Observatii",
+                        "confirmDeleteAction": "Doriti sa stergeti pubela?",
+                        "client": "Client",
+                        "area": "Zona de facturare",
+                        "invoiceable": "Facturabil",
+                        "status": "Status",
+                        "all": "Toate",
+                        "signed": "Semnat",
+                        "notsigned": "Nesemnat",
+                        "yes": "Da",
+                        "no": "Nu",
+                        "binOwnership": "Tip proprietate",
+                        "clientType": "Tip client"
+                    },
+                    "rfidAllocation": {
+                        "allocation_date": "Data alocarii",
+                        "object_name": "Denumire pubela",
+                        "period_begin": "Data inceput",
+                        "period_end": "Data sfarsit",
+                        "username": "Utilizator"
+                    }
+                },
+                "rfidReadings": {
+                    "label": "Citiri RFID",
+                    "dataTable": {
+                        "datetime_read": "Data citirii",
+                        "vehicle_name": "Nr. vehicul",
+                        "wasteType": "Tip deseu",
+                        "binType": "Tip recipient",
+                        "rfid": "Cod RFID",
+                        "status": "Stare",
+                        "coords": "Coordonate GPS",
+                        "clientName": "Nume client",
+                        "is_fixed_invoicing": "Facturare fixă",
+                        "cameraStream": "Vezi imagini video",
+                        "imageGallery": "Vezi galerie foto",
+                        "actions": "Acţiuni",
+                        "readingMap": "Vezi citirea pe hartă"
+                    },
+                    "status": {
+                        "no_object": "Fără tag valid",
+                        "0": "Disponibil",
+                        "1": "Activ",
+                        "2": "Suspendat",
+                        "3": "Pierdut",
+                        "4": "Șters"
+                    }
+                },
+                "clientChanges": {
+                    "label": "Modificari client",
+                    "dataTable": {
+                        "date": "Data",
+                        "entity": "Entitate",
+                        "field": "Camp",
+                        "old_value": "Valoare veche",
+                        "new_value": "Valoare noua",
+                        "username": "Utilizator"
+                    },
+                    "entities": {
+                        "client": "Client",
+                        "address": "Adresa",
+                        "object": "Pubela"
+                    },
+                    "fields": {
+                        "name": "Denumire",
+                        "code": "Cod",
+                        "description": "Descriere",
+                        "is_fixed_invoicing": "Facturare fixă",
+                        "status": "Stare",
+                        "type": "Tip",
+                        "delegate_name": "Persoana de contact",
+                        "phone": "Telefon",
+                        "deleted_at": "Data stergerii",
+                        "address": "Adresa",
+                        "city": "Oras",
+                        "street": "Strada",
+                        "street_number": "Nr. strazii",
+                        "division": "Divisiune",
+                        "is_default": "Implicita",
+                        "rfid": "Tag RFID",
+                        "latitude": "Latitudine",
+                        "longitude": "Longitudine",
+                        "reference_date": "Data semnarii",
+                        "client_partner_address_id": "ID adresa",
+                        "rer_client_address_id": "ID adresa",
+                        "waste_type": "Tip deseu",
+                        "bin_type": "Tip pubela",
+                        "rer_area_id": "Zona de factuare"
+                    }
+                },
+                "verbalProcess": {
+                    "label": "Procese verbale"
+                },
+                "status": {
+                    "active": "activ",
+                    "suspendedForNonPayment": "suspendat pentru neplata",
+                    "suspendedOnRequest": "suspendat la cerere",
+                    "terminated": "reziliat",
+                    "deleted": "sters"
+                },
+                "actions": {
+                    "suspendForNonPayment": "Suspenda pentru neplata",
+                    "suspendOnRequest": "Suspenda la cerere",
+                    "terminate": "Reziliaza",
+                    "activate": "Activeaza"
+                },
+                "confirmStatusChange": "Sunteti sigur va doriti sa schimbati starea curenta a clientului?",
+                "statusChangeSuccess": "Starea clientului a fost schimbata cu success!",
+                "failedTerminateOperation": "Clientul nu poate fi reziliat deoarece clientul are pubele alocate!"
+            }
+        },
+        "objects": {
+            "label": "Pubele",
+            "newObject": "Pubela Noua",
+            "addClient": "Adauga Client",
+            "addClientAddress": "Adauga Adresa",
+            "confirmStatusChange": "Sunteti sigur va doriti sa schimbati starea curenta a pubelei?",
+            "statusChangeSuccess": "Starea pubelei a fost schimbata cu success!",
+            "list": {
+                "dataTable": {
+                    "client_type": "Tip",
+                    "client_name": "Nume Client",
+                    "address": "Adresa",
+                    "city": "Oras",
+                    "division": "Diviziune",
+                    "street": "Strada",
+                    "streetNumber": "Numar Strada",
+                    "coords": "Coordonate GPS",
+                    "wasteType": "Tip deseu",
+                    "binType": "Tip recipient",
+                    "code": "Cod pubela",
+                    "rfid": "RFID pubela",
+                    "status": "Status",
+                    "confirmDeleteAction": "Doriti sa stergeti pubela?",
+                    "vehicle_name": "Nr. vehicul",
+                    "latest_datetime_read": "Data ultimei citiri",
+                    "rer_bin_setup_document_number": "Numar proces verbal",
+                    "rer_bin_setup_document_status": "Status proces verbal",
+                    "client": "Client",
+                    "binOwnership": "Tip proprietate"
+                }
+            },
+            "addEdit": {
+                "partnerDetails": "Detailii Partener",
+                "objectDetails": "Detalii pubela",
+                "partner": "Partener",
+                "partnerAddress": "Adresa Partener"
+            },
+            "status": {
+                "active": "activ",
+                "available": "disponibil",
+                "lost": "pierdut",
+                "suspended": "suspendat",
+                "deleted": "sters"
+            },
+            "action": {
+                "activate": "activare",
+                "allocate": "alocare",
+                "deallocate": "dezalocare",
+                "lost": "pierdut",
+                "suspend": "suspendare",
+                "send": "trimitere pe email",
+                "exportPdf": "export proces verbal"
+            }
+        },
+        "userAssociation": {
+            "label": "Alocare pubele pe useri",
+            "userList": "Lista Utilizatori",
+            "removeSelected": "Elimina selectiile",
+            "addSelected": "Adauga selectiile",
+            "filter": {
+                "title": "Filtru",
+                "all": "Arata Toate",
+                "withRFID": "Cu RFID",
+                "withoutRFID": "Fara RFID"
+            },
+            "exportUserAssociatedObjectsList": "Export pubele asociate pe user",
+            "exportUserAssociatedObjectsFilename": "Export pubele asociate pe"
+        },
+        "rerBinSetupDocumentAssociation": {
+            "label": "Alocare PV la utilizatori",
+            "userList": "Lista Utilizatori",
+            "removeSelected": "Elimina selectiile",
+            "addSelected": "Adauga selectiile",
+            "binsPlanned": " pubele planificate",
+            "statusSigned": " status semnat",
+            "statusUnsigned": " status nesemnat",
+            "filter": {
+                "title": "Filtru",
+                "all": "Arata Toate",
+                "signed": "Semnate",
+                "notsigned": "Nesemnate"
+            },
+            "exportUserAssociatedObjectsList": "Export PV asociate pe user",
+            "exportUserAssociatedObjectsFilename": "Export PV asociate pe"
+        },
+        "rfidManagement": {
+            "label": "RFID management",
+            "addRfidTag": "Adaugare tag RFID",
+            "editRfidTag": "Editeaza tagul RFID",
+            "confirmDeleteAction": "Doriti sa stergeti tagul RFID?",
+            "rfidTag": "Tagul RFID",
+            "created_at": "Creat la",
+            "created_by_name": "Creat de",
+            "updated_at": "Updatat la",
+            "updated_by_name": "Updatat de",
+            "errorDuplicateRfidTag": "Tagul Rfid introdus exista deja in sistem!"
+        },
+        "unallocatedObjects": {
+            "label": "Pubele nealocate",
+            "clientNotFound": "Niciun client nu a fost gasit pentru codul introdus, te rugam sa cauti clientul dupa alte criterii!"
+        },
+        "rerEmployee": {
+            "label": "Angajati",
+            "newEmployee": "Angajat nou",
+            "list": {
+                "quickSearch": "Cautare Rapida ...",
+                "type": {
+                    "driver": "Sofer",
+                    "operator": "Manipulant"
+                },
+                "dataTable": {
+                    "type": "Tip",
+                    "name": "Nume",
+                    "phone": "Telefon",
+                    "tagX": "Tag {{ number }}",
+                    "notes": "Descriere",
+                    "confirmDeleteAction": "Doriti sa stergeti angajatul?"
+                }
+            }
+        },
+        "rerIncident": {
+            "label": "Incidente",
+            "incidentList": "Lista Incidente",
+            "list": {
+                "quickSearch": "Căutare rapidă ...",
+                "exportxls": "Export xls",
+                "dataTable": {
+                    "id": "ID",
+                    "incident_time": "Data si ora",
+                    "status": "Status incident",
+                    "incident_type": "Tip incident",
+                    "reported_by": "Semnalat de",
+                    "location": "Locatie",
+                    "route_code": "Cod traseu",
+                    "rer_waste_type": "Tip deseu planificat",
+                    "device_name": "Numar vehicul",
+                    "main_employee_name": "Sofer",
+                    "responsible": "Responsabil incident",
+                    "evaluation": "Evaluare incident",
+                    "confirmDeleteActionIncident": "Doriti sa stergeti incidentul?"
+                },
+                "loadIncidents": "Selecteaza perioada",
+                "incidentsInterval": "Incidente din intervalul: ",
+                "emptyIncidentsList": "Lista de incidente pentru intervalul solicitat este goală!"
+            },
+            "status": {
+                "new": "Nou",
+                "inprogress": "In curs",
+                "solved": "Rezolvat"
+            },
+            "evaluation": {
+                "real": "Real",
+                "inpending": "In asteptare",
+                "false": "Fals"
+            },
+            "details": {
+                "incidentDetails": "Detalii incident",
+                "incidentAdministration": "Administrare incident",
+                "incidentLog": "Istoric",
+                "incidentVideo": "Video incident",
+                "incidentGallery": "Imagini incident",
+                "liveFeed": "Live feed",
+                "map": "Localizare harta",
+                "incident_type": "Tip incident",
+                "incident_time": "Data / Ora",
+                "incident_location": "Locatie",
+                "coordinates": "Coordonate",
+                "route_code": "Cod traseu",
+                "device_name": "Numar vehicul",
+                "rer_waste_type": "Tip deseu planificat",
+                "main_employee_name": "Sofer",
+                "secundary_employee_name": "Operator 1",
+                "tertiary_employee_name": "Operator 2",
+                "save": "Salveaza",
+                "cancel": "Anuleaza",
+                "notes":"Observatii",
+                "clientList": "Client Identificat",
+                "addressClient": "Adresa clientului",
+                "statuses": {
+                    "0": "Nou",
+                    "1": "In curs",
+                    "2": "Rezolvat"
+                },
+                "type": {
+                    "1": "Apasare buton",
+                    "2": "Lipsa tag rfid",
+                    "3": "Incarcare neidentificata"
+                },
+                "evaluation": {
+                    "0": "Real",
+                    "1": "In asteptare",
+                    "2": "Fals"
+                },
+                "log" : {
+                    "from": "din",
+                    "to": "în",
+                    "statusChange": "a schimbat statusul incidentului",
+                    "evaluationChange": "a schimbat evaluarea incidentului",
+                    "responsibleChange": "a schimbat responsabilul",
+                    "rerClientChange": "a schimbat clientul",
+                    "notesChange": "a schimbat observațiile incidentului",
+                    "addressChange": "a schimbat adresa clientului"
+                }
+            },
+            "export": {
+                "exportIncident" : "Export Incidente",
+                "dateTime": "Data si ora incidentului",
+                "status": "Status incident",
+                "incidentType": "Tip incident",
+                "reportedBy": "Semnalat de catre",
+                "location": "Locatie",
+                "routeCode": "Cod traseu",
+                "wasteType": "Tip deseu",
+                "deviceName": "Nr. vehicul",
+                "driver": "Sofer",
+                "operator1": "Operator 1",
+                "operator2": "Operator 2",
+                "evaluation": "Evaluare incident",
+                "responsible": "Responsabil administrare incident",
+                "client": "Client Identificat",
+                "notes": "Observatii",
+                "exportTitle": "Selectați perioada, statusul sau evaluarea incidentului pentru care doriți exportul"
+            }
+        },
+        "rerCollectionByWeight": {
+            "label": "Colectare după greutate",
+            "tab": {
+                "decisionsByWeight": "Hotarari de colectare dupa greutate",
+                "sentReports": "Rapoarte trimise automat",
+                "generalReports": "Rapoarte generale",
+                "unloadingAreas": "Zone de descarcare",
+                "weighingReceipts": "Operare bonuri de cantar"
+            },
+            "emptyList": "Lista raporturilor automate este goală",
+            "decisionDocument": {
+                "noDoc": "Nr. doc",
+                "status": "Status",
+                "dateBegin": "Dată început",
+                "dateEnd": "Dată sfârșit",
+                "addressNo": "Nr. adrese",
+                "vehicleNo": "Nr. vehicule",
+                "selectVehicles": "Selectare vehicule",
+                "selectClient": "Selectare client",
+                "selectAddresses": "Selectare adrese",
+                "addAddresses": "Adăugare adrese",
+                "clientName": "Nume client",
+                "addressName": "Denumire adresă",
+                "minimumNotificationQuantity": "Cantitate minimă pentru notificare",
+                "periodBegin": "Începând cu",
+                "periodEnd": "Până la",
+                "addDocument": "Adăugare Document Hotarâre",
+                "editDocument": "Editare Document Hotarâre",
+                "errorAlreadyExist": "Există deja un document de hotărâre activ!",
+                "statuses": {
+                    "0": "Draft",
+                    "1": "Finalizat",
+                    "2": "Anulat"
+                }
+            },
+            "id": "Id raport",
+            "client": "Client",
+            "device": "Vehicul",
+            "quantity": "Cantitatea raportată",
+            "waste_type": "Tip deseu",
+            "datetime_sent": "Data trimiterii la client",
+            "email_sent": "Adresa de email",
+            "period_begin": "Perioada de început",
+            "period_end": "Perioada de sfârșit",
+            "actions": "Acțiuni",
+            "quickSearch": "Cautare Rapida ...",
+            "loadReports":"Încarcare rapoarte",
+            "emptyReportsList": "Lista de rapoarte automate pentru intervalul solicitat este goală!",
+            "export": {
+                "clientAddress": "Adresa clientului",
+                "title": "Selectați perioada și adresa clientului pentru care doriți exportul",
+                "exportCollectionTitle": "Colectare după greutate pe client",
+                "exportCollectionDetailTitle": "Colectare după greutate în detaliu",
+                "titleExport": "Selectați perioada și masina pentru care doriți exportul",
+                "devices": "Mașina",
+                "exportWeighingReceiptTitle": "Bonuri de cantar"
+            },
+            "unloadingArea": {
+                "name": "Nume",
+                "address":"Adresa",
+                "type": "Tip",
+                "center_latitude": "Latitudine centrală",
+                "center_longitude": "Longitudine centrală",
+                "radius": "Rază",
+                "coords": "Coordonate",
+                "precalc_values": "Valori",
+                "created_at": "Creat la",
+                "created_by": "Creat de",
+                "addArea": "Adaugare zona",
+                "editArea": "Editare zona",
+                "deactivateArea": "Dezactivare zona",
+                "activateArea": "Activare zona"
+            },
+            "weighingReceipt": {
+                "receipt_number": "Numar bon",
+                "operated_at": "Data",
+                "rer_unloading_zone_name": "Locatie descarcare",
+                "device_name": "Nume vehicul",
+                "operated_quantity": "Cantitate operata",
+                "registered_quantity": "Cantitate inregistrata",
+                "difference_quantity": "Diferenta alocata",
+                "unallocated_quantity": "Cantitate nealocata",
+                "operated_quantity_uat": "Cantitate operata/UAT",
+                "registered_quantity_uat": "Cantitate inregistrata/UAT",
+                "difference_quantity_uat": "Diferenta alocata/UAT",
+                "fully_allocated": "Alocat integral",
+                "proof": "Dovada",
+                "total": "Total",
+                "rer_client_address_name": "Nume adresa",
+                "calculated_difference": "Diferenta calculata",
+                "allocated_difference": "Diferenta alocata",
+                "allocated_on": "Alocat pe",
+                "automatic_report": "Raport automat",
+                "uploadProof": "Incarca dovada",
+                "operatedAt": "Operat la",
+                "by": "de",
+                "acceptedImageTypes": "Imaginea încărcată trebuie să fie png, jpg sau jpeg."
+            }
+        },
+        "rerVerbalProcess": {
+            "label": "Procese verbale",
+            "list": {
+                "quickSearch": "Quick search ...",
+                "number": "Numar PV",
+                "rer_client_name": "Nume client",
+                "client_address": "Adresa client",
+                "count_bins": "Cantitate pubele",
+                "responsible_person": "Persoana responsabila",
+                "placement_address": "Adresa plasament",
+                "date": "Data",
+                "signed_at": "Semnat la",
+                "username": "Utilizator",
+                "deleted_at": "Anulat la data de",
+                "deleted_by": "Anulat de",
+                "bin_type": "Tip pubela",
+                "waste_type": "Tip deseu",
+                "confirmDeleteActionBinSetupDocument": "Doriti sa stergeti procesul verbal?"
+            },
+            "filter": {
+                "title": "Status",
+                "all": "Arata Toate",
+                "signed": "Semnate",
+                "notsigned": "Nesemnate"
+            },
+            "deletedSuccefuly": "Procesul verbal a fost sters cu succes!",
+            "deletedFailed": "A aparut o eroare, procesul verbal nu a putut fi sters!"
+        },
+        "rerPlanning": {
+            "label": "Planificari",
+            "addError": "Ne pare rau, s-a produs o eroare si planificare curenta nu a putut fi salvata! Vă rugăm să reincercati mai tarziu! Dacă problema persistă vă rugăm să contactati departamentul de suport tehnic!",
+            "planningHistory": "Planificari",
+            "curentPlanning": "Planificare curenta",
+            "duplicateInputError": "Planificarea curenta contine informatii care se suprapun! Te rugam sa reverifici datele introduse!",
+            "periodBeginErrror": "Perioada de inceput este mai mare decat perioada de sfarsit!",
+            "notSavedValues": "Valorile de pe pagina nu sunt salvate, doriti sa parasiti pagina fara sa salvati?",
+            "planningDate": "Data planificare curenta (destinatie) ",
+            "copyPlanningDate": "Data planificare existenta (sursa)",
+            "getFromDate": "Copiază planificări din data",
+            "lastTransmition": "Ultima transmisie",
+            "readingsTotal": "Total",
+            "readings": "citiri",
+            "readingsInvoiceable": "Citiri facturabile",
+            "readingsInvalid": "Citiri nefacturabile",
+            "vehicleSpeed": "Viteza vehiculului: ",
+            "cameraStreamDialog": {
+                "noVideoOrError": "Nu a putut fi identificat nici un stream sau a aparut o eroare!",
+                "stream": "Stream ",
+                "at": " la "
+            },
+            "list": {
+                "quickSearch": "Căutare rapida ...",
+                "editPlanning": "Planificare",
+                "loadArchive": "Selectează perioada",
+                "planningsInterval": "Plănificari din intervalul: ",
+                "emptyPlanningList": "Lista de planificări pentru intervalul solicitat este goală!",
+                "copyPlanningSuccess": "Planificarile au fost copiate cu success!",
+                "emptyCopyList": "Nu mai exista nicio planificare care respectă criteriul de copiere din data selectată!",
+                "successfullyDeleted": "Planificarea a fost stearsă cu succes!",
+                "periodBeginErrror": "Nu s-au putut salva toate planificarile deoarece intervalul de timp nu este corect!",
+                "actionDeleteConfirmation": "Sunteti sigur că doriti să stergeti această planificare?",
+                "archiveDateLimit": "Limita pentru arhiva este de 30 de zile. Va rugam selectati alt interval"
+            },
+            "copy_planning": "Copiază",
+            "exportPlannings": "Export",
+            "add_row": "Adaugă",
+            "selectCar": "Alege masina",
+            "selectDriver": "Alege sofer",
+            "selectOperator": "Alege manipulant",
+            "dataTable": {
+                "id": "Id planificare",
+                "date": "Data",
+                "area": "Zona",
+                "route": "Traseu",
+                "route_code": "Cod traseu",
+                "waste_type": "Tip deseu",
+                "rer_waste_type_id": "Tip deseu",
+                "device_id": "Masina",
+                "device_name": "Masina",
+                "main_employee_id": "Driver",
+                "main_employee_name": "Sofer",
+                "secundary_employee_id": "Manipulant 1",
+                "secundary_employee_name": "Manipulant 1",
+                "tertiary_employee_id": "Manipulant 2",
+                "tertiary_employee_name": "Manipulant 2",
+                "period_begin": "Ora inceput",
+                "period_end": "Ora sfarsit",
+                "notes": "Observatii",
+                "antenna_1": "Antena 1",
+                "antenna_2": "Antena 2",
+                "status_antenna": "Stare",
+                "device_status": "Status vehicul",
+                "emptyTable": "Nu exista nici o planificare curenta",
+                "deleted_at": "Sters",
+                "executionPercentage": "Procent executie",
+                "percent": "Procent"
+            },
+            "logs": {
+                "label": "Istoric editare",
+                "planningDate": "Data planificare",
+                "deviceName": "Nume masina",
+                "changedField": "Campul schimbat",
+                "oldValue": "Valoare veche",
+                "newValue": "Valoare noua",
+                "updatedBy": "Actualizat de",
+                "updatedAt": "Actualizat la",
+                "errorNotification": "Istoricul editarilor nu poate fi actualizat"
+            },
+            "rightMissing": "Nu aveti drept pentru actiunea solicitata!",
+            "routePlanning": {
+                "dataTable": {
+                    "street": "Strada",
+                    "device": "Masina",
+                    "periodBegin": "Data inceput",
+                    "periodEnd": "Data sfarsit",
+                    "waste": "Deseu"
+                }
+            }
+        },
+        "rerDashboard": {
+            "label": "Panou"
+        },
+        "streetGeozones": {
+            "label": "Geozone Strazi",
+            "newCity": "Oras nou",
+            "generalInfo": "Informatii generale",
+            "streets": "Strazi",
+            "name": "Nume",
+            "confirmDeleteStreet": "Doriti sa stergeti strada?",
+            "city": {
+                "name": "Nume oras"
+            },
+            "list": {
+                "quickSearch": "Cautare Rapida ...",
+                "dataTable": {
+                    "name": "Nume"
+                }
+            }
+        },
+        "route": {
+            "label": "Traseu",
+            "newRoute": "Ruta noua",
+            "streetSearch": "Adăugare stradă",
+            "route": {
+                "name": "Nume traseu",
+                "code": "Cod traseu"
+            },
+            "list": {
+                "quickSearch": "Cautare Rapida ...",
+                "dataTable": {
+                    "name": "Nume ruta"
+                }
+            }
+        },
+        "routePlanningSearch": {
+            "label": "Cautare strada/adresa",
+            "streetSearch": "Cautare strada",
+            "search": "Cauta",
+            "emptySearchResult": "Nu s-au găsit înregistrări!",
+            "date": "Data",
+            "list": {
+                "dataTable": {
+                    "device_name": "Masina",
+                    "street": "Strada",
+                    "period_begin": "Data inceput",
+                    "period_end": "Data sfarsit",
+                    "waste_type": "Deseu",
+                    "openPlanning": "Deschide planificare"
+                }
+            }
+        },
+        "rerPowerBiReport": {
+            "label": "Raport Power Bi"
+        },
+        "rerSettings": {
+            "label": "Setari",
+            "deviceSpeed": "Viteza maxima a masinii pentru citire facturabila [km/h]",
+            "validUntil": "Limita verde masina valida [minute]",
+            "invalidFrom": "Limita galbena masina valida [minute]",
+            "phoneX": "Telefon {{number}}",
+            "powerBIUrl": "Power BI Url",
+            "mandatoryFields": "Campurile obligatorii nu sunt completate!",
+            "savedSuccefuly": "Setarile au fost salvate!",
+            "saveFailed": "Setarile nu au putut fi salvate!",
+            "generalSettings": "Setari generale",
+            "wasteType": "Tip deseu",
+            "addWasteType": "Adauga tip deseu",
+            "addBinType": "Adauga tip recipient",
+            "addBinOwnership": "Adauga tip proprietate",
+            "confirmDeleteActionWT": "Sunteti sigur ca doriti sa stergeti acest tip de deseu?",
+            "confirmDeleteActionBT": "Sunteti sigur ca doriti sa stergeti acest tip de recipient?",
+            "confirmDeleteActionBO": "Sunteti sigur ca doriti sa stergeti acest tip de proprietate?",
+            "errorWasteTypeInUse": "Tipul de deseu nu poate fi sters deoarece este folosit pentru o pubela sau o planificare curenta sau viitoare!",
+            "errorBinTypeInUse": "Tipul de recipient nu poate fi sters deoarece este folosit pentru o pubela!",
+            "errorRerBinOwnershipInUse": "Tipul de probrietate nu poate fi sters deoarece este folosit pentru o pubela!",
+            "binType": "Tip recipient",
+            "binOwnership": "Tip proprietate",
+            "area": "Zona de facturare",
+            "addArea": "Adauga zona de facturare",
+            "confirmDeleteActionArea": "Sunteti sigur ca doriti sa stergeti aceasta zona de facturare?",
+            "errorAreaInUse": "Zona de facturare nu poate fi stearsa deoarece este folosita pentru adresa clientului!",
+            "dataTable": {
+                "name": "Nume",
+                "value": "Valoare",
+                "code": "Cod"
+            },
+            "categories": {
+                "phones": "Numere de telefon pentru SMS automate"
+            },
+            "logs": {
+                "label": "Istoric editare",
+                "changedField": "Campul schimbat",
+                "oldValue": "Valoare veche",
+                "newValue": "Valoare noua",
+                "updatedBy": "Actualizat de",
+                "updatedAt": "Actualizat la",
+                "min_invalid_minute_limit": "Limita galbena masina valida [minute]",
+                "max_valid_minute_limit": "Limita verde masina valida [minute]",
+                "device_max_speed": "Viteza maxima a masinii pentru citire facturabila [km/h]",
+                "phone1": "Telefon 1",
+                "phone2": "Telefon 2",
+                "phone3": "Telefon 3",
+                "phone4": "Telefon 4",
+                "phone5": "Telefon 5",
+                "smtp_email_address": "Adresa de email",
+                "smtp_email_password": "Parola de email",
+                "smtp_host": "SMTP host",
+                "smtp_port": "SMTP port",
+                "name": "Nume",
+                "code": "Cod",
+                "deleted_at": "Sters",
+                "errorNotification": "Istoricul de editare nu a putut sa fie actualizat."
+            },
+            "emailTemplate": {
+                "name": "Template de mail",
+                "editEmailTemplate": "Editare template de mail",
+                "label": "Eticheta",
+                "subject": "Subiect",
+                "id": "ID",
+                "variables": "Variabile",
+                "name_template": "Nume",
+                "updated_at": "Actualizat la",
+                "updated_by": "Actualizat de"
+            },
+            "emailSettings": {
+               "label":"Setări email",
+               "smtpEmailAddress": "Adresa de email",
+               "smtpEmailPassword": "Parola de email",
+               "smtpHost": "Host SMTP",
+               "smtpPort": "Port SMTP",
+               "mailCheckPassed": "Test passed.",
+               "mailCheckFailed": "Test failed.",
+               "testMandatory": "Setările de email sunt invalide! Vă rugăm testați-le!",
+               "testSettings": "Testează setările",
+               "emailtHint": "Completează informațiile legate de adresa de e-mail pentru a trimite emailuri în nume propriu clienților tăi. Dacă alegi să nu completezi, în mod automat email-urile din platformă vor fi trimise de pe adresa no-reply@cargotrack.ro.",
+               "failedCounter": "Trimiteri esuate"
+            } 
+        },
+        "confirmCloseTabs": {
+            "title": "Inchide Taburi",
+            "msg": "Sunteti sigur ca vrei sa reincarcati lista? Modificarile nesalvate vor fi pierdute."
+        },
+        "dataImportRer": {
+            "label": "Import date",
+            "line": "Linia",
+            "binSetupImport": {
+                "tabTitle": "Import procese verbale",
+                "binSetupAlreadyExist": "Datele de import nu pot fi salvate, exista deja un proces verbal cu acest numar !",
+                "binSetupBinInformationsMissing": "Datele de import nu pot fi salvate, tipul de deseu, tipul de pubela sau tipul de proprietate nu exista in sistem !",
+                "inportInfoText": "Fisierul de import va fi in format CSV (caracterul de delimitare intre date este virgula si fara ghilimele de incadrare date). Acest fisier va contine exact 17 coloane dupa cum urmeaza:",
+                "importWarningText": "Nu este recomandat să importați mai mult de 10000 de clienți o data. Aceasta poate duce la un import eșuat!",
+                "import": "Importa",
+                "continue": "Continua",
+                "dataTable": {
+                    "quickSearch": "Cautare Rapida ...",
+                    "type": "Tip client",
+                    "code": "Cod client",
+                    "name": "Denumire client",
+                    "phone": "Telefon",
+                    "email": "Adresa email",
+                    "addressCode": "Cod secundar",
+                    "division": "Diviziune",
+                    "county": "Judet",
+                    "city": "Localitate",
+                    "street": "Strada",
+                    "streetNumber": "Nr. strada",
+                    "wasteCode": "Tip deseu",
+                    "binCode": "Tip pubela",
+                    "binOwnershipCode": "Tip proprietate",
+                    "binSetupCode": "Nr. proces verbal",
+                    "binSetupDate": "Data planificare proces verbal",
+                    "quantity": "Nr. recipienți planificați proces verbal"
+                }
+            },
+            "tagsImport": {
+                "tabTitle": "Import tag-uri RFID",
+                "noTagsForLine": "Nu au fost identificate tag-uri RFID valide pentru linia",
+                "duplicateRfids": "Următoarele tag-uri RFID au fost găsite de mai multe ori în fișier și vor fi importate o singură dată:",
+                "inportInfoText": "Fisierul de import trebuie să fie în unul din formatele de tip text. Importul caută fiecare linie după tag-uri RFID valide.Atenție! Tag-urile duplicate din fișier sau care au fost deja introduse vor fi ignorate!"
+            },
+            "clientsImport": {
+                "tabTitle": "Import clienți",
+                "inportInfoText": "Fisierul de import va fi in format CSV (caracterul de delimitare intre date este virgula si fara ghilimele de incadrare date). Acest fisier va contine exact 16 coloane dupa cum urmeaza:",
+                "importWarningText": "Nu este recomandat să importați mai mult de 10000 de clienți o data. Aceasta poate duce la un import eșuat!",
+                "import": "Importa",
+                "continue": "Continua",
+                "dataTable": {
+                    "quickSearch": "Cautare Rapida ...",
+                    "type": "Tip",
+                    "code": "Cod client",
+                    "name": "Nume",
+                    "referenceDate": "Data semnarii",
+                    "phone": "Telefon",
+                    "addressCode": "Cod secundar",
+                    "area": "Zona facturare",
+                    "addressName": "Denumire PL",
+                    "division": "Diviziune",
+                    "city": "Localitate",
+                    "street": "Strada",
+                    "streetNumber": "Numar strada",
+                    "wasteCode": "Tip deseu",
+                    "binCode": "Tip pubela",
+                    "quantity": "Cant.",
+                    "binOwnershipCode": "Tip proprietate"
+                }
+            },
+            "importSuccessHeader": "Succes",
+            "importSuccessMessage": "Datele au fost importate cu success",
+            "multipleImportDataError": "Importul a esuat! Fisierul incarcat contine mai mult de 50 de pubele pentru un client!",
+            "warning": "Fisierul de import {{ fileName }} are urmatoarele {{ rows }} randuri ce nu pot fi importate"
+        },
+        "dataExportRer": {
+            "label": "Export date",
+            "exportCsv": "Export date clienti",
+            "exportRerCalendarInvoiceableReadings": "Export calendar citiri facturabile",
+            "exportFixedInvoicingsTitle": "Selectați perioada și tipul deșeului pentru care doriți exportul",
+            "exportInvoiceableDetailsTitle": "Selectați perioada și zona de facturare pentru care doriți exportul",
+            "exportBinSetupDetailsTitle": "Selectați perioada și starea documentului pentru care doriți exportul",
+            "exportGeneralDetailsTitle": "Selectați tipul de client, tipul de proprietate și zona de facturare pentru care doriți exportul",
+            "exportNoSelect": "În cazul în care nu ați selectat niciun element exportul va conține întreaga bază de date",
+            "exportTagHistory": "Introduce tagul pentru care doriti raportul",
+            "exportUnallocatedData": "Export pubele nealocate",
+            "exportIllegitimateReadings": "Export citiri RFID nelegitime",
+            "exportOrphanReadings": "Export citiri RFID orfane",
+            "exportLostAndSuspendedBins": "Export pubele pierdute si suspendate",
+            "exportCsvPeriod": "Perioada",
+            "exportRerDeletedClientPartners": "Export clienti stersi",
+            "invoicingExports": "Export informatii pentru facturare",
+            "exportRerDetailedReadings": "Export detaliat",
+            "exportRerInvoicingReadings": "Export facturare",
+            "exportDeviceCumulatedReadings": "Export cumulat pe masina",
+            "exportRerCalendarInvoiceableReadingsFilename": "export calendar numar citiri facturabile in ansamblu pe perioada {{ period_begin }} {{ period_end }} generat la {{ date }}",
+            "exportRerDetailedReadingsFilename": "export facturare detaliat pe perioada {{ period_begin }} {{ period_end }} generat la {{ date }}",
+            "exportRerBinSetupsFilename": "export procese verbale pe perioada {{ period_begin }} {{ period_end }} generat la {{ date }}",
+            "exportRerInvoicingReadingsFilename": "export facturare axapta pe perioada {{ period_begin }} {{ period_end }} generat la {{ date }}",
+            "exportDeviceCumulatedReadingsFilename": "export cumulat pe masina pe perioada {{ period_begin }} {{ period_end }} generat la {{ date }}",
+            "exportRerRfidTagHistory": "Export istoric tag",
+            "rfidTagExports": "Export informatii taguri RFID",
+            "exportRerBinSetups": "Export procese verbale"
+        },
+        "sendBinSetupByEmail": {
+            "sendEmailSuccessMessage": "Email-ul a fost trimis cu success catre client !",
+            "clientHasNoEmail": "Email-ul nu a putut fi trimis deoarece clientul nu are adresa de email setata !",
+            "failedSend": "Email-ul nu a putut fi trimis, vă rugăm să verificați e-mailul și parola în setări!"
+        }
+    }
+}

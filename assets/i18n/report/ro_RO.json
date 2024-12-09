@@ -1,0 +1,572 @@
+{
+    "Reports": {
+        "reportsList": {
+            "label": "Lista Rapoarte",
+            "createdAt": "Creat La",
+            "updatedAt": "Actualizat La",
+            "reportType": "Tip Raport",
+            "periodBegin": "Data de Inceput",
+            "periodEnd": "Data de Sfarsit",
+            "progress": "Progres",
+            "deviceName": "Vehicul",
+            "vehicles": "Vehicule",
+            "confirmDeleteAction": "Doriti sa stergeti raportul?",
+            "errorNotification": "Raportul nu a putut fi sters!",
+            "reportSummaryElementsError": "Elementele Raportului nu au putut fi incarcate!",
+            "status": {
+                "label": "Status",
+                "0": "Neinceput",
+                "1": "In Lucru",
+                "2": "Terminat",
+                "3": "Esuat"
+            },
+            "exportDialog": {
+                "headerText": "Actiuni Raport",
+                "contentDetail": "Exportați raportul următor:",
+                "exportXls": "export xls",
+                "exportPdf": "export pdf",
+                "exportJpg": "export jpg",
+                "exportCustomPdf": "export custom pdf",
+                "export": "export"
+            }
+        },
+        "addReport": {
+            "newReport": "Raport Nou",
+            "selectVehicles": "Alege Vehicul",
+            "reportType": "Tip Raport",
+            "generateReport": "Generare Raport",
+            "intervalError": "Perioada nu trebuie sa depaseasca 1 an!",
+            "errorNotification": "Raportul nu a putut fi generat!",
+            "deviceerrorNotification": "Raportul nu a putut fi generat, unele vehicule nu au setarile necesare generarii acestui raport!",
+            "minStopDuration": "Durata minima de staționare (minute)",
+            "withGeofence": "Daca vehiculul stationeaza intr-o geozona afiseaza numele acesteia",
+            "timeFrequency": "Intervalul de timp al temperaturilor (minute)",
+            "selectedGeofence": "Geozonele cu staționare permisa",
+            "daylightfrom": "Ora incepere zi",
+            "daylightto": "Ora terminare zi",
+            "refuelMin": "Val. min. pt alimentare (L)",
+            "fuelLeakMin": "Val. min. pentru scurgere (L)",
+            "geozone": "Geozone",
+            "minStationaryTime": "Timp minim de staționare",
+            "categories" : {
+                "distance-time": "Distanța & Timp",
+                "refuelings": "Alimentari & Consum",
+                "geozones": "Geozone",
+                "peripheral": "Periferice"
+            }
+        },
+        "raportType": {
+            "vehicles" : "{{ nr }}_masini",
+            "chart": "Diagramă",
+            "country-activity": {
+                "label": "Raport de Activitate pe Tari",
+                "country": "Tara",
+                "device": "Vehicul",
+                "dateBegin": "Data/Ora Incepere Activitate",
+                "addressBegin": "Adresa Incepere Activitate",
+                "dateEnd": "Data/Ora Terminare Activitate",
+                "addressEnd": "Adresa Terminare Activitate",
+                "distance": "Distanța",
+                "duration": {
+                    "moving": "Durata Condus",
+                    "idling": "Durata Staționare cu Motorul Pornit",
+                    "stopped": "Durata Staționare cu Motorul Oprit"
+                },
+                "avgSpeed": "Viteza Medie",
+                "history": "Traseu",
+                "totalTime": "Timp Total",
+                "route": "Traseu",
+                "pdfFileHeadername" : "Raport Activitate pe tari"
+            },
+            "daily-activity": {
+                "label": "Raport de Activitate Zilnica",
+                "device_name": "Vehicul",
+                "datetime_begin": "Data/Ora Incepere Activitate",
+                "address_begin": "Adresa Incepere Activitate",
+                "datetime_end": "Data/Ora Terminare Activitate",
+                "address_end": "Adresa Terminare Activitate",
+                "distance": "Distanța",
+                "duration": {
+                    "moving": "Durata Condus",
+                    "idling": "Durata Staționare cu Motorul Pornit",
+                    "stopped": "Durata Staționare cu Motorul Oprit"
+                },
+                "speed": {
+                    "avg": "Viteza Medie"
+                },
+                "history": "Traseu",
+                "date": "Data",
+                "activityDuration": "Durata activitate",
+                "pdfFileHeadername" : "RAPORT ACTIVITATE ZILNICA"
+            },
+            "stops": {
+                "label": "Raport Stationari",
+                "device_name": "Vehicul",
+                "position_begin": {
+                    "devicetime": "Data/Ora Incepere Activitate"
+                },
+                "addressBegin": "Adresa Incepere Activitate",
+                "periodEnd": "Data/Ora Terminare Activitate",
+                "addressEnd": "Adresa Terminare Activitate",
+                "address": "Locatie staționare",
+                "totalstopduration": "Durata Totala Staționare",
+                "activity_duration": "Durata Totala Staționare",
+                "item_count": "Total Opriri",
+                "hidden_stops": "Opriri mai Scurte de {{ hiddenStops }} minute",
+                "history": "Traseu",
+                "distance": "Distanța pana la Urmatoarea Oprire",
+                "duration_next_stop": "Durata pana la Urmatoarea Oprire",
+                "confirmCreateHistory": "Pentru a preveni blocarea browserului dumneavoastra am redus intervalul maxim de generare al istoricului la 31 de zile. Continuati?",
+                "duration" : {
+                    "idling": "Durata Staționare cu Motorul Pornit",
+                    "stopped": "Durata Staționare cu Motorul Oprit",
+                    "moving": "Durata condus"
+                },
+                "pdfFileHeaderName" : "Raport Stationari",
+                "minstopduration": "Durata minima de staționare",
+                "subheaderstop": "Detalii stationari cu motorul oprit si motorul pornit",
+                "subheadernext": "Detalii distanța si timp pana la urmatoarea oprire",
+                "minutes": "minute",
+                "buc": "stopuri",
+                "showgeofence": "Geozone evidentiate in raport"
+            },
+            "itinerary": {
+                "summary": "Sumar",
+                "details": "Detalii",
+                "device_name": "Vehicul",
+                "label": "Foaie de Parcurs",
+                "distance": "Distanța",
+                "duration": {
+                    "idling": "Durata Staționare cu Motorul Pornit",
+                    "moving": "Durata Condus",
+                    "stopped": "Durata Staționare cu Motorul Oprit"
+                },
+                "speed": {
+                    "avg": "Viteza Medie",
+                    "max": "Viteza Maxima"
+                },
+                "history": "Traseu",
+                "address_begin": {
+                    "address_formatted": "Adresa Incepere Activitate"
+                },
+                "address_end": {
+                    "address_formatted": "Adresa Terminare Activitate"
+                },
+                "position_begin": {
+                    "devicetime": "Data/Ora Incepere Activitate"
+                },
+                "position_end": {
+                    "devicetime": "Data/Ora Terminare Activitate"
+                },
+                "pdfFileHeadername" : "Foaie de Parcurs"
+            },
+            "thermodiagram": {
+                "detailedEvolution": "Evolutie temperatura",
+                "label": "Raport Temperaturi",
+                "frequency": "Intervalul de timp al temperaturilor (minute)",
+                "minutes": "minute",
+                "pdfFileHeaderName" : "Senzori de temperatura",
+                "device_name": "Vehicul",
+                "avgTemperature1": "Temperatura Medie Senzor 1",
+                "avgTemperature2": "Temperatura Medie Senzor 2",
+                "sumOpenDoor1":"Numar Total Deschideri Usa 1",
+                "sumOpenDoor2":"Numar Total Deschideri Usa 2",
+                "adjusted_time": "Data/Ora",
+                "temperature1": "Senzor Temperatura 1",
+                "temperature2": "Senzor Temperatura 2",
+                "door1": "Stare Usa 1",
+                "door2": "Stare Usa 2",
+                "address": "Coordonate Locatie",
+                "history": "Traseu",
+                "nosenzor": "Nu este senzor",
+                "item_count": "Numar de date",
+                "door_status": {
+                    "0": "Deschisa",
+                    "1": "Inchisa",
+                    "nosenzor": "Fara senzor de usa"
+                },
+                "company": "Companie",
+                "time_frame": "Perioada",
+                "vehicle_state": "Stare vehicul",
+                "vehiclestates" : {
+                    "undefined" : "Necunoscută",
+                    "0" : "Staționare cu motor oprit",
+                    "1" : "Staționare cu motor pornit",
+                    "2" : "Condus"
+                }
+            },
+            "itinerary-clocking-geofence": {
+                "summary": "Sumar",
+                "details": "Detalii",
+                "label": "Raport Activitate Șofer in Geozone",
+                "device_name": "Vehicul",
+                "position_begin": {
+                    "devicetime": "Data/Ora Incepere Activitate"
+                },
+                "position_end": {
+                    "devicetime": "Data/Ora Terminare Activitate"
+                },
+                "address_begin_geofence": "Adresa Incepere Activitate",
+                "address_end_geofence": "Adresa Terminare Activitate",
+                "distance": "Distanța",
+                "moving": "Durata Condus",
+                "idling": "Durata Staționare cu Motorul Pornit",
+                "stopped": "Durata Staționare cu Motorul Oprit",
+                "driver": "Șofer",
+                "idlinggeozones": "Durata Staționare cu Motorul Pornit in Geozone",
+                "duration": {
+                    "identified_time": "Durata Lucru/Autentificare Șofer",
+                    "idling_inside_geozones": "Durata Staționare cu Motorul Pornit in Geozone",
+                    "total_time_outside_geozones": "Durata Totala de Lucru in Afara Geozonelor",
+                    "dayshift_total": "Ore de Lucru pe Zi Fara Ore Staționare in Geozone",
+                    "nightshift_total": "Ore de Lucru pe Noapte Fara Ore Staționare in Geozone",
+                    "nightshift": "Ore pe noapte",
+                    "dayshift": "Ore pe zi"
+                },
+                "clockingtime": "Timp pontat",
+                "timeformat": "hh:mm:ss",
+                "history": "Traseu",
+                "isdaytime": "Ore de zi",
+                "selectedGeofenceNames": "Geozonele aprobate",
+                "pdfFileHeaderName": "Raport Activitate Șofer in Geozone"
+            },
+            "itinerary-with-fuel-consumption": {
+                "summary": "Sumar",
+                "details": "Detalii",
+                "device_name": "Vehicul",
+                "label": "Raport Consum Combustibil Comparat",
+                "driver": "Șofer",
+                "distance": "Distanța",
+                "history": "Traseu",
+                "address_begin": {
+                    "address_formatted": "Adresa Incepere Activitate"
+                },
+                "address_end": {
+                    "address_formatted": "Adresa Terminare Activitate"
+                },
+                "position_begin": {
+                    "devicetime": "Data/Ora Incepere Activitate"
+                },
+                "position_end": {
+                    "devicetime": "Data/Ora Terminare Activitate"
+                },
+                "pdfFileHeadername" : "Raport Consum Combustibil Comparat",
+                "sumOpenDoor1": "Numar Total Deschideri Usa 1",
+                "sumOpenDoor2":"Numar Total Deschideri Usa 2",
+                "consumption": {
+                    "avg_can" : "Medie Consum CAN",
+                    "avg_fuel_level": "Medie Consum Nivel Combustibil",
+                    "total_can": "Consum Total CAN",
+                    "total_fuel_level": "Consum Total Nivel Combustibil",
+                    "total_auxiliary": "Combustibil Consumat Auxiliare",
+                    "total_no_auxiliary":"Consum Total Nivel Combustibil Fara Auxiliare"
+                },
+                "duration": {
+                    "freeze": "Durata Functionare Auxiliare"
+                },
+                "stoptime": "Durata Staționare Motor Oprit pana la Urmatoarea Cursa",
+                "auxiliary_consumption": "Consum auxiliare/h"
+            },
+            "geofence-activity": {
+                "label": "Raport Activitate Vehicul in Geozona",
+                "device_name": "Vehicul",
+                "position_begin": { "devicetime": "Data/Ora Incepere Activitate" },
+                "address_begin": "Adresa Incepere Activitate",
+                "position_end": { "devicetime": "Data/Ora Terminare Activitate" },
+                "address_end": "Adresa Terminare Activitate",
+                "distance": "Distanța",
+                "history": "Traseu",
+                "pdfFileHeaderName": "Raport Activitate Vehicul in Geozona",
+                "duration": {
+                    "total_time": "Timp total",
+                    "engine_on_time": "Timp pornit",
+                    "engine_off_time": "Timp oprit",
+                    "geofence_total_time": "Timp total PI",
+                    "geofence_engine_on_time": "Timp pornit PI",
+                    "geofence_engine_off_time": "Timp oprit PI",
+                    "auxiliary_equipment_time": "Timp aux pornit",
+                    "auxiliary_equipment_off_time": "Timp aux oprit"
+                }
+            },
+            "forklift-activity": {
+                "label": "Raport Activitate Comparata Intrare/Iesire Geozona",
+                "device_name": "Vehicul",
+                "driver_id": "Șofer",
+                "geofence": "Zona",
+                "position_begin": { "devicetime": "Data/Ora Incepere Activitate" },
+                "position_end": { "devicetime": "Data/Ora Terminare Activitate" },
+                "distance": {
+                    "distance": "Distanța",
+                    "distance_yard": "Curte - Distanța"
+                },
+                "geofence_name": "Zona",
+                "geofence_to_name": "Pana la",
+                "history": "Traseu",
+                "pdfFileHeaderName": "Raport Activitate Comparata Intrare/Iesire Geozona",
+                "max_speed": "Viteza maxima",
+                "shift": "Schimb",
+                "duration": {
+                    "activity_duration": "Durata activitate",
+                    "activity_duration_yard": "Curte - Durata activitate",
+                    "stopped": "Timp oprit",
+                    "stopped_yard": "Curte - Timp oprit",
+                    "total_time": "Timp total"
+                }
+            },
+            "working-times-tacho": {
+                "label": "Raport Analiza Timpi de Lucru Șoferi",
+                "device_id": "Vehicul",
+                "driver_info": {"name": "Șofer"},
+                "date": "Data",
+                "driver": "Șofer",
+                "status": "Status",
+                "status_list": {
+                    "0": "Odihna",
+                    "1": "Disponibil",
+                    "2": "Lucru",
+                    "3": "Conduce"
+                },
+                "day": "Zi",
+                "night": "Noapte",
+                "available": "Disponibil",
+                "rest": "Odihna",
+                "period_begin": "Data/Ora Incepere Activitate",
+                "period_end": "Data/Ora Terminare Activitate",
+                "position_begin": "Adresa Incepere Activitate",
+                "position_end": "Adresa Terminare Activitate",
+                "history": "Traseu",
+                "pdfFileHeaderName": "Raport Analiza Timpi de Lucru Șoferi",
+                "duration": "Durata activitate",
+                "workingtotal": "Total zile lucratoare",
+                "noworkingtotal": "Total zile nelucratoare"
+            },
+            "rfid-geofence": {
+                "label": "Raport citiri RfId totale",
+                "device_name": "Vehicul",
+                "total_distinct_rfid": "Nr. Rfid-uri distincte",
+                "total_distinct_geofence": "Nr. Geozone distincte",
+                "total_rfid_orphan": "Nr. Rfids-uri orfane",
+                "activity_date": "Data/ora",
+                "geofence": {
+                    "name": "Geozonă"
+                },
+                "spd": "Viteză",
+                "rfid": "Rfid",
+                "rwtid": "Tip deseu",
+                "rbtid": "Tip recipient",
+                "addr": "Adresa",
+                "cpn": "Nume client",
+                "history": "Traseu",
+                "pdfFileHeaderName": "Raport citiri RfId totale"
+            },
+            "rer-rfid": {
+                "label": "Raport RfId",
+                "devName": "Vehicul",
+                "totrfid": "Nr Rfid-uri citite",
+                "dtu": "Data",
+                "adiv": "Diviziune",
+                "astn": "Nr.",
+                "astr": "Strada",
+                "ccod": "Cod Client",
+                "cnam": "Nume Client",
+                "rwtid": "Tip deseu",
+                "rbtid": "Tip recipient",
+                "rfid": "RFID",
+                "osts": "Stare",
+                "status": {
+                    "undefined": "",
+                    "-": "-",
+                    "active": "activ",
+                    "available": "disponibil",
+                    "lost": "pierdut",
+                    "suspended": "suspendat",
+                    "deleted": "sters"
+                },
+                "showPositionOnMap": "Arata pozitia pe harta",
+                "totread": "Numar Citiri"
+            },
+            "dynamic-thermodiagram": {
+                "label": "Raport Dinamic Termodiagramă",
+                "detailedEvolution": "Evolutie temperatura",
+                "frequency": "Intervalul de timp al temperaturilor (minute)",
+                "minutes": "minute",
+                "pdfFileHeaderName" : "Senzori de temperatura",
+                "device_name": "Vehicul",
+                "avgTemperature1": "Temperatura Medie Senzor 1",
+                "avgTemperature2": "Temperatura Medie Senzor 2",
+                "avgTemperature3": "Temperatura Medie Senzor 3",
+                "avgTemperature4": "Temperatura Medie Senzor 4",
+                "sumOpenDoor1":"Numar Total Deschideri Usa 1",
+                "sumOpenDoor2":"Numar Total Deschideri Usa 2",
+                "adjusted_time": "Data/Ora",
+                "temperature1": "Senzor Temperatura 1",
+                "temperature2": "Senzor Temperatura 2",
+                "temperature3": "Senzor Temperatura 3",
+                "temperature4": "Senzor Temperatura 4",
+                "door1": "Stare Usa 1",
+                "door2": "Stare Usa 2",
+                "address": "Coordonate Locatie",
+                "history": "Traseu",
+                "nosenzor": "Nu este senzor",
+                "item_count": "Numar de date",
+                "door_status": {
+                    "0": "Deschisa",
+                    "1": "Inchisa",
+                    "nosenzor": "Fara senzor de usa"
+                },
+                "company": "Companie",
+                "time_frame": "Perioada",
+                "vehicle_state": "Stare vehicul",
+                "vehiclestates" : {
+                    "undefined" : "Necunoscută",
+                    "0" : "Staționare cu motor oprit",
+                    "1" : "Staționare cu motor pornit",
+                    "2" : "Condus"
+                },
+                "dinamycThermodiagramExportDialog": {
+                    "headerText": "Alegeți preferințele pentru export",
+                    "selectVehicle": "Selectează vehicul",
+                    "selectSensor": "Selectează senzor",
+                    "selectExportType": "Selectează tipul de export",
+                    "documentWidth": "Alege lățimea exportului",
+                    "exportType": {
+                        "table": "Tabel de temperaturi",
+                        "thermodiagram": "Termodiagramă"
+                    },
+                    "documentWidths": {
+                        "small": "Mică",
+                        "medium": "Medie",
+                        "large": "Mare"
+                    }
+                }
+            },
+            "working-times": {
+                "label": "Raport Analiza Timpi de Lucru Vehicul",
+                "device_name": "Vehicul",
+                "day": "Dată",
+                "dateBeginActivity": "Începutul activității",
+                "dateEndActivity": "Sfârșitul activității",
+                "drivingTime": "Timp condus",
+                "iddleTime": "Timp staționare",
+                "totalTime": "Timp total",
+                "drivingTimeNoIddleDay": "Timp de lucru zi fără staționare",
+                "drivingTimeNoIddleNight": "Timp de lucru noapte fără staționare",
+                "drivingTimeWithIddleDay": "Timp de lucru zi cu staționare",
+                "drivingTimeWithIddleNight": "Timp de lucru noapte cu staționare",
+                "distance": "Kilometraj (km)",
+                "fuelConsumptionTotal": "Consum total (l)",
+                "fuelConsumptionAvg": "Consum mediu (l/100km)",
+                "pdfFileHeaderName": "Raport Analiza Timpi de Lucru Vehicul",
+                "days": {
+                    "1": "Luni",
+                    "2": "Marți",
+                    "3": "Miercuri",
+                    "4": "Joi",
+                    "5": "Vineri",
+                    "6": "Sâmbătă",
+                    "0": "Duminică"
+                },
+                "apply": "Reîncarcă"
+            },
+            "rer-geozone-activity": {
+                "label": "Raport Rer activitate in geozone",
+                "geozone_name": "Nume geozona",
+                "group_name": "Nume grup",
+                "ungroupped": "Fără grup",
+                "period_begin": "Data/ora prima intrare",
+                "period_end": "Data/ora ultima iesire",
+                "count": "Numar intrări",
+                "duration_total": "Durata totala",
+                "duration_stopped": "Durata stationare",
+                "average_speed": "Viteza medie (km/h)"
+            }
+        },
+        "raport_info": {
+            "maximumPeriod": "Raportul se poate genera pe maxim: ",
+            "maximumVehicles": "Poate contine un numar maxim de: ",
+            "country-activity": {
+                "infotext" : "Raportul de Activitate pe Tari afiseaza informatii cu privire la distanța strabatuta pe perioada selectata, durata de condus, durata de staționare cu motorul pornit/oprit si timpul petrecut in total in fiecare tara. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului. Fiecare rand din detaliile raportului reprezinta activitatea intr-o anumita tara intr-o anumita perioada. La schimbarea tarii se creeaza o linie noua.",
+                "infotext1" : "12 luni",
+                "infotext2" : "100 vehicule"
+            },
+            "daily-activity": {
+                "infotext" : "Raportul de Activitate Zilnica afiseaza informatii cu privire la distanța strabatuta pe perioada selectata, durata condus, durata staționare cu motorul pornit/oprit si viteza maxima. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului. ",
+                "infotext1" : "12 luni",
+                "infotext2" : "100 vehicule"
+            },
+            "stops": {
+                "infotext" : "Raportul de Stationari afiseaza fiecare perioada de staționare mai lunga decat durata minima de staționare introdusa in momentul generarii raportului. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului. Sunt afisate duratele de staționare cu motorul pornit/oprit, durata totala de staționare si, durata si distanța dintre stationari si numarul total al stationarilor. Fiecare linie din raportul detaliat reprezinta o noua staționare. Daca la generarea raportului se introduce durata minima a stationarii ca fiind 0, atunci se vor afisa toate stationarile.",
+                "infotext1" : "12 luni",
+                "infotext2" : "100 vehicule"
+            },
+            "itinerary": {
+                "infotext" : "Raportul Foaie de Parcurs afiseaza distanța parcursa pe perioada selectata, durata timpului de condus, durata stationarilor cu motorul pornit si oprit si viteza medie si viteza maxima. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului. Fiecare rand din detaliile raportului reprezinta o calatorie diferita (de la pornirea motorului si pana la oprirea motorului)",
+                "infotext1" : "2 luni",
+                "infotext2" : "100 vehicule"
+            },
+            "thermodiagram": {
+                "infotext" : "Raportul de Temperatura (Termodiagrama) afiseaza temperaturile obtinute de la senzorii de temperatura pe perioada selectata in momentul generarii raportului. In continutul acestui raport sunt prezentate temperaturile medii si numarul de deschideri ale usilor fiecarui vehicul in parte. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului. Se poate configura intervalul la care se doreste afisarea acestor valori in raport. Raportul contine si varianta care se poate imprima pe imprimata termica cu rola. Latimea documentului este de 600px (~16 cm).",
+                "infotext1" : "5 zile",
+                "infotext2" : "10 vehicule"
+            },
+            "itinerary-clocking-geofence": {
+                "infotext": "Raportul de Activitate Șofer in Geozone este un raport centrat pe șofer si prezinta activitatea șoferului atat timp cat acesta este autentificat pe vehicul (este obligatorie folosirea unui modul de autentificare șofer). Raportul permite selectarea geozonelor in care se doreste afisarea orelor de staționare si a perioadei de lucru pe zi/noapte. Raportul de activitate in Geozone va reda urmatoarele informatii: durata Lucru/ autentifcare șofer, durata de Staționare cu motorul pornit in Geozone, durata totala de lucru in afara Geozonelor, ore de lucru pe zi fara ore de staționare in Geozone, ore de lucru pe noapte fara ore de staționare in Geozone.",
+                "infotext1": "1 luna",
+                "infotext2": "10 vehicule"
+            },
+            "itinerary-with-fuel-consumption": {
+                "infotext" : "Raportul de calatorii si consum comparat prezinta activitatea vehiculului, consumul acestuia atat in functie de computerul de bord al vehiculului (CAN) cat si in functie de nivelul de combustibil (senzor de combustibil instalat aditional sau senzorul original al vehiculului). In raport este evidentiat si consumul de combustibil al unor dispozitive auxiliare (sistem de incalzire auxiliar - Webasto, sistem de refrigerare - Termoking, Carrier, etc) si timpi de functionare al acestora. Pentru a afisa aceste informatii este nevoie de echipament aditional! Acesta este un raport care inregistreaza si compara nivelul mediu si total de consum de combustibil (atat cel inregistrat de CAN cat si cel inregistrat de senzorul de combustibil), consumul total al nivelului de combustibil fara echipamente auxiliare, durata de functionarea a echipamentelor auxiliare cat si consumul de combustibil datorat exclusiv echipamentelor auxiliare.",
+                "infotext1" : "1 luna",
+                "infotext2" : "10 vehicule"
+            },
+            "refuelings": {
+                "infotext": "Raportul Alimentari afiseaza toate alimentarile sau scurgerile pe perioada de timp selectata la momentul generarii raportului. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului. Raportul va consta in urmatoarele informatii: totalul alimentat si numarul de alimentari, consumul mediu si totalul consumului pe distanța parcursa in perioada de timp selectata la momentul generarii raportului, totalul scurgerilor. Aveti posibilitatea sa configurati raportul pentru a nu afisa alimentarile mai mici de x litri si scurgerile mai mici de y litri. Aceste configuratii sunt utile indeosebi la vehiculele care au fluctuatii mari ale nivelului de combustibil.",
+                "infotext1": "12 luni",
+                "infotext2": "100 vehicule"
+            },
+            "geofence-activity": {
+                "infotext": "Raportul Activitate Vehicul in Geozona analizeaza in detaliu activitatea vehiculului in cadrul Geozonelor sau a Punctelor de Interes stabilite. Raportul este util companiilor ale caror activitate necesita vizitarea de Geozone multiple in cursul unei zile de lucru, si este necesara determinarea eficientei operatiunilor zilnice. Parametri prezentati in raport sunt data, ora si adresa inceperii si finalizarii activitatii, distanța parcursa, timpul total de activitate (coloane separate pentru motor pornit si oprit) si timp total de activitate in Geozone sau Puncte de Interes (coloane separate pentru motor pornit si oprit). De asemenea este inregistrat si timpul de functionare a sistemelor auxiliare in cazul in care acestea sunt conectate la echipament.",
+                "infotext1": "1 luna",
+                "infotext2": "100 vehicule"
+            },
+            "forklift-activity": {
+                "infotext": "Raportul de activitate comparata In/Out Geozona prezinta distanța si durata activitatii unui vehicul, atat in Geozonele desemnate cat si in afara acestora, in baza șoferului identificat. Acest raport va tine cont si de faptul ca șoferii lucreaza in ture, acestea fiind semnalate cu nr 1, 2 si 3, in ultima coloana a raportului. 1 - tura de dimineata, 2 - tura de dupa-masa, 3 - tura de noapte. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului. Raportul este special conceput pentru utilaje indistriale. In raport sunt evidentiate urmatoarele: durata activitatii (calculata separat in Geozone si in afara acestora, in coloane separate), distantele percurse de vehicul (calculate separat in Geozone si in afara acestora in coloane separate), opririle de motor (calculata separat in Geozone si in afara acestora in coloane separate) si viteza maxima.",
+                "infotext1": "1 luna",
+                "infotext2": "100 vehicule"
+            },
+            "working-times-tacho": {
+                "infotext": "Raportul de Analiza Timpi de Lucru șoferi tine evidenta activitatii șoferilor pe autovehicule, exclusiv in baza datelor inregistrate de tahograf in urma autentificarii șoferilor. Acest raport este destinat vehiculelor cu șoferi multipli, care conduc cu succesiv. In sumar, raportul afiseaza pe o perioada preselectata in mometul generarii acestuia, timpii de conducere pe zi, noapte si timpii de odihna, atat pe zile cat si insumate pe totalul perioadei si zile de concediu. Orele de condus sunt rotunjite (in sus). Zilele de week-end si sarbatorile nationale sunt evidentiate prin diferite culori. In raportul detaliat gasiti informatii cu privire la tipul de activitate a șoferului (condus, pauza sau inactivitate), durata de timp si locatia activitatii. Raportul functioneaza optim pentru vehiculele pe care este instalat un echipament conectat la tahograf. Pentru ca acesta este un raport destinat vehiculelor cu șoferi multipli care lucreaza in ture, tipurile de activitate, sau starile șoferului sunt dupa cum urmeaza: Drive - șoferul conduce autovehiculul, Work - șoferul este in autovehicul, dar nu conduce, Rest - Niciun șofer in autovehicul, timp de odihna.",
+                "infotext1": "1 luna",
+                "infotext2": "100 vehicule"
+            },
+            "rer-rfid": {
+                "infotext": "",
+                "infotext1": "31 zile",
+                "infotext2": "100 vehicule"
+            },
+            "dynamic-thermodiagram": {
+                "infotext" : "Raportul Dinamic de Temperatura (Termodiagrama) afiseaza temperaturile obtinute de la senzorii de temperatura pe perioada selectata in momentul generarii raportului. In continutul acestui raport sunt prezentate temperaturile medii si numarul de deschideri ale usilor fiecarui vehicul in parte. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului. Se poate configura intervalul la care se doreste afisarea acestor valori in raport. Raportul contine si varianta care se poate imprima pe imprimata termica cu rola. Lățimea documentului poate fi selectată în momentul în care raportul este exportat în format .png.",
+                "infotext1" : "5 zile",
+                "infotext2" : "10 vehicule"
+            },
+            "working-times": {
+                "infotext": "Raportul Analiza Timpi de Lucru Vehicul afiseaza informatii cu privire la timpul de lucru efectuat pe diferite intervale orare(zi/noapte),cu sau fara stationare,  distanța strabatuta pe perioada selectata, durata condus, durata staționare cu motorul pornit/oprit si datele privind consumul de conbustibil .Raportul este complet personalizabil si ofera posibilitatea de export doar a informatiilor relevante pentru dumneavoastra. Raportul poate fi generat pentru unul sau mai multe vehicule, selectia facandu-se in momentul generarii raportului.",
+                "infotext1": "2 luni",
+                "infotext2": "100 vehicule"
+            },
+            "rer-geozone-activity": {
+                "infotext": "Raportul Activitate in geozone",
+                "infotext1": "1 zi",
+                "infotext2": "100 vehicule"
+            }
+        },
+        "confirmCreateHistory": "Pentru a preveni blocarea browserului dumneavoastra am redus intervalul maxim de generare al istoricului la 31 de zile. Continuati?",
+        "dataColumnsSelection": "Selectarea Coloanelor",
+        "reprocess": "Reprocesare",
+        "detailedGraph": "Grafic temperatura",
+        "activityStart": "Activitate Inceput",
+        "activityEnd": "Activitate sfarsit",
+        "option": "Optiuni",
+        "drivers": "Șoferi"
+    }
+}

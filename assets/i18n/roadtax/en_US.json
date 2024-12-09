@@ -1,0 +1,326 @@
+{
+    "Roadtax": {
+        "hungary": "Hungary",
+        "bulgaria": "Bulgaria",
+        "poland": "Poland",
+        "quickSearch": "Quick search ...",
+        "premiumServicesOny": "Only available for premium services.",
+        "contactSupport": "Please contact our support department!",
+        "balancebg": {
+            "label": "bulgaria account balance",
+            "pending": "pending"
+        },
+        "balancehu": {
+            "label": "HU-GO account balance",
+            "pending": "pending"
+        },
+        "preparePayment": {
+            "paymentMethod": {
+                "title": "Please choose the payment method",
+                "paymentInformation": "Payment Information",
+                "chooseBank": "Please choose the card issuing bank",
+                "transilvaniaBank": "Transilvania Bank",
+                "anotherBank": "Another Bank"
+            },
+            "selectCurrency": "select the currency",
+            "paymentData": "account recharge",
+            "insertAmount": "Please insert the amount you want to charge your account with",
+            "accountLoadedWith": "Account will be loaded with:",
+            "serviceFee": "Service fee (VAT included)",
+            "totalInvoice": "Total invoice",
+            "cardTransfer": "Card Payment",
+            "bankTransfer": "Bank Transfer",
+            "selectCategory": "Select type of vehicle",
+            "selectVehicleDetails": "Select vehicle details",
+            "selectValidityPeriod": "Select valadity period",
+            "vehicleDetails": "Vehicle details",
+            "vehiclePlateNumber": "Registration plate number",
+            "vinNumber": "Vin registration number",
+            "vehicleCountry": "Registration country ",
+            "carType": "Car type",
+            "price": "Price",
+            "pay": "Pay",
+            "allFieldsMandatory": "All fields are mandatory!",
+            "info": "Info",
+            "selectPamynet": "select payment method",
+            "card": "Online payment",
+            "bank": "Bank transfer",
+            "cash": "Cash",
+            "account": "Account",
+            "willBeLoaded": "will be loaded with:",
+            "accountMissing": "For the first loading of the HUGO account, it is necessary to configure it. A CargoTrack representative will contact you after completing the configurations (average waiting time 30 minutes)!",
+            "accountSetupRequired": "Account setup needed!",
+            "recurencyExpire": "Recurency expire date",
+            "isRecurent": "Activate automatically recharge",
+            "referenceAmount": "Reference amount",
+            "referenceCurrency": "Reference currency",
+            "invoiceCurrency": "Invoice currency",
+            "minimumAccountBalance": "Minimum account balance",
+            "tresholdMessageWarning": "Treshold limit must be greater or equal to:",
+            "recurencyActivateUntil": "Automatically recharge active until:",
+            "referenceAmountMessageWarning": "Recharge amount must be greater or equal to:",
+            "cardCommission": "Payment by card incurs an additional fee of {{value}}% to cover bank charges, according to the contract.",
+            "balanceCommission": "Given that the account balance is negative and CargoTrack has covered the payment of tolls to avoid a fine, this transaction is subject to an additional {{value}}% commission as per the contract."
+        },
+        "confirmOrder": {
+            "title": "Confirm info",
+            "transactionDate": "Transaction date",
+            "transactionHour": "Transaction hour",
+            "registrationNumber": "Nr. auto / Registration number",
+            "vin": "Serie sasiue / V.I.N",
+            "country": "Tara / Country",
+            "category": "Categoria / category",
+            "priceEuro": "Tarfi (EUR)",
+            "availability": "Valabilitate / valability",
+            "exchangeRate": "Curs (eur/ron)",
+            "exchangeDate": "Data curs / currency date",
+            "priceRon": "Tarif (ron)",
+            "from": "de la / from",
+            "to": "pana la / to",
+            "trasactionId": "Serie tranzactie/transaction id",
+            "checkboxError": "We can't process the payment if the information are not confirmed."
+        },
+        "notificationPreferences": {
+            "notification": "Notifications",
+            "howNotification": "how do you want the notification?",
+            "sms": "SMS",
+            "email": "Email",
+            "whenNotification": "when do you want the notification?",
+            "beforeExpire": "Before expiring date",
+            "whenExpire": "On expiring day",
+            "days": "days",
+            "day": "day"
+        },
+        "payment": {
+            "label": "Payment",
+            "exitconfirm_text": "Payment was initialized. If you close the window you can retry in 5 minutes.",
+            "exitconfirm": "Are you sure?",
+            "invoiceSentByEmail": "Thank You, the proforma invoice was sent by e-mail for payment."
+        },
+        "processMessage": {
+            "exchangeRate": "The exchange rate differs since the payment was initialized, the new data has been updated!"
+        },
+        "recharge": "recharge",
+        "byManualRoute": "buy manual route",
+        "minimumAccountBalance": "Recommended balance",
+        "minimumAccountBalanceText": "Recommended minimum amount in your account to prevent a fine due to insufficient balance!",
+        "lowBalanceThreshold": "Low balance threshold",
+        "defaultRechargeAmount": "Default recharge amount",
+        "balanceNotification": {
+            "title": "Balance notification"
+        },
+        "HU": "Hungary",
+        "BG": "Bulgaria",
+        "PL": "Poland",
+        "overview": {
+            "label": "Overview",
+            "filters": "Filters",
+            "deviceList": "Device List",
+            "deviceNotTransmiting": "Device Not Transmiting",
+            "huRegisterNewVehicle": "HU-GO register vehicle",
+            "huCalculateRoute": "calculate route",
+            "huRegisterNewVehicleMessage": "To register a new vehicle for HU-GO you need to fill in a form that you will receive by email at {{ email }}. After completing this form, please send it by email to hu-go@cargotrack.ro.",
+            "huSafetyQuestion": "Do you want to register a new vehicle for HU-GO?",
+            "huConfirmedRegistration": "The form you have to fill in was just sent.",
+            "huConfirmedTitle": "Confirmation",
+            "roBuy": "Buy",
+            "roNotRegisterVehicle": "Not registered vehicles",
+            "filtersList": {
+                "all": "All",
+                "active": "Active",
+                "suspended": "Suspended",
+                "unknown": "Unknown status"
+            },
+            "dataTable": {
+                "name": "Vehicle",
+                "cargobox_status": "Status",
+                "status": {
+                    "0": "NOT REGISTERED",
+                    "1": "ACTIVE",
+                    "2": "SUSPENDED",
+                    "3": "NOT LINKED",
+                    "4": "AUTOMATICALLY SUSPENDED",
+                    "undefined": "Unknown"
+                },
+                "gross_weight": "Gross Weight",
+                "last_transmission": "Last transmision",
+                "device_obuid": "OBU ID",
+                "roadtax_pl_pogo_id": "POGO ID",
+                "roadtax_pl_pogo_pin": "POGO PIN",
+                "device_axle_number": "Axels",
+                "eurocode": "Euro",
+                "device_country": "Country",
+                "last_entry_date": "Last entry date",
+                "last_exit_date": "Last exit date",
+                "is_last_transmission_older": "The device is not transmiting data to CargoTrack servers. Please be sure the vehicle will not enter {{ country }} until the device is transmiting data corectly. Please contact CargoTrack support team as soon as possible!",
+                "roadtax_bg_main_category": "Main Category",
+                "roadtax_bg_weight_category": "Weight Category",
+                "tractor_axles": "Tractor Axels",
+                "trailer_axles": "Trailer Axles",
+                "vehiclesAbove3.5": "Lorries, Motorhomes and other vehicles above 3.5t",
+                "largeVehicleMoreThen9Passenger": "Large Passanger vehicles with more than 9 passangers",
+                "weightBetween3.5And12": "Weight between 3.5 and 12",
+                "weightMoreThen12": "Weight > 12",
+                "informations": "Informations",
+                "responsible_phone": "Phone",
+                "responsible_phone_number": "Responsible phone number",
+                "axNumber": "Axels",
+                "suspendedSinceInfo": "Vehicle is suspended from tolling since {{ date }}",
+                "suspendedReason": "because {{ reason }}",
+                "suspendedInsuficientFounds": "of insuficient founds",
+                "suspendedNotTransmiting": "of not transmiting",
+                "type": "Service type",
+                "vehicle_category": "Vehicle category",
+                "actions": "Actions",
+                "generalNote": "General notes",
+                "monitorizatedDeviceType": "Vehicle equiped with GPS tracking device",
+                "notMonitorizatedDeviceType": "Vehicle not equiped with GPS tracking device",
+                "serviceName": "Duration",
+                "days": " days",
+                "months": " months",
+                "jdb": "Axis category",
+                "responsible_hu_phone": "Telephone manager",
+                "unladen_weight": "Empty weight",
+                "laden_weight": "Full weight",
+                "low_balance_threshold": "Low balance treshold",
+                "default_recharge_amount": "Default recharge amount"
+            },
+            "eurocodevalue": {
+                "E1": "Euro 1",
+                "E2": "Euro 2",
+                "E3": "Euro 3",
+                "E4": "Euro 4",
+                "E5": "Euro 5",
+                "E56": "Euro 5/6 EEV",
+                "E6": "Euro 6",
+                "null": "N/A"
+            },
+            "roadtaxstatus": {
+                "notRegistered": "Not Registered",
+                "active": "active",
+                "suspended": "Suspended",
+                "notLinked": "Not linked",
+                "unknown": "Unknown",
+                "expiresIn": "Expires in {{ days }} days",
+                "expired": "Expired",
+                "today": "Expires today",
+                "valid": "Valid"
+            },
+            "editAxels": "Tractor or trailer change",
+            "editSuccess": "Data was saved successfully",
+            "jdbEditSuccess": "The request has been registered. Please check within 15 minutes if the change in the number of axles was successful.",
+            "jdbEditError": "The request to change the number of axes has failed. Please try again!"
+        },
+        "log": {
+            "label": "History",
+            "filters": "Filters",
+            "historyData": "History Data",
+            "selectVehicles": "Select Vehicles",
+            "generateLog": "Generate",
+            "dataTable": {
+                "entry_date": "Entry date",
+                "exit_date": "Exit date",
+                "name": "Vehicle",
+                "time_spent_in": "Time spent in {{ country }}",
+                "history": "Show history",
+                "emptyLogMessage": "Select the vehicles and the time frame on wich you want to see the history"
+            }
+        },
+        "invoice": {
+            "label": "Invoice"
+        },
+        "tolls": {
+            "label": "Tolls",
+            "dataTable": {
+                "date": "Date",
+                "amount": "Amount",
+                "device": "Device",
+                "description": "Description",
+                "balance_before": "Balance at the begining of the period",
+                "balance_after": "Balance at the end of the period",
+                "emptyLogMessage": "Select the time frame on wich you want to see the history"
+            }
+        },
+        "editHistory": {
+            "label": "Edit History",
+            "dataTable": {
+                "name": "Vehicle",
+                "field_name": "Field name",
+                "old_value": "Old value",
+                "new_value": "New value",
+                "user": "User",
+                "created_at": "Changed at"
+            }
+        },
+        "cargobox": {
+            "tabLabel": "carGObox",
+            "isSuspended": "The services have been suspended due to negative balance.",
+            "balance": {
+                "label" : "account balance cargobox",
+                "pending": "pending"
+            },
+            "invoice": {
+                "cargoTab": {
+                    "label": "CargoTrack"
+                },
+                "cargoboxTab": {
+                    "getInvoicesError": "Cannot fetch invoices!",
+                    "label": "Cargobox",
+                    "dataTable": {
+                        "date" : "Date",
+                        "invoiceNumber" : "Invoice Number",
+                        "amount": "Amount",
+                        "currency": "Currency",
+                        "taxableDomain": "Taxable Domanin"
+                    }
+                }
+            },
+            "transactions": {
+                "label": "Transactions",
+                "selectVehicles": "Select Vehicle",
+                "generateLog": "Generate",
+                "export": "Export",
+                "dataTable": {
+                    "deviceLicencePlate": "Vehicle",
+                    "startOfUsage": "Start of Usage",
+                    "processingDate": "Processing Date",
+                    "referenceCurrencyValue": "Net Reference Currency Value",
+                    "referenceCurrencyTaxValue": "Reference Currency Tax Value",
+                    "referenceCurencyGross": "Reference Curency Gross",
+                    "obuSerialNumber": "OBU Serial Number",
+                    "serviceCountry": "Service Country",
+                    "endOfUsage": "End of Usage",
+                    "routeDescription": "Route Description",
+                    "serviceType": "Service Type",
+                    "processingTime": "Processing Time",
+                    "value": "Value",
+                    "taxValue": "Tax Value",
+                    "valueGross": "Gross Value",
+                    "currency": "Currency",
+                    "baseCurrencyExchangeRate": "Base Currency Exchange Rate",
+                    "baseCurrencyValue": "Base Currency Value",
+                    "baseCurrencyTaxValue": "Base Currency Tax Value",
+                    "baseCurrencyValueGross": "Base Currency Value Gross",
+                    "RO": "RO",
+                    "referenceCurrencyValueGross": "Reference Currency Value Gross",
+                    "EUR": "EUR",
+                    "referenceCurrencyExchangerate": "Reference Currency Exchange Rate",
+                    "info": "Informations",
+                    "estimation": "Estimation",
+                    "estimationInfo": "These are only estimates that have not yet been validated by the authorities.",
+                    "serviceValue": "Service Value"
+                }
+            },
+            "restrictCharge": {
+                "note": "Since the account balance was negative on the date of preparation of the payments centralizer, the balance of the centralizer must be paid before making other topups!",
+                "infoInvoice": "You can check and download the payments centralizer in the CargoTrack - Invoice section of carGObox module!",
+                "infoPayment": "Payment can be done only through bank transfer! Please send the confirmation of the payment through email to prioritize the payment processing!" 
+            }
+        },
+        "hu": {
+            "restrictCharge": {
+                "infoInvoice": "You can check and download the payments centralizer in the Invoice section of Hungarian Tolls module!"
+            }
+        }
+    }
+}

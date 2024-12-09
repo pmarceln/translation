@@ -1,0 +1,274 @@
+{
+    "Map": {
+        "vehicles": {
+            "unallocated": "Șofer nealocat",
+            "badDeviceMessage" : "Dispozitivul selectat este momentan indisponibil. Va rugam sa contactati departamentul suport.",
+            "vehicle" : "Vehicul",
+            "vehicles" : "Vehicule",
+            "group" : "Grup",
+            "groups" : "Grupuri",
+            "allGroups" : "Toate Grupurile",
+            "selectGroups" : "Selecteaza Grupuri",
+            "ungrouped": "Negrupate"
+        },
+        "vehicleInfo": {
+            "info": "Info",
+            "history": "Istoric",
+            "cmd": "Comenzi",
+            "summary": "Sumar",
+            "details": "Detalii",
+            "address": "Adresa",
+            "gpscoordonates": "Coordonate GPS",
+            "mileage": "Kilometraj",
+            "speed": "Viteza",
+            "datetime": "Ultima Actualizare",
+            "fuellevel": "Nivel Combustibil",
+            "options": "Opțiuni",
+            "followup": "Urmareste vehicul",
+            "followupDetailed": "Păstrează vizualizarea curentă focusat pe poziția vehiculului",
+            "showtrace": "Arata coada",
+            "showtraceDetailed": "Evidențiază ruta vehiculului pentru un interval predefinit.",
+            "showothers": "Arata celelalte",
+            "showothersDetailed": "Afișează toate vehiculele mele pe hartă.",
+            "liter": "Litri",
+            "activityduration": "Durata activitătii",
+            "driver": "Șofer",
+            "unknown": "Necunoscut",
+            "vehicleState": "Stare necunoscuta de",
+            "vehicleState-1": "Se deplaseaza cu motorul oprit de",
+            "vehicleState0": "Stationează de",
+            "vehicleState1": "Stationează cu motorul pornit de",
+            "vehicleState2": "Se deplasează de",
+            "moreThanADay": "peste zi",
+            "vehicleAlert": "Alertă șofer",
+            "vehicleBlock": "Imobilizare vehicul",
+            "vehicleCamera": "Camera vehicul",
+            "positionsTransmition": "Transmitere pozitii vehicul",
+            "notes": "Notite",
+            "fuelConsumption": {
+                "fromDateConsumption": "Consumul mediu din {{ datetime }} până astăzi.",
+                "editConsumptionDate": "Modifica data din care se calculeaza consumul",
+                "date": "Data",
+                "noPositionError": "Nu s-a gasit nici o pozitie!",
+                "serverError": "Eroare de server, va rugam reincercati!"
+            },
+            "door_status": {
+                "0": "Deschisa",
+                "1": "Inchisa",
+                "nosenzor": "Fara senzor de usa"
+            }
+        },
+        "vehicleHistory": {
+            "generatehistory": "Generează istoric",
+            "changeperiod": "Schimbă perioada",
+            "exportPdf": "Raport PDF",
+            "noHistoryFound": "Nu au fost gasite date",
+            "exportXls": "Raport Excel",
+            "exportXlsExceededPeriod": "Perioadă depășită, intervalul pentru export este de maxim 7 zile.",
+            "detailedPdf": "Raport detaliat",
+            "withDuration": "Durată timp",
+            "roadMap": "Foaie de parcurs",
+            "activityoverview": "Activitate generală",
+            "activitydetails": "Detalii activitate",
+            "distance": "Distanță",
+            "distanceCan": "Distanță CAN",
+            "distanceGps": "Distanță GPS",
+            "drivingtime": "Condus",
+            "stopped": "Oprit",
+            "stationed": "Staționare",
+            "averageSpeed": "Viteza medie",
+            "fuelConsumtion": "Consum",
+            "validstop": "Durata minimă a stopurilor afisate (în minute)",
+            "dateRange": "Perioadă",
+            "stopsUnder": "Stopuri sub ",
+            "minutesAreHidden": " minute sunt ascunse!",
+            "date": "Data",
+            "warning": "Atenție!",
+            "tooManyStops": "Perioada selectată conține un număr foarte mare de opriri. Pentru a putea vedea adresele vă rugăm să selectați o perioadă mai scurtă de timp!",
+            "showDetails": "Arată detalii",
+            "noPositionsReturned": "Nu sunt informatii pentru perioada solicitată!",
+            "cancelGenerateHistory": "Opreste incărcarea istoricului",
+            "integratedStops": "Pe această sectiune de drum aveti {{ stops }} opriri mai mici de {{ time }} min",
+            "periodTooLongError": "Perioada maxima de generare a istoricului este de 366 de zile",
+            "vehicleHistoryResponseError": "S-a produs o eroare, va rugam sa contactiati departamentul tehnic!",
+            "details": {
+                "on": "Pornit",
+                "off": "Oprit",
+                "idling": "Staționare",
+                "movingEngineOff": "Deplasare cu motor oprit",
+                "unknown": "Necunoscută"
+            },
+            "chooseParams": "Opțiuni tabel",
+            "availableColumns": "Coloanele disponibile",
+            "selectedColumns": "Coloanele selectate",
+            "showChart": {
+                "name": "Afișează grafic",
+                "info": "Afișează grafic oricare dintre parametrii disponibili pentru vehicul"
+            },
+            "showGeofence": {
+                "name": "Afișeaza Geozone",
+                "info": "Afișeaza pe harta geozonele prin care a trecut vehiculul"
+            },
+            "chart": {
+                "speed": "Viteza",
+                "fuelLevel": "Nivel Combustibil",
+                "ignition": "Contact",
+                "moveMapCenter": "Centrează vehiculul pe hartă",
+                "parametersList": "Lista de parametrii"
+            },
+            "highlightedSegment": {
+                "title": "Opțiuni",
+                "attribute": "Atribut",
+                "status": {
+                    "label": "Status",
+                    "equal": "Egal cu",
+                    "different": "Diferit de",
+                    "smaller": "Mai mică ca",
+                    "bigger": "Mai mare ca",
+                    "lessorequal": "Mai mic sau egal",
+                    "greaterorequal": "Mai mare sau egal"
+                },
+                "value": "Valoare",
+                "color": {
+                    "label": "Culoare",
+                    "red": "Rosu",
+                    "blue": "Albastru",
+                    "green": "Verde",
+                    "orange": "Portocaliu",
+                    "yellow": "Galben",
+                    "black": "Negru",
+                    "gray": "Gri",
+                    "brown": "Maro",
+                    "cyan": "Cyan",
+                    "purple": "Violet",
+                    "white": "Alb"
+                }
+            },
+            "export" : {
+                "date": "Data",
+                "travelReport": "Raport de călătorie",
+                "period": "Perioda",
+                "generated": "Raportul a fost generat",
+                "driver": "Șofer",
+                "summaryReport": "Sumar Raport",
+                "vehicle": "Vehicul",
+                "startingActivity": "Data incepere activitate",
+                "endingActivity": "Data terminare activitate",
+                "activityStartLocation": "Locatie incepere activitate",
+                "activityEndLocation": "Locatie terminare activitate",
+                "traveledDistance": "Distanta parcursă",
+                "daySummary": "Sumarul zilei",
+                "tripDetails": "Detalii călătorie",
+                "activityTotalDuration": "Durata totata activitate",
+                "excelName": "Raport_de_calatorie"
+            },
+            "invalidDateTimeInterval": "Interval de date invalid. Data de început este după data de șfârșit!"
+        },
+        "vehicleRoute": {
+            "label" : "Rută",
+            "confirmDeleteAction": "Doriti să stergeti ruta?",
+            "noHistoryFound": "Nu s-a gasit istoric!",
+            "emptyRouteListMessage": "Momentan nu aveti rute salvate",
+            "newRoute": "Ruta noua"
+        },
+        "vehicleCmd": {
+            "eventEmail": "Email",
+            "eventSms": "Sms",
+            "eventCoordinates": "Coordonate",
+            "eventAddress": "Adresa",
+            "eventVehicleState": "Stare Vehicul",
+            "eventSpeed": "Viteza",
+            "active": "Activează",
+            "activateMessage": "Pentru modificare/adăugare email sau sms dezactivati prima dată comanda!",
+            "inactive": "Dezactivează",
+            "eventFrequency": "Interval informare",
+            "sharedInformations": "Informatii transmise",
+            "vehicleAlertTime": "Durata in secunde",
+            "vehicleAlertStart": "Porneste",
+            "vehicleAlertStop": "Opreste",
+            "vehicleImobilizerStart": "Imobilizează",
+            "vehicleImobilizerStop": "Deblochează",
+            "wrongMail": "Adresă email invaliă",
+            "wrongPhone": "Număr de telefon invalid",
+            "commandState": {
+                "state": "Stare",
+                "-1": "In asteptare",
+                "0": "Oprit",
+                "1": "Pornit"
+            },
+            "imobilizerCmmandState": {
+                "state": "Stare",
+                "-1": "In asteptare",
+                "0": "Deblocat",
+                "1": "Imobilizat"
+            },
+            "immobiliser": {
+                "on": "Deblocat",
+                "off": "Imobilizat",
+                "0": "Nereusit",
+                "1": "Reusit",
+                "null": "In asteptare"
+            },
+            "buzzer": {
+                "on": "Pornită",
+                "off": "Oprită",
+                "0": "Nereusit",
+                "1": "Reusit",
+                "null": "In asteptare"
+            },
+            "frequency": {
+                "15": "15 minute",
+                "30": "30 minute",
+                "60": "1h",
+                "120": "2h",
+                "180": "3h",
+                "360": "6h",
+                "720": "12h",
+                "1440": "24h"
+            }
+        },
+        "refueling": {
+            "title" : "Alimentări",
+            "totalRefueling": "Total Alimentări",
+            "totalLeaks": "Total Scurgeri",
+            "hideRefuelingsSmallerThan": "Ascunde alimentări mai mici ca",
+            "hideLeaksSmallerThan": "Ascunde scurgeri mai mici ca",
+            "address": "Adresa",
+            "refBeginDate": "Data incepere alimentare",
+            "refEndDate": "Data sfarsit alimentare",
+            "leakBeginDate": "Data incepere scurgere",
+            "leakEndDate": "Data sfarsit scurgere",
+            "initialQuantity": "Cantitate initiala",
+            "finalQuantity": "Cantitate finala",
+            "refueledQuantity": "Cantitate alimentată",
+            "leakedQuantity": "Cantitate scursa",
+            "chart": {
+                "name": "Afişeaza grafic",
+                "info": "Afişează grafic alimentările pentru vehicul"
+            }
+        },
+        "vehicleListFilter": {
+            "name": "Număr înmatriculare",
+            "locationAddress": "Adresa",
+            "driverName": "Nume șofer",
+            "countryFlag": "Steagul Tării",
+            "gpsCoordinates": "Coordonate Gps",
+            "speed": "Viteza",
+            "directionIcon": "Icon stare",
+            "datetime": "Ultima actualizare",
+            "vehicleParameters": "Parametrii vehicul"
+        },
+        "selectParameters": "Selecteaza parametri pentru vizualizare",
+        "pageTitle" : {
+            "empty" : "Harta Live",
+            "vehicleDetail" : " - Harta Live",
+            "vehicleHistory": " - Istoric",
+            "vehicleCommands": " - Comenzi"
+        },
+        "mapcontrols": {
+            "traffic": "Arata google trafic",
+            "fittobounds": "Fit to bounds",
+            "hugo": "Arata statiile de alimentare HU-GO"
+        }
+    }
+}

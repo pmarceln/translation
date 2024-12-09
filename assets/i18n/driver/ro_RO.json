@@ -1,0 +1,23 @@
+{
+    "Driver": {
+        "topbarTitle": "Șoferi",
+        "searchDriver": "Caută șoferi",
+        "addDriver": "Adaugă șofer",
+        "updateDriver": "Modifica șofer",
+        "deletedriver": "Stergere Șofer",
+        "confirmdelete": "Doriti să stergeti șoferul?",
+        "successfullsaved": "Datele au fost salvate!",
+        "partner": "Partener",
+        "tablehead": {
+            "name": "Nume",
+            "phone": "Telefon",
+            "email": "Email",
+            "cardId": "Card ID",
+            "identitycard": "Serie și număr card de identitate",
+            "partner": "Partener",
+            "description": "Descriere",
+            "dateCreated": "Data creării",
+            "actions": "Actiuni"
+        }
+    }
+}

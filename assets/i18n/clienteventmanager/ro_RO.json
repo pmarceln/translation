@@ -1,0 +1,75 @@
+{
+    "eventsetup": {
+        "list": "Lista Setari Evenimente",
+        "name": "Nume Eveniment",
+        "devices": "Vehicule",
+        "notification_type": "Tip Notificare",
+        "status": "Status",
+        "new": "Eveniment Nou",
+        "wait_seconds": "Timp intre declansari",
+        "description": "Descriere (Optional)",
+        "conditions": "Conditii - se completeaza de obicei parametru, conditie si valoare",
+        "parameter": "Parametru",
+        "operator": "Conditie",
+        "tee_parameter": "Referinta",
+        "tee_operator": "Operator",
+        "tee": "Valoare",
+        "days": {
+            "0": "Luni",
+            "1": "Marti",
+            "2": "Miercuri ",
+            "3": "Joi ",
+            "4": "Vineri ",
+            "5": "Sambata ",
+            "6": "Duminica "
+        },
+        "schedulestatus": {
+            "0": "Inactiv",
+            "1": "Activ"
+        },
+        "triggerevent": {
+            "start": "Inceput",
+            "end": "Sfarsit",
+            "both": "Ambele"
+        },
+        "details": "Detalii eveniment - numele evenimentului apare in mesaj",
+        "vehicles": "Vehiclule",
+        "selectVehicles": "Selecteaza vehicule",
+        "trigger_event": "Declansare alerta",
+        "schedulevent": "Valabilitate",
+        "scheduleddays": "Programare zile",
+        "always": "Permanenta",
+        "period": "Intr-o anumita perioada",
+        "notifications": "Notificare",
+        "notification": {
+            "sms": "SMS",
+            "email": "Email",
+            "system": "Sistem",
+            "regularly": "Regular",
+            "high": "Important",
+            "highwithsound": "Important cu sonor"
+        },
+        "phonenumber": "Numar telefon",
+        "emailaddress": "Adresa email",
+        "add": "Adauga conditie",
+        "addphone": "Adauga numar telefon",
+        "addemail": "Adauga adresa email",
+        "addTimetable": "Adauga interval de timp",
+        "timetableBegin": "Timp Inceput",
+        "timetableEnd": "Timp Sfarsit",
+        "geofences": "Geozone",
+        "emptyList": "Currently you don’t have any events yet.",
+        "errors": {
+            "phoneerror": "Numar de telefon invalid.",
+            "mailerror": "Adresa de email invalida."
+        },
+        "mandatoryFieldNotification": "Datele de notificare lipsa sau incorecte.",
+        "mandatoryFieldConditions": "Logica conditiei este incorecta.",
+        "confirmDeleteAction": "Sigur doriti sa stergeti acest eveniment?",
+        "datawassaved": "Evenimentul a fost salvat.",
+        "and": "si",
+        "or": "sau",
+        "daysOfWeek": "Numai urmatoarele zile din saptamana:",
+        "changeStatus": "Schimba status"
+    }
+}

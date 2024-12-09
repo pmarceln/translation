@@ -1,0 +1,22 @@
+{
+    "Dispatcher": {
+        "searchmessage": "Search message",
+        "searchuser": "Search user",
+        "writehere": "Write here",
+        "sendSms": "SMS",
+        "smsNotSent": "SMS not sent",
+        "smsMessage": "SMS message",
+        "couldNotBeSent": "could not be sent!",
+        "createroute": "Create route",
+        "userListFilter": {
+            "name": "User name",
+            "userIcon": "User icon",
+            "lastMessage": "Last message text",
+            "lastMessageDatetime": "Last message date"
+        },
+        "pageTitle" : {
+            "empty" : "Dispatch",
+            "vehicleDetail" : " - Dispatch"
+        }
+    }
+}

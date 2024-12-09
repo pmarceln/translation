@@ -1,0 +1,22 @@
+{
+    "Dispatcher": {
+        "searchmessage": "Cauta mesaj",
+        "searchuser": "Cauta utilizator",
+        "writehere": "Scrie mesaj aici",
+        "sendSms": "SMS",
+        "smsNotSent": "Mesajul SMS nu a fost trimis",
+        "smsMessage": "Mesajul SMS",
+        "couldNotBeSent": "nu a putut fi trimis!",
+        "createroute": "Creaza ruta",
+        "userListFilter": {
+            "name": "Nume utilizator",
+            "userIcon": "Pictograma",
+            "lastMessage": "Textul ultimului mesaj",
+            "lastMessageDatetime": "Data ultimului mesaj"
+        },
+        "pageTitle" : {
+            "empty" : "Dispecerat",
+            "vehicleDetail" : " - Dispecerat"
+        }
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "E-transport": {
+        "isAutoCreateScheduler": "Erstelle automatisch Planungen für die Übertragung von GPS-Daten",
+        "uitCodes": "UIT Codes",
+        "addUitText": "Add UIT code",
+        "succesfullySavedUitCode": "Succesfully saved UIT code!",
+        "operationFailed": "Operation failed, please try again!",
+        "mandatoryAddUit": "UIT code and vehicle are mandatory!",
+        "filtersList": {
+            "manual": "Manual UIT Codes",
+            "active": "Active UIT Codes",
+            "initiated": "Initiated UIT Codes",
+            "expired": "Expired UIT Codes",
+            "all": "All UIT Codes"
+        },
+        "overview": {
+            "updateUitList": "Aktualisiere UIT-Codes",
+            "searchText": "Search for UIT code or license place",
+            "emptyListText": "You do not have any UIT codes associated with your company in the national eTransport system for monitoring transports within the territory of Romania",
+            "addUitCodeText": "Add UIT code manually?",
+            "add": "ADD",
+            "dataTable": {
+                "uit": "UIT Code",
+                "status": "Status",
+                "declarant": "Declarant",
+                "vat": "VAT",
+                "transportDate": "Transport date",
+                "currentVehicle": "Current vehicle",
+                "expirationDate": "Expiration date",
+                "options": "Options",
+                "showDetails": "Show Details"
+            },
+            "uitStatus": {
+                "manual": "MANUAL",
+                "active": "ACTIVE",
+                "modified": "MODIFIED",
+                "initiated": "INITIATED",
+                "expired": "EXPIRED"
+            },
+            "uitDetails": {
+                "uitNotificationError1": "Das auf der UIT zugewiesene Fahrzeug wird nicht im CargoTrack-System überwacht.",
+                "uitNotificationError2": "Das auf der UIT zugewiesene Fahrzeug ist nicht Ihrem Benutzerkonto zugewiesen.",
+                "uitNotificationError3": "Das Fahrzeug ist nicht dem eTransport-Vertrag des Partners [#name#] zugewiesen.",
+                "declarant": "Declarant",
+                "operationType": "Operation type",
+                "loadingPlace": "Loading place",
+                "dischargePlace": "Place of discharge",
+                "transportDate": "Transport date",
+                "expirationDate": "Expiration date UIT",
+                "initialVehicle": "Initial vehicle",
+                "currentVehicle": "Current vehicle",
+                "tractorHead": "Tractor head",
+                "trailer": "Trailer",
+                "document": "Document",
+                "changeVehicle": "CHANGE VEHICLE",
+                "gpsPositionHistory": "GPS POSITION HISTORY",
+                "transmissionOnText": "The GPS transmission is on",
+                "plannedDataTransmission": "PLANNED DATA TRANSMISSION",
+                "showMapHistory": "Übertragungskarte",
+                "showMapHistoryTitle": "Übertragungskarte",
+                "transportData": "Transportdaten",
+                "dataTransmissionHistory": "Datenübertragungsverlauf",
+                "planVehicle": "Fahrzeug planen",
+                "deviceList":{
+                    "tabLabel": "Zeitplanliste",
+                    "device": "Gerät",
+                    "trailer1": "Trailer 1",
+                    "trailer2": "Trailer 2",
+                    "startTransmission": "Übertragung starten",
+                    "stopTransmission": "Übertragung stoppen",
+                    "username": "Nutzername",
+                    "status": "Status",
+                    "options": "Optionen",
+                    "statusList": {
+                        "planned": "geplant",
+                        "ongoing": "laufend",
+                        "completed": "daten gesendet",
+                        "canceled": "abgesagt"
+                    }
+                },
+                "planningModal" : {
+                    "title": "Datenübertragung planen",
+                    "info": "Planen Sie das Datenübertragungsintervall an e-Transport. Sie können die Datenübertragung jederzeit stoppen oder bearbeiten, solange der UIT-Code nicht abgelaufen ist!",
+                    "attention": "Attention! Transmission of GPS data to e-Transport will be done only on the territory of Romania!",
+                    "infoStop": "Es stoppt die Datenübertragung an e-Transport. Sie können die Datenübertragung erneut planen, solange der UIT-Code nicht abgelaufen ist.",
+                    "infoCancel": "Ändern oder stornieren Sie die Planung des Datenübertragungsintervalls für e-Transport. Solange der UIT-Code nicht abgelaufen ist oder die Datenübertragung nicht gestartet wurde, können Sie die Datenübertragung stoppen oder erneut bearbeiten!",
+                    "vehicle": "Fahrzeug-Registriernummer",
+                    "trail": "Anhängerin",
+                    "startTransmitting": "GPS-Datenübertragung starten",
+                    "stopTransmitting": "GPS-Datenübertragung stoppen",
+                    "hour": "Stunde",
+                    "schedule": "Zeitplan",
+                    "editSchedule": "Planung bearbeiten",
+                    "cancelSchedule": "Planung abbrechen",
+                    "stopSchedule": "Übertragung stoppen",
+                    "stopScheduleSucces": "Das Stoppen der GPS-Übertragung wurde erfolgreich abgeschlossen",
+                    "stopScheduleError": "Das Stoppen der GPS-Übertragung konnte nicht durchgeführt werden. Bitte versuchen Sie es erneut."
+                },
+                "transmissionMap": {
+                    "loadingMapError": "Beim Laden der Karte ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Support.",
+                    "loadingPositionsError": "Beim Laden der Positionen ist ein Fehler aufgetreten. Bitte wenden Sie sich an den Support.",
+                    "startDate": "Startdatum",
+                    "endDate": "Endtermin",
+                    "uitCode": "UIT Code"
+                },
+                "planning": {
+                    "errorHours": "Die Planung darf nicht länger als 12 Stunden zurückliegen.",
+                    "errorExisting": "Für den ausgewählten Zeitraum existiert bereits eine Planung für dieses UIT.",
+                    "errorStopTrasmissionError": "Das Übertragungsstoppdatum liegt in der Vergangenheit oder vor dem Übertragungsstartdatum.",
+                    "successSave": "Die Planung wurde erfolgreich gespeichert.",
+                    "errorSave": "Der Zeitplan konnte nicht gespeichert werden! Bitte versuchen Sie es erneut!",
+                    "successCancel": "Die Planung wurde erfolgreich abgebrochen.",
+                    "errorCancel": "Der Termin konnte nicht storniert werden! Bitte versuchen Sie es erneut!",
+                    "errorNotBeRemoved": "UIT Scheduler kann nicht entfernt werden!",
+                    "selectDevice": "Please select vehicle!",
+                    "historyModal": {
+                        "title": "Zeitplanverlauf",
+                        "dateTime": "Terminzeit",
+                        "vehicle": "Fahrzeug",
+                        "tow1": "Abschleppen 1",
+                        "tow2": "Abschleppen 2",
+                        "transmissionStart": "Übertragung starten",
+                        "transmissionStop": "Übertragung stoppen",
+                        "username": "Nutzername",
+                        "status": "Status",
+                        "loadingHistoryError": "Beim Laden des Verlaufs ist ein Fehler aufgetreten. Wenden Sie sich bitte an den Support."
+                    }
+                }
+            },
+            "sendGpsDataTransmissionLog": {
+                "title": "GPS POSITION HISTORY",
+                "close": "Close",
+                "subTitle": "GPS Data transmission history"
+            },
+            "sendGpsData": {
+                "sendGpsDataTransmissionTitle": "PLANIFY GPS DATA TRANSMISSION",
+                "startGpsDataTransmission": "Start gps data transmission",
+                "stopGpsDataTransmission": "Stop GPS data transmission",
+                "hour": "Hour",
+                "planify": "SAVE",
+                "error": "The date from the start transmitting input cannot be after or equal with the date in the stop transmitting input! The start date cannot be in the past!",
+                "pastError": "The selected date cannot be in the past!",
+                "success1": "Scheduling GPS data transmission for the vehicle: ",
+                "success2": " was successfully completed!",
+                "text": "Plan the data transmission interval to e-Transport. You will be able to stop the data transmission at any time and reschedule as long as the UIT code is not expired!"
+            },
+            "uitVehicleHistory": {
+                "title": "Vehicle history",
+                "removeModalTitle": "Delete scheduler",
+                "removeModalConfirmationMessage": "Are you sure you want to remove the selected scheduler?",
+                "close": "close",
+                "back": "back",
+                "remove": "Remove",
+                "dataTable": {
+                    "vehicleName": "Vehicle",
+                    "vehicleTow1": "Vehicle tow 1",
+                    "vehicleTow2": "Vehicle tow 2",
+                    "periodBegin": "Date planned",
+                    "createdAt": "Created at",
+                    "remove": "Delete",
+                    "username": "User"
+                }
+            },
+            "stopGpsTransmission": {
+                "stopGpsTransmissionTitle": "STOP TRANSMITTING GPS DATA",
+                "stopGpsTransmissionTitleText": "Choose 'Stop GPS data transmission' to temporarily stop the transmission of GPS data for this UIT code. Later, you will be able to resume the transmission of the vehicle's GPS data, provided that this UIT code is active",
+                "success1": "Stopping the GPS data transmission for the vehicle: ",
+                "success2": " was successfully completed!"
+            },
+            "changeVehicle": {
+                "changeVehiceTitle": "CHANGE VEHICLE",
+                "newCurrentVehicle": "New current vehicle",
+                "tractorHeadLabel": "Tractor head registration plate",
+                "trailer1Label": "Trailer 1",
+                "trailer2Label": "Trailer 2",
+                "scheduleDateLabel": "Vehicle change planning date",
+                "hourLabel": "Hour",
+                "vehicleHistory": "VEHICLE HISTORY",
+                "error": "The selected date cannot be in the past!",
+                "vehicleErorr": "Please select a vehicle!",
+                "success": "Vehicle modified succesfully!",
+                "errorOnChange": "There was an error modifying the vehicle, please try again!"
+            }
+        },
+        "addUit": {
+            "uitLabel": "UIT",
+            "uitPlaceholder": "UIT Code",
+            "initialVehicleLabel": "Initial vehicle",
+            "initialVehiclePlaceholder": "Vehicle registration plate",
+            "success": "The UIT code was added succesfully!",
+            "error": "There was an error adding the UIT code, please try again!",
+            "uitLengthError": "Der eingegebene UIT-Code entspricht nicht dem 16-stelligen Format. Bitte geben Sie den korrekten Code ein!",
+            "etransportAddUITCodeNotAcceptable": "Der UIT-Code ist ungültig. Stellen Sie sicher, dass er genau 16 Zeichen lang ist und nicht die Buchstaben O, I, Z, S, G oder B enthält."
+        }
+    }
+}

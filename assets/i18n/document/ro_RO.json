@@ -1,0 +1,46 @@
+{
+    "Documents": {
+        "drivers": "Șoferi",
+        "vehicles": "Vehicule",
+        "personal": "Documente Personale",
+        "category": "Categorii",
+        "system": "Documente de Sistem",
+        "add": "Adauga",
+        "adddocument": "Adauga Document",
+        "addcategory": "Adauga Categorie",
+        "editdocument": "Modifica Document",
+        "chooseaction": "Alege Actiune",
+        "confirmdelete": "Doriti sa stergeti documentul?",
+        "confirmdeletecat": "Doriti sa stergeti categoria?",
+        "deletedoc": "Stergere Documente",
+        "deletecat": "Stergere Categorie",
+        "deletedocmessage": "Continuati stergerea?",
+        "documentname": "Numele documentului",
+        "categoryname": "Numele Categoriei",
+        "documenttitle": "Titlul documentului",
+        "documents": "Documente",
+        "downloaddoc": "Download documente",
+        "downloaddocmessage": "Continuati download-ul?",
+        "nodocuments": "Momentan nu aveti nici un document in aceasta sectiune.",
+        "searchdocument": "Cauta document",
+        "tablehead": {
+            "category": "Categorie",
+            "filename": "Nume Fisier",
+            "title": "Titlu",
+            "validfrom": "Valid de la",
+            "validuntil": "Valid pana la",
+            "action": "Actiuni"
+        },
+        "totaldocuments": "Total documente:",
+        "totalselected": "Total documente selectate:",
+        "uploadfile": "Uploadeaza fisierul",
+        "deletecathasdocumentsnotheader": "Stergere Categorie!",
+        "deletecathasdocumentserrormessage": "Categoria nu poate fi stearsa. Asigurativa ca aceasta nu contine documente!",
+        "forms" : {
+            "documentFor" : "Document pentru",
+            "documentCategory" : "Categorie",
+            "noRightsToActionTitle" : "Actiune esuata",
+            "noRightsToActionMessage" : "Aceasta actiune nu se poate efectua cu success."
+        }
+    }
+}

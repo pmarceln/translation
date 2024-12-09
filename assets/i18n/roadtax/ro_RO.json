@@ -1,0 +1,328 @@
+{
+    "Roadtax": {
+        "hungary": "Ungaria",
+        "bulgaria": "Bulgaria",
+        "poland": "Polonia",
+        "quickSearch": "Cautare ...",
+        "premiumServicesOny": "Disponibil doar pentru serviciile premium.",
+        "contactSupport": "Va rugam sa contactați echipa de suport!",
+        "balancebg": {
+            "label": "sold cont bulgaria",
+            "pending": "in asteptare"
+        },
+        "balancehu": {
+            "label": "sold cont HU-GO",
+            "pending": "in asteptare"
+        },
+        "preparePayment": {
+            "paymentMethod": {
+                "title": "Va rugam sa alegeti metoda de plata",
+                "paymentInformation": "Informatii de plata",
+                "chooseBank": "Va rugam sa alegeti banca emitenta a cardului",
+                "transilvaniaBank": "Banca Transilvania",
+                "anotherBank": "Alta banca"
+            },
+            "selectCurrency": "selecteaza moneda",
+            "paymentData": "incarcare cont",
+            "insertAmount": "Vă rugăm să introduceți suma cu care doriți să vă încărcați contul",
+            "accountLoadedWith": "Contul va fi încărcat cu:",
+            "serviceFee": "Comision serviciu (TVA inclus)",
+            "totalInvoice": "Total factura",
+            "cardTransfer": "Plata cu Card",
+            "bankTransfer": "Transfer Bancar",
+            "selectCategory": "Selecteaza tipul autovehiculului",
+            "selectVehicleDetails": "Selecteaza detaliile autovehiculului",
+            "selectValidityPeriod": "Selecteaza perioada de valabilitate",
+            "vehicleDetails": "Detaliile vehiculului",
+            "vehiclePlateNumber": "Numarul de inmatriculare",
+            "vinNumber": "Seria de sasiu",
+            "vehicleCountry": "Tara masinii",
+            "carType": "Tipul vehiculului",
+            "price": "Pret",
+            "pay": "Plateste",
+            "allFieldsMandatory": "Toate campurile sunt obligatorii.",
+            "info": "Info",
+            "selectPamynet": "alege metoda de plata",
+            "card": "Plata card",
+            "bank": "Transfer bancar",
+            "cash": "Cash",
+            "account": "Contul",
+            "willBeLoaded": "va fi încărcat cu:",
+            "accountMissing": "Pentru prima încărcare a contului de HUGO este necesară configurarea acestuia. Un reprezentat CargoTrack vă va contacta după finalizarea configurărilor (timpul mediu de așteptare 30 de min)!",
+            "accountSetupRequired": "Necesita configurare cont!",
+            "recurencyExpire": "Data expirare reincarcare automata",
+            "isRecurent": "Activeaza reincarcarea automata",
+            "referenceAmount": "Valoare reincarcare",
+            "referenceCurrency": "Moneda reincarcare",
+            "invoiceCurrency": "Moneda facturarii",
+            "minimumAccountBalance": "Sold minim al contului",
+            "tresholdMessageWarning": "Soldul minim al contului trebuie sa fie mai mare sau egal cu:",
+            "recurencyActivateUntil": "Reincarcarea automata este activa pana la data de:",
+            "referenceAmountMessageWarning": "Valoarea minima pentru reincarcare trebuie sa fie mai mare sau egala decat:",
+            "cardCommission": "Plata cu cardul implică un comision suplimentar de {{value}}% pentru acoperirea comisioanelor bancare, conform contractului.",
+            "balanceCommission": "Având în vedere că soldul contului este negativ și CargoTrack a acoperit plata taxelor de drum pentru a evita o amendă, pentru această tranzacție se aplică un comision suplimentar de {{value}}% conform contractului."
+        },
+        "confirmOrder": {
+            "title": "Confirm info",
+            "transactionDate": "Data tranzactiei",
+            "transactionHour": "Ora tranzactiei",
+            "registrationNumber": "Nr. auto / Registration number",
+            "vin": "Serie sasiue / V.I.N",
+            "country": "Tara / Country",
+            "category": "Categoria / category",
+            "priceEuro": "Tarfi (EUR)",
+            "availability": "Valabilitate / valability",
+            "exchangeRate": "Curs (eur/ron)",
+            "exchangeDate": "Data curs / currency date",
+            "priceRon": "Tarif (ron)",
+            "from": "de la / from",
+            "to": "pana la / to",
+            "trasactionId": "Serie tranzactie/transaction id",
+            "hasAgreed": "Vă rugăm să verificați toate datele rovinietei.\n Prin continuarea acestei operațiuni confirmați că toate datele sunt corecte!",
+            "checkboxError": "Nu putem procesa plata daca informatiile nu sunt confirmate"
+        },
+        "notificationPreferences": {
+            "notification": "notificări",
+            "howNotification": "cum dorești să fii notificat?",
+            "sms": "SMS",
+            "email": "Email",
+            "whenNotification": "când dorești să fii notificat?",
+            "beforeExpire": "Înainte de expirare cu",
+            "whenExpire": "In ziua expirării",
+            "days": "zile",
+            "day": "zi"
+        },
+        "payment": {
+            "label": "Plata",
+            "exitconfirm_text": "Plata a fost initializata. Daca confirmat inchideti fereastra, puteti incerca dinnou peste 5 minute.",
+            "exitconfirm": "Doriti sa iesiti?",
+            "invoiceSentByEmail": "Va multumim, factura proforma a fost trimisa pe e-mail pentru plata."
+        },
+        "processMessage": {
+            "exchangeRate": "Rata de schimb diferă de la inițializarea plății, noile date au fost actualizate!"
+        },
+        "recharge": "Reincarca",
+        "byManualRoute": "cumpara ruta manual",
+        "minimumAccountBalance": "Sold minim recomandat",
+        "minimumAccountBalanceText": "Suma minima recomandata sa o aveti in cont pentru a preveni amenda pe motiv de sold insuficient!",
+        "lowBalanceThreshold": "Notificare sold scazut",
+        "defaultRechargeAmount": "Suma generare proforma",
+        "balanceNotification": {
+            "title": "Gestionare notificari sold"
+        },
+        "HU": "Ungaria",
+        "BG": "Bulgaria",
+        "PL": "Polonia",
+        "overview": {
+            "label": "Prezentare generală",
+            "filters": "Filtre",
+            "deviceList": "Lista Vehicule",
+            "deviceNotTransmiting": "Vehiculul Nu Transmite",
+            "huRegisterNewVehicle": "Inregistreaza vehicul la HU-GO",
+            "huCalculateRoute": "Calculeaza Ruta",
+            "huRegisterNewVehicleMessage": "Pentru a inregistra un vehicul nou la HU-GO este nevoie de completarea unui formular pe care il veti primi prin email la adresa {{ email }}. Dupa ce completati acest formular va rugam sa il trimiteti prin email la adresa hu-go@cargotrack.ro.",
+            "huSafetyQuestion": "Doriti sa inregistrati un vehicul nou la HU-GO?",
+            "huConfirmedRegistration": "Formularul pe care trebuie să îl completați a fost trimis.",
+            "huConfirmedTitle": "Confirmare",
+            "roNotRegisterVehicle": "Vehicule neinregistrate",
+            "filtersList": {
+                "all": "Toate",
+                "active": "Active",
+                "suspended": "Suspendate",
+                "unknown": "Stare necunoscuta"
+            },
+            "dataTable": {
+                "name": "Vehicul",
+                "cargobox_status": "Stare",
+                "status": {
+                    "0": "NEINREGISTRAT",
+                    "1": "ACTIV",
+                    "2": "SUSPENDAT",
+                    "3": "NEATSAT",
+                    "4": "SUSPENDAT AUTOMAT",
+                    "undefined": "NECUNOSCUT"
+                },
+                "gross_weight": "Greutate brută",
+                "last_transmission": "Ultima transmisie",
+                "device_obuid": "OBU ID",
+                "roadtax_pl_pogo_id": "POGO ID",
+                "roadtax_pl_pogo_pin": "POGO PIN",
+                "device_axle_number": "Categorie",
+                "eurocode": "Norma de poluare",
+                "device_country": "Tara",
+                "last_entry_date": "Ultima intrare",
+                "last_exit_date": "Ultima iesire",
+                "is_last_transmission_older": "Dispozitivul nu transmite date catre serverele CargoTrack. Va rugam sa va asigurati ca vehiculul nu va intra in {{ country }} pana cand echipamentul nu transmite date corect. Va rugam sa contactati echipa de suport CargoTrack pentru remedierea situatiei!",
+                "roadtax_bg_main_category": "Categorie Principala",
+                "roadtax_bg_weight_category": "Categoria de Greutate",
+                "tractor_axles": "Axe Cap Tractor",
+                "trailer_axles": "Axe Remorca",
+                "vehiclesAbove3.5": "Autovehicule Transport Marfa - mai mult de 3.5t",
+                "largeVehicleMoreThen9Passenger": " Autovehicule Transport Persoane - mai mult de 9 persoane",
+                "weightBetween3.5And12": "Greutate in 3.5 si 12",
+                "weightMoreThen12": "Greutate > 12",
+                "informations": "Informatii",
+                "responsible_phone": "Telefon",
+                "responsible_phone_number": "Numar de telefon responsibil",
+                "axNumber": "Axe",
+                "suspendedSinceInfo": "Vehicul suspendat din data de {{ date }}",
+                "suspendedReason": "din cauza {{ reason }}",
+                "suspendedInsuficientFounds": "fondurilor insuficiente",
+                "suspendedNotTransmiting": "netransmiterii datelor",
+                "type": "Tip serviciu",
+                "roadtax_availability": "Valabilitatea rovinietei",
+                "vehicle_category": "Categoria autovehiculului",
+                "actions": "Acțiuni",
+                "generalNote": "Nota generala",
+                "monitorizatedDeviceType": "Vehicul echipat cu dispozitiv de monitorizare GPS",
+                "notMonitorizatedDeviceType": "Vehicul fara dispozitiv de monitorizare GPS",
+                "downloadTooltip": "Rovinieta nu e valabila deoarece nu a fost cumparata prin portalul Cargotrack",
+                "serviceName": "Durata",
+                "days": " zile",
+                "months": " luni",
+                "jdb": "Categorie axe",
+                "responsible_hu_phone": "Responsabil telefon",
+                "unladen_weight": "Masa proprie",
+                "laden_weight": "Masa totala maxima autorizata",
+                "low_balance_threshold": "Notificare sold scazut",
+                "default_recharge_amount": "Suma generare proforma"
+            },
+            "eurocodevalue": {
+                "E1": "Euro 1",
+                "E2": "Euro 2",
+                "E3": "Euro 3",
+                "E4": "Euro 4",
+                "E5": "Euro 5",
+                "E56": "Euro 5/6 EEV",
+                "E6": "Euro 6",
+                "null": "N/A"
+            },
+            "roadtaxstatus": {
+                "notRegistered": "Not Registered",
+                "active": "Activ",
+                "suspended": "Suspended",
+                "notLinked": "Not linked",
+                "unknown": "Necunoscut",
+                "expiresIn": "Expiră in {{ days }} zile",
+                "expired": "Expirat",
+                "today": "Expira azi",
+                "valid": "Valabil"
+            },
+            "editAxels": "Schimbare axe cap tractor sau axe remorca",
+            "editSuccess": "Datele au fost salvate cu succes!",
+            "jdbEditSuccess": "Solicitarea a fost inregistrata. Va rugam sa verificati in decurs de 15 minute daca schimbarea numarului de axe s-a produs cu succes.",
+            "jdbEditError": "Solicitarea pentru schimbarea numărului de axe a eșuat. Vă rugăm reîncercați!"
+        },
+        "log": {
+            "label": "Istoric",
+            "filters": "Filtre",
+            "historyData": "Date Istoric",
+            "selectVehicles": "Alege Vehicule",
+            "generateLog": "Genereaza",
+            "dataTable": {
+                "entry_date": "Intrare",
+                "exit_date": "Iesire",
+                "name": "Vehicul",
+                "time_spent_in": "Timp petrecut in {{ country }}",
+                "history": "Arata istoric",
+                "emptyLogMessage": "Selectați vehiculele și intervalul de timp pe care doriți să vedeți istoricul"
+            }
+        },
+        "invoice": {
+            "label": "Facturi"
+        },
+        "tolls": {
+            "label": "Taxe de trecere",
+            "dataTable": {
+                "date": "Data",
+                "amount": "Cantitate",
+                "device": "Vehicul",
+                "description": "Descriere",
+                "balance_before": "Sold la începutul perioadei",
+                "balance_after": "Sold la sfârșitul perioadei",
+                "emptyLogMessage": "Selectați intervalul de timp pe care doriți să vedeți istoricul"
+            }
+        },
+        "editHistory": {
+            "label": "Istoric editare",
+            "dataTable": {
+                "name": "Vehicul",
+                "field_name": "Numele campului",
+                "old_value": "Valoare veche",
+                "new_value": "Valoare noua",
+                "user": "Utilizator",
+                "created_at": "Schimbat la data"
+            }
+        },
+        "cargobox": {
+            "tabLabel": "carGObox",
+            "isSuspended": "Serviciile au fost suspendate din cauza unui sold negativ.",
+            "balance": {
+                "label" : "sold cont cargobox",
+                "pending": "in asteptare"
+            },
+            "invoice": {
+                "cargoTab": {
+                    "label": "CargoTrack"
+                },
+                "cargoboxTab": {
+                    "getInvoicesError": "Nu s-au putut aduce facturile!",
+                    "label": "Cargobox",
+                    "dataTable": {
+                        "date" : "Data",
+                        "invoiceNumber" : "Numar factura",
+                        "amount": "Valoare",
+                        "currency": "Moneda",
+                        "taxableDomain": "Domeniu taxabil"
+                    }
+                }
+            },
+            "transactions": {
+                "label": "Tranzactii",
+                "selectVehicles": "Alege Vehicule",
+                "generateLog": "Genereaza",
+                "export": "Exporta",
+                "dataTable": {
+                    "deviceLicencePlate": "Vehicul",
+                    "startOfUsage": "Inceput folosire",
+                    "processingDate": "Data procesare",
+                    "referenceCurrencyValue": "Valoare de referinta net",
+                    "referenceCurrencyTaxValue": "Valoare TVA de referinta net",
+                    "referenceCurencyGross": "Valoare TVA de referinta brut",
+                    "obuSerialNumber": "OBU ID",
+                    "serviceCountry": "Țara serviciului",
+                    "endOfUsage": "Sfârșitul utilizării",
+                    "routeDescription": "Descrierea traseului",
+                    "serviceType": "Tip serviciu",
+                    "processingTime": "Data procesare",
+                    "value": "Valoare",
+                    "taxValue": "TVA",
+                    "valueGross": "Valoare Bruta",
+                    "currency": "Moneda",
+                    "baseCurrencyExchangeRate": "Cursul de schimb valutar de bază",
+                    "baseCurrencyValue": "Valoarea monedei de bază",
+                    "baseCurrencyTaxValue": "Valoarea taxei valutare de bază",
+                    "baseCurrencyValueGross": "Valoarea monedei de bază brută",
+                    "RO": "RO",
+                    "referenceCurrencyValueGross": "Valoarea monedei de referință brută",
+                    "EUR": "EUR",
+                    "referenceCurrencyExchangerate": "Cursul de schimb valutar de referință",
+                    "info": "Informații",
+                    "estimation": "Estimare",
+                    "estimationInfo": "Acestea constituie doar estimări care nu au fost încă validate de autorități.",
+                    "serviceValue": "Valoare serviciu"
+                }
+            },
+            "restrictCharge": {
+                "note": "Deoarece la data întocmirii centralizatorului de plată soldul contului a fost negativ trebuie achitat soldul centralizatorului înainte de a face alte încărcări de cont!",
+                "infoInvoice": "Puteti vizualiza și descărca centralizatorul de plata in sectiunea de Facturi - CargoTrack a modulului carGObox!",
+                "infoPayment": "Plata centralizatoarelor de plată se poate face doar prin transfer bancar! Vă rugăm să transmiteți confirmarea plății pe email pentru procesarea cu prioritate a plății!" 
+            }
+        },
+        "hu": {
+            "restrictCharge": {
+                "infoInvoice": "Puteti vizualiza și descărca centralizatorul de plata în secțiunea de Facturi a modulului de plată a taxelor de drum pe Ungaria!"
+            }
+        }
+    }
+}

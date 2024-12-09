@@ -1,0 +1,36 @@
+{
+    "Notification": {
+        "quickSearch": "Cautare Rapida ...",
+        "filters": "Filtre",
+        "notificationList": "Lista Notificari",
+        "notificationType": {
+            "allNotifications": "Toate notificarile",
+            "Financial": "Notificari financiare",
+            "System": "Notificari de sistem",
+            "Events": "Notificari evenimente",
+            "Reports": "Notificari rapoarte",
+            "Marketing": "Notificari marketing"
+        },
+        "dataTable": {
+            "created_at": "Data crearii",
+            "date_read": "Data citirii",
+            "priority": "Prioritate",
+            "user_notification_type": "Categorie",
+            "summary": "Sumar",
+            "info": "Info",
+            "actions": {
+                "markAsRead": "marcheaza citit",
+                "markAsUnread": "marcheaza necitit",
+                "confirmDeleteAction": "Doriti sa stergeti notificarile?",
+                "confirmMarkAsReadAction": "Doriti sa marcati ca citite notificarile?",
+                "confirmMarkAsUnreadAction": "Doriti sa marcati ca necitite notificarile?"
+            }
+        },
+        "priority": {
+            "1": "mica",
+            "2": "medie",
+            "3": "mare",
+            "4": "urgenta"
+        }
+    }
+}

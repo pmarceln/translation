@@ -1,0 +1,52 @@
+{
+    "ShareLink": {
+        "newsharelink": "Creeaza partajare locatie vehicul",
+        "selectVehicles": "Vehicule vizate ",
+        "dateRange": "Perioada activa",
+        "comments": "Notite",
+        "generatedsharelist": "Lista de partajari locatii vehicule",
+        "created": "Generat",
+        "device_names": "Vehicule",
+        "valid_from": "Valid de la",
+        "valid_to": "Valabil pana la",
+        "sendShareLink": "Trimite link",
+        "sendSms": "Trimitere prin sms",
+        "smsnumber": "Numar telefon",
+        "smsname": "Nume",
+        "sendEmail": "Trimitere prin email",
+        "emailaddress": "Adresa email",
+        "emailname": "Nume",
+        "confirmRemoveAction": "Doriti sa dezactivati acest link?",
+        "confirmDeleteAction": "Doriti sa stergeti acest link?",
+        "save": "Genereaza partajare",
+        "emptydata": "Trebuie data macar o informatie de contact.",
+        "sent": "Succes",
+        "wassent": "Datele au fost trimise cu success.",
+        "failed": "Esuat",
+        "notsent": "Trimiterea datelor a esuat.",
+        "notSentToValidNumber": "Mesajul nu a ajuns la nici un destinatar. Va rugam sa verificati datele.",
+        "selectContacts": "Selecteaza contactele",
+        "selectButton": "Selecteaza",
+        "selectFromContacts": "Adauga contacte",
+        "addNewRow": "Adauga rand nou",
+        "quickSearch": "Cautare rapida"
+    },
+    "ShareLinkview": {
+        "viewlink": "Partajare locatie",
+        "valid_to": "Link de partajare valida pana la data de",
+        "valid_to_mobile": "Valid pana la",
+        "invalid_mobile": "Link invalid.",
+        "invalid": "Link de partajare invalida. Valabilitate sharelink: ",
+        "invalidToken": "Linkul de parajare a locatiei vehiculelor este invalid!",
+        "expiredOn": "Partajarea locatiei vehiculelor a expirat in {{ date }}",
+        "willBeAvailable": "Partajarea locatiei vehiculelor va fi valabila din {{ date }}"
+    },
+    "infobox": {
+        "date": "Data",
+        "speed": "Viteza",
+        "fuellevel": "Fuel level",
+        "gpscoordonates": "Coordinate GPS",
+        "mileage": "km",
+        "address": "Locatia"
+    }
+}

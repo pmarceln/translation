@@ -1,0 +1,274 @@
+{
+    "Map": {
+        "vehicles": {
+            "unallocated": "Unallocated driver",
+            "badDeviceMessage" : "Selected device is currently unavailable. Please contact our support team.",
+            "vehicle" : "Vehicle",
+            "vehicles" : "Vehicles",
+            "group" : "Group",
+            "groups" : "Groups",
+            "allGroups" : "All Groups",
+            "selectGroups" : "Select Groups",
+            "ungrouped": "Ungrouped"
+        },
+        "vehicleInfo": {
+            "info": "Info",
+            "history": "History",
+            "cmd": "Commands",
+            "summary": "Summary",
+            "details": "Details",
+            "address": "Address",
+            "gpscoordonates": "GPS Coordonates",
+            "mileage": "Mileage",
+            "speed": "Speed",
+            "datetime": "Last Update",
+            "fuellevel": "Fuel Level",
+            "options": "Options",
+            "followup": "Follow up",
+            "followupDetailed": "Keep the current view focused on the vehicle position.",
+            "showtrace": "Show Trace",
+            "showtraceDetailed": "Highlight the vehicle route for a predefined interval.",
+            "showothers": "Show Others",
+            "showothersDetailed": "Display all my vehicles on the map.",
+            "liter": "Liter",
+            "activityduration": "Activity Duration",
+            "driver": "Driver",
+            "unknown": "Unknown",
+            "vehicleState": "Unknown State for",
+            "vehicleState-1": "Moves with engine off for",
+            "vehicleState0": "Stopped for",
+            "vehicleState1": "Stopped with engine on for",
+            "vehicleState2": "Moving for",
+            "moreThanADay": "more than a day",
+            "vehicleAlert": "Driver Alert",
+            "vehicleBlock": "Lock Vehicle",
+            "vehicleCamera": "Vehicle Camera",
+            "positionsTransmition": "Send vehicle info",
+            "notes": "Notes",
+            "fuelConsumption": {
+                "fromDateConsumption": "The average consumption from {{ datetime }} until today",
+                "editConsumptionDate": "Modify the date from which the consumption is calculated",
+                "date": "Date",
+                "noPositionError": "No positions found!",
+                "serverError": "Server error, please try again!"
+            },
+            "door_status": {
+                "0": "Open",
+                "1": "Closed",
+                "nosenzor": "No sensor"
+            }
+        },
+        "vehicleHistory": {
+            "generatehistory": "Generate History",
+            "changeperiod": "Change Period",
+            "exportPdf": "PDF Report",
+            "noHistoryFound": "No history data found",
+            "exportXls": "Excel Report",
+            "exportXlsExceededPeriod": "Exceeded period, the export interval is maximum 7 days.",
+            "detailedPdf": "Detailed Raport",
+            "withDuration": "Time Duration",
+            "roadMap": "Roadmap",
+            "activityoverview": "Activity Overview",
+            "activitydetails": "Activity Details",
+            "distance": "Distance",
+            "distanceCan": "Distance CAN",
+            "distanceGps": "Distance GPS",
+            "drivingtime": "Driving Time",
+            "stopped": "Stopped",
+            "stationed": "Stationed",
+            "averageSpeed": "Average speed",
+            "fuelConsumtion": "Consumption",
+            "validstop": "Stops below will not be displayed (in minutes)",
+            "dateRange": "Date Range",
+            "stopsUnder": "Stops under",
+            "minutesAreHidden": " minutes are hidden!",
+            "date": "Date",
+            "showDetails": "Show Details",
+            "warning": "Warning!",
+            "tooManyStops": "The selected period contains a very large number of stops. In order to be able to see the addresses, please select a shorter period of time!",
+            "noPositionsReturned": "No informations for selected period!",
+            "cancelGenerateHistory": "Stop loading history",
+            "integratedStops": "On this road section you have {{ stops }} stops shorter than {{ time }} min",
+            "periodTooLongError": "Maximum history generation time is 366 days",
+            "vehicleHistoryResponseError": "An error occurred, please contact the technical department",
+            "details": {
+                "on": "On",
+                "off": "Off",
+                "idling": "Idling",
+                "movingEngineOff": "Moving With Engine Off",
+                "unknown": "Unknown"
+            },
+            "chooseParams": "Table option",
+            "availableColumns": "Available columns",
+            "selectedColumns": "Choosen columns",
+            "showChart": {
+                "name": "Show Chart",
+                "info": "Graphically displays any of the parameters available for the vehicle"
+            },
+            "showGeofence": {
+                "name": "Show Geozone",
+                "info": "Displays on the map the geozones through which the vehicle passed"
+            },
+            "chart": {
+                "speed": "Speed",
+                "fuelLevel": "Fuel Level",
+                "ignition": "Ignition",
+                "moveMapCenter": "Center the vehicle on the map",
+                "parametersList": "Parameters List"
+            },
+            "highlightedSegment": {
+                "title": "Options",
+                "attribute": "Attribute",
+                "status": {
+                    "label": "Status",
+                    "equal": "Equal with",
+                    "different": "Different from",
+                    "smaller": "Smaller than",
+                    "bigger": "Bigger than",
+                    "lessorequal": "Less or equal",
+                    "greaterorequal": "Greater or equal"
+                },
+                "value": "Value",
+                "color": {
+                    "label": "Color",
+                    "red": "Red",
+                    "blue": "Blue",
+                    "green": "Green",
+                    "orange": "Orange",
+                    "yellow": "Yellow",
+                    "black": "Black",
+                    "gray": "Gray",
+                    "brown": "Brown",
+                    "cyan": "Cyan",
+                    "purple": "Purple",
+                    "white": "White"
+                }
+            },
+            "export" : {
+                "date": "Date",
+                "travelReport": "Trip Report",
+                "period": "Period",
+                "generated": "The report was generated",
+                "driver": "Driver",
+                "summaryReport": "Summary Report",
+                "vehicle": "Vehicle",
+                "startingActivity": "Starting Activity Date",
+                "endingActivity": "Ending Activity Date",
+                "activityStartLocation": "Activity start location",
+                "activityEndLocation": "Activity end location",
+                "traveledDistance": "Traveled distance",
+                "daySummary": "Summary of the day",
+                "tripDetails": "Trip details",
+                "activityTotalDuration": "Total duration of activity",
+                "excelName": "Trip_Report"
+            },
+            "invalidDateTimeInterval": "Invalid date interval. Start Datetime is after End Datetime!"
+        },
+        "vehicleRoute": {
+            "label" : "Route",
+            "confirmDeleteAction": "Do you really want to delete the route?",
+            "noHistoryFound": "No history found!",
+            "emptyRouteListMessage": "Currently you have no routes saved",
+            "newRoute": "New route"
+        },
+        "vehicleCmd": {
+            "eventEmail": "Email",
+            "eventSms": "Sms",
+            "eventCoordinates": "Coordinates",
+            "eventAddress": "Location Address",
+            "eventVehicleState": "Vehicle State",
+            "eventSpeed": "Speed",
+            "active": "Activate",
+            "activateMessage": "For changing email/sms please deactivate the job!",
+            "inactive": "inactivate",
+            "eventFrequency": "Frequency",
+            "sharedInformations": "Sent Informations",
+            "vehicleAlertTime": "Time in seconds",
+            "vehicleAlertStart": "Turn ON",
+            "vehicleAlertStop": "Turn OFF",
+            "vehicleImobilizerStart": "Lock",
+            "vehicleImobilizerStop": "Unlock",
+            "wrongMail": "Email is invalid",
+            "wrongPhone": "Phone number is invalid",
+            "commandState": {
+                "state": "State",
+                "-1": "Waiting",
+                "0": "OFF",
+                "1": "ON"
+            },
+            "imobilizerCmmandState": {
+                "state": "Status",
+                "-1": "Waiting",
+                "0": "Unlocked",
+                "1": "Locked"
+            },
+            "immobiliser": {
+                "on": "Locked",
+                "off": "Unlocked",
+                "0": "Unsuccessful",
+                "1": "Successful",
+                "null": "Waiting"
+            },
+            "buzzer": {
+                "on": "ON",
+                "off": "OFF",
+                "0": "Unsuccessful",
+                "1": "Successful",
+                "null": "Waiting"
+            },
+            "frequency": {
+                "15": "15 minutes",
+                "30": "30 minutes",
+                "60": "1h",
+                "120": "2h",
+                "180": "3h",
+                "360": "6h",
+                "720": "12h",
+                "1440": "24h"
+            }
+        },
+        "vehicleListFilter": {
+            "name": "Plate number",
+            "locationAddress": "Location Address",
+            "driverName": "Driver Name",
+            "countryFlag": "Country Flag",
+            "gpsCoordinates": "Gps Coordinates",
+            "speed": "Speed",
+            "directionIcon": "State Icon",
+            "datetime": "Last Update",
+            "vehicleParameters": "Vehicle Parameter"
+        },
+        "refueling": {
+            "title" : "Refuelings",
+            "totalRefueling": "Total Refuelings",
+            "totalLeaks": "Total Leakage",
+            "hideRefuelingsSmallerThan": "Hide Refuelings smaller than",
+            "hideLeaksSmallerThan": "Hide Leaks smaller than",
+            "address": "Address",
+            "refBeginDate": "Refueling Begin Date",
+            "refEndDate": "Refueling End Date",
+            "leakBeginDate": "Leak Begin Date",
+            "leakEndDate": "Leak End Date",
+            "initialQuantity": "Initial Quantity",
+            "finalQuantity": "Final Quantity",
+            "refueledQuantity": "Refueled Quantity",
+            "leakedQuantity": "Leaked Quantity",
+            "chart": {
+                "name": "Show chart",
+                "info": "Graphically displays Refuelings available for the vehicle"
+            }
+        },
+        "selectParameters": "Select parameters to show",
+        "pageTitle": {
+            "empty" : "LiveMap",
+            "vehicleDetail" : " - LiveMap",
+            "vehicleHistory": " - History",
+            "vehicleCommands": " - Commands"
+        },
+        "mapcontrols": {
+            "traffic": "Show google traffic",
+            "fittobounds": "Fit to bounds",
+            "hugo": "Show HU-GO topup stations"
+        }
+    }
+}

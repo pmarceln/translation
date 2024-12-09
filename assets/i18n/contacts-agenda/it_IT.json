@@ -1,0 +1,40 @@
+{
+    "ContactsAgenda": {
+        "quickSearch": "Quick search",
+        "contacts": {
+            "label": "Contacts",
+            "newContact": "New contact",
+            "confirmDeleteAction": "Do you really want to delete the contact?",
+            "dataTable": {
+                "name": "Name",
+                "phone1": "Phone 1",
+                "phone2": "Phone 2",
+                "phone3": "Phone 3",
+                "email1": "Email 1",
+                "email2": "Email 2",
+                "email3": "Email 3",
+                "description": "Description",
+                "actions": "actions",
+                "default": "Default"
+            }
+        },
+        "sendSms": {
+            "label": "Send sms",
+            "contactsList": "Contacts list",
+            "message": "Message"
+        },
+        "smsLog": {
+            "label": "SMS log",
+            "date": "Date",
+            "from": "From",
+            "toName": "To (Name)",
+            "toNumber": "To (Number)",
+            "message": "Message",
+            "missingContact": "You need to select at least 1 contact!",
+            "missingMessage": "The message body can not be empty!",
+            "messageSend": "The message was send",
+            "messageFailed": "Something went wrong, please try again!",
+            "customFailedMessage": "Failed to sent message {{ count }} contacts"
+        }
+    }
+}

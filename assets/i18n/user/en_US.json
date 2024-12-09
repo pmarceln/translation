@@ -1,0 +1,54 @@
+{
+    "User": {
+        "userListTab": {
+            "label": "User List",
+            "created": "Created",
+            "description": "Description",
+            "email": "Email",
+            "lastLogin": "Last Login",
+            "name": "Name",
+            "phone": "Phone",
+            "username": "Username",
+            "actions": "Actions",
+            "confirmDeleteAction": "Do you really want to delete User?",
+            "errorNotification": "Error occurred, please try again later!",
+            "userRightsErrorNotification": "Cannot get user rights, please try again later!"
+        },
+        "newUserTab": {
+            "label": "New User",
+            "generalInfo": {
+                "password": "Password",
+                "repeatPassword": "Repeat Password",
+                "errorNotification": "User cannot be saved!",
+                "userAllreadyUsed": "Username is allready in use!",
+                "emailAllreadyUsed": "Email address is allready in use!",
+                "invalidPassword": "Please choose another password!",
+                "invalidPhoneNumber": "The phone number must contain minimum 10 digits!",
+                "label": "Overview",
+                "account": "Account",
+                "userDetails": "User details"
+            },
+            "activity": {
+                "label": "Activity",
+                "loginDate": "Login date",
+                "ip": "IP",
+                "userAgent": "User agent"
+            },
+            "rights": {
+                "label": "Permissions",
+                "emptyRights": "Please add modules to the user!",
+                "userPermissions": "User Permissions"
+            },
+            "devices": {
+                "label": "Devices",
+                "ungrouped": "Ungrouped",
+                "userGroupDevicesErrorNotification": "An error occurred, please try again later. Is the error persists, please contact the support team!",
+                "removeSelected": "Remove selected",
+                "addSelected": "Add selected",
+                "userDevices": "User Devices",
+                "availableDevices": "Available Devices",
+                "emptyTable":"The user does not have devices"
+            }
+        }
+    }
+}

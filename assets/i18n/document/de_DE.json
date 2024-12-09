@@ -1,0 +1,47 @@
+{
+    "Documents": {
+        "drivers": "Fahrer",
+        "vehicles": "Fahrzeuge",
+        "personal": "Persönliche Dokumente",
+        "category": "Kategorien",
+        "system": "Systemdokumente",
+        "add": "hinzufügen",
+        "adddocument": "Dokument hinzufügen",
+        "addcategory": "Kategorie hinzufügen",
+        "editdocument": "Dokument ändern",
+        "chooseaction": "Aktion auswählen",
+        "confirmdelete": "Möchten Sie das Dokument löschen?",
+        "confirmdeletecat": "Möchten Sie die Kategorie löschen?",
+        "deletedoc": "Dokumente löschen",
+        "deletecat": "Kategorie löschen",
+        "deletedocmessage": "Löschen fortsetzen?",
+        "documentname": "Der Name des Dokuments",
+        "categoryname": "Kategoriename",
+        "documenttitle": "Titel des Dokuments",
+        "documents": "dokumenten",
+        "downloaddoc": "Dokumente herunterladen",
+        "downloaddocmessage": "Download fortsetzen?",
+        "nodocuments": "Sie haben derzeit keine Dokumente in diesem Bereich.",
+        "searchdocument": "Dokumente suchen",
+        "tablehead": {
+            "category": "Kategorie",
+            "filename": "Dateiname",
+            "title": "Titel",
+            "validfrom": "gültig ab",
+            "validuntil": "gültig bis",
+            "action": "Aktionen"
+        },
+        "totaldocuments": "Alle Documenten :",
+        "totalselected": "insgesamt Ausgewahlt :",
+        "uploadfile": " Datai Hochladen ",
+        "deletecathasdocumentsnotheader": "Kategorie Loeschen ",
+        "deletecathasdocumentserrormessage": "Kategorie kann nicht gelöscht werden. Stellen Sie sicher, dass es keine Dokumente enthält!",
+        "forms" : {
+            "documentFor" : "Document for",
+            "documentCategory" : "Kategorie",
+            "noRightsToActionTitle" : "Error",
+            "noRightsToActionMessage" : "This action couldn't be done."
+
+        }
+    }
+}

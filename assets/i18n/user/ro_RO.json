@@ -1,0 +1,54 @@
+{
+    "User": {
+        "userListTab": {
+            "label": "Lista Utilizatori",
+            "created": "Creat",
+            "description": "Descriere",
+            "email": "Email",
+            "lastLogin": "Ultima Accesare",
+            "name": "Nume",
+            "phone": "Telefon",
+            "username": "Utilizator",
+            "actions": "Actiuni",
+            "confirmDeleteAction": "Doriti sa stergeti utilizatorul?",
+            "errorNotification": "S-a produs o eroare, va rugam incercati mai tarziu!",
+            "userRightsErrorNotification": "Eroare in obtinerea drepturilor, va rugam incercati mai tarziu!"
+        },
+        "newUserTab": {
+            "label": "Utilizator Nou",
+            "generalInfo": {
+                "password": "Parola",
+                "repeatPassword": "Reintroduceti parola",
+                "errorNotification": "Utilizatorul nu a putut fi salvat!",
+                "userAllreadyUsed": "Utilizatorul este deja utilizat!",
+                "emailAllreadyUsed": "Adresa de email este deja utilizata!",
+                "invalidPassword": "Va rugam sa utilizati o alta parola!",
+                "invalidPhoneNumber": "Numarul de telefon trebuie sa contina minim 10 cifre!",
+                "label": "Prezentare generală",
+                "account": "Cont",
+                "userDetails": "Detalii utilizator"
+            },
+            "activity": {
+                "label": "Activitate",
+                "loginDate": "Data autentificare",
+                "ip": "IP",
+                "userAgent": "Agent utilizat"
+            },
+            "rights": {
+                "label": "Permisiuni",
+                "emptyRights": "Vă rugăm să adăugați module utilizatorului!",
+                "userPermissions": "Permisiuni Utilizator"
+            },
+            "devices": {
+                "label": "Vehicule",
+                "ungrouped": "Negrupate",
+                "userGroupDevicesErrorNotification": "S-a produs o eroare, va rugam sa reincercati mai tarziu! Daca problema persista va rugam sa contactati departamentul de suport tehnic!",
+                "removeSelected": "Elimina selectiile",
+                "addSelected": "Adauga selectiile",
+                "userDevices": "Vehiculele Utilizatorului",
+                "availableDevices": "Vehicule Disponibile",
+                "emptyTable":"Utilizatorul nu are masini"
+            }
+        }
+    }
+}

@@ -1,0 +1,572 @@
+{
+    "Reports": {
+        "reportsList": {
+            "label": "Reports List",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At",
+            "reportType": "Report Type",
+            "periodBegin": "Begin Date",
+            "periodEnd": "End Date",
+            "progress": "Progress",
+            "deviceName": "Vehicle",
+            "vehicles": "Vehicles",
+            "confirmDeleteAction": "Do you really want to delete report?",
+            "errorNotification": "Report could not be deleted!",
+            "reportSummaryElementsError": "Cannot retrieve Report Elements!",
+            "status": {
+                "label": "Status",
+                "0": "To Do",
+                "1": "In Progress",
+                "2": "Done",
+                "3": "Failed"
+            },
+            "exportDialog": {
+                "headerText": "Report Actions",
+                "contentDetail": "Export the following report:",
+                "exportXls": "export xls",
+                "exportPdf": "export pdf",
+                "exportJpg": "export jpg",
+                "exportCustomPdf": "export custom pdf",
+                "export": "export"
+            }
+        },
+        "addReport": {
+            "newReport": "New Report",
+            "selectVehicles": "Select Vehicles",
+            "reportType": "Report Type",
+            "generateReport": "Generate Report",
+            "intervalError": "The period should not exceed 1 year!",
+            "errorNotification": "Report cannot be generate!",
+            "deviceerrorNotification": "Report cannot be generate due to some vehicles missing configuration!",
+            "minStopDuration": "Minimum stationary state (in minutes)",
+            "withGeofence": "If the vehicle is stationary in a GeoZone, then the name will be displayed",
+            "timeFrequency": "Temperature time interval (in minutes)",
+            "selectedGeofence": "Geozones included",
+            "daylightfrom": "Day shift start time",
+            "daylightto": "Day shift end time",
+            "refuelMin": "Refuel min value accepted (L)",
+            "fuelLeakMin": "Fuel Leak min value accepted (L)",
+            "geozone": "Geozone",
+            "minStationaryTime": "Minimum stationary time",
+            "categories" : {
+                "distance-time": "Distance & Time",
+                "refuelings": "Refuels & Leaks",
+                "geozones": "Geozones",
+                "peripheral": "Peripheral"
+            }
+        },
+        "raportType": {
+            "vehicles" : "{{ nr }}_vehicles",
+            "chart": "Chart",
+            "country-activity": {
+                "label": "Country Activity Report",
+                "country": "Country",
+                "device": "Vehicle",
+                "dateBegin": "Date/Time Activity Begin",
+                "dateEnd": "Date/Time Activity End",
+                "addressBegin": "Begin Activity Location",
+                "addressEnd": "End Activity Location",
+                "distance": "Distance",
+                "duration": {
+                    "moving": "Driving Time",
+                    "idling": "Idling Activity",
+                    "stopped": "Stop Activity"
+                },
+                "avgSpeed": "Viteza Medie",
+                "history": "Route",
+                "totalTime": "Total Time",
+                "route": "Route",
+                "pdfFileHeadername" : "Country Activity Report"
+            },
+            "daily-activity": {
+                "label": "Daily Activity Report",
+                "device_name": "Vehicle",
+                "datetime_begin": "Date/Time Activity Begin",
+                "address_begin": "Begin Activity Location",
+                "datetime_end": "Date/Time Activity End",
+                "address_end": "End Activity Location",
+                "distance": "Distance",
+                "duration": {
+                    "moving": "Driving Time",
+                    "idling": "Idling Activity",
+                    "stopped": "Stop Activity"
+                },
+                "speed": {
+                    "avg": "Average Speed"
+                },
+                "history": "Route",
+                "summary": "Summary",
+                "details": "Detail",
+                "pdfFileHeadername": "Daily activity report"
+            },
+            "stops": {
+                "label": "Stopped Time Report",
+                "device_name": "Vehicle",
+                "position_begin": {
+                    "devicetime": "Date/time Stop Begin"
+                },
+                "addressBegin": "Adresa Incepere Activitate",
+                "periodEnd": "Data/Ora Terminare Activitate",
+                "addressEnd": "Adresa Terminare Activitate",
+                "address": "Stop Location",
+                "totalstopduration": "Total Stopped Duration",
+                "activity_duration": "Total Stopped Duration",
+                "item_count": "Total Stops",
+                "hidden_stops": "Stops Shorter Than {{ hiddenStops }} minutes",
+                "history": "Route",
+                "distance": "Distance to Next Stop",
+                "duration_next_stop": "Time to Next Stop",
+                "confirmCreateHistory": "Pentru a preveni blocarea browserului dumneavoastra am redus intervalul maxim de generare al istoricului la 31 de zile. Continuati?",
+                "duration" : {
+                    "idling": "Idling Activity",
+                    "moving": "Driving Time",
+                    "stopped": "Stop Activity"
+                },
+                "pdfFileHeaderName" : "Stopped Time Report",
+                "minstopduration": "Minimal stop duration",
+                "subheaderstop": "Details of idling and stopped stops",
+                "subheadernext": "Details of Distance to Next Stop",
+                "minutes": "minutes",
+                "buc": "stops",
+                "showgeofence": "Geofence highlighted in report"
+            },
+            "itinerary": {
+                "summary": "Summary",
+                "details": "Details",
+                "label": "Roadmap Report",
+                "device_name": "Vehicle",
+                "distance": "Distance",
+                "duration": {
+                    "idling": "Idling Activity",
+                    "moving": "Driving Time",
+                    "stopped": "Stop Activity"
+                },
+                "speed": {
+                    "avg": "Average Speed",
+                    "max": "Maximum Speed"
+                },
+                "history": "Route",
+                "address_begin":{
+                    "address_formatted": "Begin Activity Location"
+                },
+                "address_end": {
+                    "address_formatted": "End Activity Location"
+                },
+                "position_begin": {
+                    "devicetime": "Date/Time Activity Begin"
+                },
+                "position_end": {
+                    "devicetime": "Date/Time Activity End"
+                },
+                "pdfFileHeadername" : "Itinerary"
+            },
+            "thermodiagram": {
+                "detailedEvolution": "Temperature evolution",
+                "label": "Temperature Report",
+                "frequency": "Temperature time interval (in minutes)",
+                "minutes": "minutes",
+                "pdfFileHeaderName" : "Temperature report",
+                "device_name": "Vehicle",
+                "avgTemperature1": "Average Temperature Sensor 1",
+                "avgTemperature2": "Average Temperature Sensor 2",
+                "sumOpenDoor1":"Total Openings Door 1",
+                "sumOpenDoor2":"Total Openings Door 2",
+                "adjusted_time": "Date/Time",
+                "temperature1": "Temperature Sensor 1",
+                "temperature2": "Temperature Sensor 2",
+                "door1": "Door 1 Status",
+                "door2": "Door 2 Status",
+                "address": "Location Coordinates",
+                "history": "Route",
+                "nosenzor": "No sensor",
+                "item_count": "Item count",
+                "door_status": {
+                    "0": "Open",
+                    "1": "Closed",
+                    "nosenzor": "No sensor"
+                },
+                "company": "Company",
+                "time_frame": "Time frame",
+                "vehicle_state": "Vehicle Status",
+                "vehiclestates" : {
+                    "undefined" : "Unknown",
+                    "0" : "Stopped",
+                    "1" : "Idling",
+                    "2" : "Driving"
+                }
+            },
+            "itinerary-clocking-geofence": {
+                "summary": "Summary",
+                "details": "Details",
+                "label": "Geozones Activity Report",
+                "device_name": "Vehicle",
+                "position_begin": {
+                    "devicetime": "Begin Date"
+                },
+                "position_end": {
+                    "devicetime": "End Date"
+                },
+                "address_begin_geofence": "Start Address",
+                "address_end_geofence": "End Address",
+                "distance": "Distance",
+                "moving": "Moving",
+                "idling": "Idling",
+                "stopped": "Stopped",
+                "driver": "Driver",
+                "idlinggeozones": "Idling time in Geozones",
+                "duration": {
+                    "identified_time": "Driver Autentification/Working Time",
+                    "idling_inside_geozones": "Total idling in geozones",
+                    "total_time_outside_geozones": "Total Working Time Outside Geozones",
+                    "dayshift_total": "Day Working Time Without Idling in Geozones",
+                    "nightshift_total": "Night Working Time Without Idling in Geozones",
+                    "nightshift": "Night shift",
+                    "dayshift": "Day shift"
+                },
+                "clockingtime": "Clocking time",
+                "timeformat": "hh:mm:ss",
+                "history": "Route",
+                "isdaytime": "Day shift",
+                "selectedGeofenceNames": "Accepted geozones",
+                "pdfFileHeaderName": "Geozones Activity Report"
+            },
+            "itinerary-with-fuel-consumption": {
+                "summary": "Summary",
+                "details": "Details",
+                "device_name": "Vehicle",
+                "label": "Journey and Comparative Consumption Report",
+                "driver": "Driver",
+                "distance": "Distance",
+                "history": "Route",
+                "address_begin": {
+                    "address_formatted": "Start Address"
+                },
+                "address_end": {
+                    "address_formatted": "End Address"
+                },
+                "position_begin": {
+                    "devicetime": "Begin Date"
+                },
+                "position_end": {
+                    "devicetime": "End Date"
+                },
+                "pdfFileHeadername": "Journey and Comparative Consumption Report",
+                "sumOpenDoor1": "Total Openings Door 1",
+                "sumOpenDoor2":"Total Openings Door 2",
+                "consumption": {
+                    "avg_can" : "Average Consumption CAN",
+                    "avg_fuel_level": "Average Consumption Fuel Level",
+                    "total_can": "Total Consumption CAN",
+                    "total_fuel_level": "Total Consumption Fuel Level",
+                    "total_auxiliary": "Fuel Used Auxiliary",
+                    "total_no_auxiliary":"Total Consumption Fuel Level without Auxiliary"
+                },
+                "duration": {
+                    "freeze": "Auxiliary Working Time"
+                },
+                "stoptime": "Stop Time Till Next Trip",
+                "auxiliary_consumption": "Auxiliary Consumption/h"
+            },
+            "geofence-activity": {
+                "label": "Vehicle Activity in Geozone Report",
+                "device_name": "Vehicle",
+                "position_begin": { "devicetime": "Date/Time Activity Begin" },
+                "address_begin": "Begin Activity Location",
+                "position_end": { "devicetime": "Date/Time Activity End" },
+                "address_end": "End Activity Location",
+                "distance": "Distance",
+                "history": "Route",
+                "pdfFileHeaderName": "Vehicle Activity in Geozone Report",
+                "duration": {
+                    "total_time": "Total time",
+                    "engine_on_time": "Moving time",
+                    "engine_off_time": "Stopped time",
+                    "geofence_total_time": "Total time in geozones",
+                    "geofence_engine_on_time": "Moving time in geozones",
+                    "geofence_engine_off_time": "Stopped time in geozones",
+                    "auxiliary_equipment_time": "Auxiliary equipment on time",
+                    "auxiliary_equipment_off_time": "Auxiliary equipment off time"
+                }
+            },
+            "forklift-activity": {
+                "label": "Comparative In/Out of Geozone Activity Report",
+                "device_name": "Vehicle",
+                "driver_id": "Driver",
+                "geofence": "Geofence",
+                "position_begin": { "devicetime": "Date/Time Activity Begin" },
+                "position_end": { "devicetime": "Date/Time Activity End" },
+                "distance": {
+                    "distance": "Distance",
+                    "distance_yard": "Yard - Distance"
+                },
+                "geofence_name": "Geofence",
+                "geofence_to_name": "Until Geofence",
+                "history": "Route",
+                "pdfFileHeaderName": "Comparative In/Out of Geozone Activity Report",
+                "max_speed": "Maximal speed",
+                "shift": "Shift",
+                "duration": {
+                    "activity_duration": "Activity duration",
+                    "activity_duration_yard": "Yard - Activity duration",
+                    "stopped": "Stopped time",
+                    "stopped_yard": "Yard - Stopped time",
+                    "total_time": "Total time"
+                }
+            },
+            "working-times-tacho": {
+                "label": "Driver Working Time Analysis Report",
+                "device_id": "Vehicle",
+                "driver_info": {"name": "Driver"},
+                "date": "Date",
+                "driver": "Driver",
+                "status": "Status",
+                "status_list": {
+                    "0": "Rest",
+                    "1": "Available",
+                    "2": "Work",
+                    "3": "Drive"
+                },
+                "day": "Day",
+                "night": "Night",
+                "available": "Available",
+                "rest": "Rest",
+                "period_begin": "Date/Time Activity Begin",
+                "period_end": "Date/Time Activity End",
+                "position_begin": "Start Address",
+                "position_end": "End Address",
+                "history": "Route",
+                "pdfFileHeaderName": "Driver Working Time Analysis Report",
+                "duration": "Duration",
+                "workingtotal": "Working days total",
+                "noworkingtotal": "No working days total"
+            },
+            "rfid-geofence": {
+                "label": "RfId total readings report",
+                "device_name": "Vehicle",
+                "total_distinct_rfid": "Nr. of Distinct Rfids",
+                "total_distinct_geofence": "Nr. of Distinct geofences",
+                "total_rfid_orphan": "Nr. of Orphan Rfids",
+                "activity_date": "Date/time",
+                "geofence": {
+                    "name": "Geofence"
+                },
+                "spd": "Speed",
+                "rfid": "Rfid",
+                "rwtid": "Waste Type",
+                "rbtid": "Bin Type",
+                "addr": "Address",
+                "cpn": "Client Name",
+                "history": "Route",
+                "pdfFileHeaderName": "RfId total readings report"
+            },
+            "rer-rfid": {
+                "label": "RfId Report",
+                "devName": "Device",
+                "totrfid": "Rfid Total Read",
+                "dtu": "Date",
+                "adiv": "Division",
+                "astn": "Street Number",
+                "astr": "Street",
+                "ccod": "Client Cod",
+                "cnam": "Client Name",
+                "rwtid": "Waste Type",
+                "rbtid": "Bin Type",
+                "rfid": "RFID",
+                "osts": "Status",
+                "status": {
+                    "undefined": "",
+                    "-": "-",
+                    "active": "active",
+                    "available": "available",
+                    "lost": "lost",
+                    "suspended": "suspended",
+                    "deleted": "deleted"
+                },
+                "showPositionOnMap": "Show position on map",
+                "totread": "Number of Readings"
+            },
+            "dynamic-thermodiagram": {
+                "detailedEvolution": "Temperature evolution",
+                "label": "Dynamic Thermodiagram Report",
+                "frequency": "Temperature time interval (in minutes)",
+                "minutes": "minutes",
+                "pdfFileHeaderName" : "Temperature report",
+                "device_name": "Vehicle",
+                "avgTemperature1": "Average Temperature Sensor 1",
+                "avgTemperature2": "Average Temperature Sensor 2",
+                "avgTemperature3": "Average Temperature Sensor 3",
+                "avgTemperature4": "Average Temperature Sensor 4",
+                "sumOpenDoor1":"Total Openings Door 1",
+                "sumOpenDoor2":"Total Openings Door 2",
+                "adjusted_time": "Date/Time",
+                "temperature1": "Temperature Sensor 1",
+                "temperature2": "Temperature Sensor 2",
+                "temperature3": "Temperature Sensor 3",
+                "temperature4": "Temperature Sensor 4",
+                "door1": "Door 1 Status",
+                "door2": "Door 2 Status",
+                "address": "Location Coordinates",
+                "history": "Route",
+                "nosenzor": "No sensor",
+                "item_count": "Item count",
+                "door_status": {
+                    "0": "Open",
+                    "1": "Closed",
+                    "nosenzor": "No sensor"
+                },
+                "company": "Company",
+                "time_frame": "Time frame",
+                "vehicle_state": "Vehicle Status",
+                "vehiclestates" : {
+                    "undefined" : "Unknown",
+                    "0" : "Stopped",
+                    "1" : "Idling",
+                    "2" : "Driving"
+                },
+                "dinamycThermodiagramExportDialog": {
+                    "headerText": "Choose preferences for exporting report",
+                    "selectVehicle": "Select vehicle",
+                    "selectSensor": "Select sensor",
+                    "selectExportType": "Select export type",
+                    "documentWidth": "Choose the width of the export",
+                    "exportType": {
+                        "table": "Temperature Table",
+                        "thermodiagram": "Thermodiagram"
+                    },
+                    "documentWidths": {
+                        "small": "Small",
+                        "medium": "Medium",
+                        "large": "Large"
+                    }
+                }
+            },
+            "working-times": {
+                "label": "Vehicle Working Times Analysis Report",
+                "device_name": "Vehicle",
+                "day": "Day",
+                "dateBeginActivity": "Activity start",
+                "dateEndActivity": "Activity end",
+                "drivingTime": "Driving time",
+                "iddleTime": "Iddle time",
+                "totalTime": "Total time",
+                "drivingTimeNoIddleDay": "Daylight driving time without iddle",
+                "drivingTimeNoIddleNight": "Night driving time without iddle",
+                "drivingTimeWithIddleDay": "Daylight driving time with iddle",
+                "drivingTimeWithIddleNight": "Night driving time with iddle",
+                "distance": "Distance (km)",
+                "fuelConsumptionTotal": "Total fuel consumption (l)",
+                "fuelConsumptionAvg": "Average fuel consumption (l/100km)",
+                "pdfFileHeaderName": "Vehicle Working Time Analysis Report",
+                "days": {
+                    "1": "Monday",
+                    "2": "Tuesday",
+                    "3": "Wednesday ",
+                    "4": "Thursday ",
+                    "5": "Friday ",
+                    "6": "Saturday ",
+                    "0": "Sunday "
+                },
+                "apply": "Reload"
+            },
+            "rer-geozone-activity": {
+                "label": "Rer activity report in geozones",
+                "geozone_name": "Geozone name",
+                "group_name": "Group name",
+                "ungroupped": "Ungroupped",
+                "period_begin": "Date/time of first entry",
+                "period_end": "Date/time of last exit",
+                "count": "Number of entries",
+                "duration_total": "Total duration",
+                "duration_stopped": "Stationary duration",
+                "average_speed": "Average speed (km/h)"
+            }
+        },
+        "raport_info": {
+            "maximumPeriod": "The Report can be generated for maximum ",
+            "maximumVehicles": "The Report can contain a maximum number of ",
+            "country-activity": {
+                "infotext" : "The Country Activity Report shows you information about the distance travelled for the selected period of time, total driving time, total idling time and total stopped time, as well as total time spent in each country. The report can be generated for one or multiple vehicles. Each line in the report represents the activity per country per selected period of time. A new line in the report indicates a new country.",
+                "infotext1" : "12 months",
+                "infotext2" : "10 vehicles"
+            },
+            "daily-activity": {
+                "infotext" : "The Daily Activity Report contains information related to the distance traveled for the selected period of time, total driving time, total idling time and total time with engine stopped, as well as maximum speed. The report can be generated for one or multiple vehicles.",
+                "infotext1" : "12 months",
+                "infotext2" : "100 vehicles"
+            },
+            "stops": {
+                "infotext" : "The Stopped Time Report shows each period of time the vehicle is stopped for, as long as it exceeds the minimum duration of stop time input at the moment of generating the report. The report can be generated for one or multiple vehicles. The data shown by the report will be: the stopped and idle time, total stopped time, the time and distance between stops, and the total number of stops. Each line of the report represents a new stop. If, when generating the report, the minimum stop time is set to 0, all the stops will be included in the report.",
+                "infotext1" : "12 months",
+                "infotext2" : "100 vehicles"
+            },
+            "itinerary": {
+                "infotext" : "The Roadmap report shows parameters such as the distance traveled for a selected period of time, total driving time, total stopped and idling time, and the average and maximum speed. The report can be generated for one or multiple vehicles. Each line in the report represents a separate journey (considered from engine start to engine stop)",
+                "infotext1" : "2 months",
+                "infotext2" : "100 number of vehicles"
+            },
+            "thermodiagram": {
+                "infotext" : "The Temperature Report (Thermodiagram) will show you the temperature recorded by the temperature sensors for the selected period of time, at the moment of generating the report. This report will tell you the average temperature recorded and the number of times the vehicle`s doors have been opened. The report can be generated for one or multiple vehicles. The time intervals for generating the reports are customisable. The report is also printable on thermal paper?  The width of the document is 600px (~16 cm).",
+                "infotext1" : "5 days",
+                "infotext2" : "10 vehicles"
+            },
+            "itinerary-clocking-geofence": {
+                "infotext": "The GeoZones Activity Report shows you the activity of a driver as long as they are authenticated on the vehicle they are driving (it`s necessary to have an active driver authentication module). The Report allows you to select the GeoZones for which you want the stopped time per day/night displayed. The report will give you the following statistics: hours worked per driver identified, idle time within the Geozones, hours worked outside of the Geozones, hours worked per day excluding stopped time within the Geozones, hours worked per night excluding stopped time within the Geozones.",
+                "infotext1": "1 month",
+                "infotext2": "10 vehicles"
+            },
+            "itinerary-with-fuel-consumption": {
+                "infotext" : "The Journey and Comparative Consumption Report  will give you information regarding the vehicle`s activity, the consumption based on the on board computer (CAN) as well as the fuel level, as recorded by the additionally installed fuel sensor (or the car`s original fuel sensor). The report also measures the fuel consumption of some auxiliary devices (auxiliary heating system - Webasto, refrigerating systems- Thermoking, Carrier, etc) as well as the time they are active. In order to gain access to this information, additional equipment needs to be installed! This report will compare the average and total fuel consumption (as recorded both by CAN and the fuel sensor), the total fuel consumption without auxiliary devices and also the total consumption and operational hours of the auxiliary devices.",
+                "infotext1" : "1 month",
+                "infotext2" : "10 vehicles"
+            },
+            "refuelings": {
+                "infotext": "The Fuel Level Report shows all of the refuels or fuel drains over a customized period of time. The report can be generated for one or multiple vehicles. This report will show you information as follows: the total number of car fueling events as well as the total fuel amount, average consumption and the total consumption per the selected period of time when generating the report, and the total drains. You have the option to configure the report so that it won`t show refuels lower than x liters and drains lower than y liters. These features are useful especially for vehicles with high fluctuations of the fuel levels.",
+                "infotext1": "12 months",
+                "infotext2": "100 vehicles"
+            },
+            "geofence-activity": {
+                "infotext": "The Vehicle Activity in Geozone Report makes a detailed analysis of the vehicle`s day to day activities within the selected Geozones or Points of Interest. This report can be generated on one or more vehicles. This report is useful for companies whose day to day operations require visiting multiple Geozones or Points of Interest throughout one day. This analysis can be used as a tool to determine the efficiency of daily operations. The parameters presented in the report include the date, time and address of the start and finish of actions, the total activity time (engine running and stopped presented in separate columns) and total activity time within Geozones or Points of Interest (engine running and stopped presented in separate columns). You can also see the running time for auxiliary sistems.",
+                "infotext1": "1 month",
+                "infotext2": "100 vehicles"
+            },
+            "forklift-activity": {
+                "infotext": "The Comparative In/Out of Geozone Activity Report will give you a summary of the distance and total time spent by a vehicle, with an authenticated driver, in the preset Geozones, as well as the distance and time spent outside of these Geozones. The report takes into account the fact that the drivers work in 3 different shifts, and they are assigned the numbers from 1 - 3, in the last column of the report. 1 - morning shift, 2 - afternoon shift, 3 - night shift. The report can be generated for one or multiple vehicles. This is a report conceived especially for industrial equipment. What you will find in this report: the activity duration (calculated separately within the Geozones and outside of the Geozones, in separate columns), the distance travelled by the vehicle (calculated separately within the Geozones and outside of the Geozones, in separate columns), stopped time (calculated separately within the Geozones and outside of the Geozones, in separate columns) and the maximum speed.",
+                "infotext1": "1 month",
+                "infotext2": "100 vehicles"
+            },
+            "working-times-tacho": {
+                "infotext": "The Driver Working Time Analysis report helps you keep track of your drivers activity, exclusively based on the data recorded by the tachograph for each authenticated driver. This report is best used for vehicles with multiple simultaneous drivers, who take turns in driving the vehicle. The report is vehicle based, but centered on the driver. It can be generated for one or multiple drivers, using the data recorded by the tachographs installed on the vehicles. The time period of interest is selected when generating the report. In the report summary, the information shown refers to the driving time divided into day and night, and resting per driver/ per day as well as totalled for the entire time period preselected. Weekends and National Holidays will be highlighted in different colors. The detailed report gives you information about the type of activity recorded for each driver (drive, work, rest), the activity time and location. The report is optimal vor vehicles wich have devices connected to tachograph. Because this is a report meant for vehicles with multiple drivers working in shifts, the driver status is as follows: Drive - driver is driving, Work - Driver is in the vehicle, but not driving, Rest - no driver in the vehicle, resting time.",
+                "infotext1": "1 month",
+                "infotext2": "100 vehicles"
+            },
+            "rer-rfid": {
+                "infotext": "",
+                "infotext1": "31 days",
+                "infotext2": "100 vehicles"
+            },
+            "dynamic-thermodiagram": {
+                "infotext" : "The Dynamic Temperature Report (Thermodiagram) will show you the temperature recorded by the temperature sensors for the selected period of time, at the moment of generating the report. This report will tell you the average temperature recorded and the number of times the vehicle`s doors have been opened. The report can be generated for one or multiple vehicles. The time intervals for generating the reports are customisable. The report is also printable on thermal paper?  The width of the document can be selected when choosing to export report as .png file.",
+                "infotext1" : "5 days",
+                "infotext2" : "10 vehicles"
+            },
+            "working-times": {
+                "infotext": "The Vehicle Working Time Analysis report displays information on the working time performed at different time intervals (day / night), with or without parking, the distance traveled during the selected period, driving time, stationary time with engine on / off and consumption data The report is completely customizable and offers the possibility to export only the information relevant to you. The report can be generated for one or more vehicles, the selection being made at the time of generating the report.",
+                "infotext1": "2 months",
+                "infotext2": "100 vehicles"
+            },
+            "rer-geozone-activity": {
+                "infotext": "The Rer Activity Geozone report",
+                "infotext1": "1 day",
+                "infotext2": "100 vehicles"
+            }
+        },
+        "confirmCreateHistory": "In order to prevent blocking your browser, we have reduced the maximum interval for the history log/report to 31 days. Do you want to continue?",
+        "dataColumnsSelection": "Data Columns Selection",
+        "reprocess": "Reprocess",
+        "detailedGraph": "Temperature graph",
+        "activityStart": "Activity Start",
+        "activityEnd": "Activity End",
+        "option": "Report options",
+        "drivers": "Drivers"
+    }
+}

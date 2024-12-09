@@ -1,0 +1,47 @@
+{
+    "Documents": {
+        "add": "Submit",
+        "documents": "Documents",
+        "searchdocument": "Search document",
+        "drivers": "Drivers",
+        "vehicles": "Vehicles",
+        "personal": "Personal Documents",
+        "category": "Categories",
+        "system": "System Documents",
+        "adddocument": "Add Document",
+        "addcategory": "Add Category",
+        "editdocument": "Edit Document",
+        "chooseaction": "Choose Action",
+        "confirmdelete": "Do you really want to delete the document?",
+        "confirmdeletecat": "Do you really want to delete the category?",
+        "deletedoc": "Delete Documents",
+        "deletecat": "Delete Category",
+        "deletedocmessage": "Do you want to delete?",
+        "documentname": "Document name",
+        "categoryname": "Category name",
+        "documenttitle": "Document title",
+        "downloaddoc": "Download documents",
+        "downloaddocmessage": "Do You want to Download?",
+        "nodocuments": "Currently you don't have any documents in this folder.",
+        "tablehead": {
+            "category": "Category",
+            "filename": "Filename",
+            "title": "Title",
+            "validfrom": "Valid from",
+            "validuntil": "Valid until",
+            "action": "Action"
+        },
+        "totaldocuments": "Total documents:",
+        "totalselected": "Total selected documents:",
+        "uploadfile": "Upload your file",
+        "deletecathasdocumentsnotheader": "Delete Category!",
+        "deletecathasdocumentserrormessage": "The Category cannot be deleted, before that be sure it does not contain any document!",
+        "forms" : {
+            "documentFor" : "Document for",
+            "documentCategory" : "Category",
+            "noRightsToActionTitle" : "Error",
+            "noRightsToActionMessage" : "This action couldn't be done."
+
+        }
+    }
+}

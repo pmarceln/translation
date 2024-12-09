@@ -1,0 +1,196 @@
+{
+    "E-transport": {
+        "isAutoCreateScheduler": "Creaza automat planificari transmitere date GPS",
+        "uitCodes": "Coduri UIT",
+        "addUitText": "Adaugă Cod UIT",
+        "succesfullySavedUitCode": "Cod UIT salvat cu succes!",
+        "operationFailed": "Operațiunea a eșuat, vă rugăm încercați din nou!",
+        "mandatoryAddUit": "Codul UIT și vehiculul sunt obligatorii!",
+        "filtersList": {
+            "manual": "Coduri UIT manuale",
+            "active": "Coduri UIT active",
+            "initiated": "Coduri UIT initiate",
+            "expired": "Coduri UIT expirate",
+            "all": "Toate codurile UIT"
+        },
+        "overview": {
+            "updateUitList": "Actualizare coduri UIT",
+            "searchText": "Caută cod UIT sau număr de înmatriculare",
+            "emptyListText": "Nu aveți coduri UIT asociate firmei dvs. în sistemul național eTransport pentru monitorizarea transporturilor pe teritoriul României",
+            "addUitCodeText": "Adăugați manual un cod UIT?",
+            "add": "ADAUGĂ",
+            "dataTable": {
+                "uit": "Cod UIT",
+                "status": "Status",
+                "declarant": "Declarant",
+                "vat": "CUI",
+                "transportDate": "Dată transport",
+                "currentVehicle": "Vehicul curent",
+                "expirationDate": "Dată expirare",
+                "options": "Opțiuni",
+                "showDetails": "Afișează detalii"
+            },
+            "uitStatus": {
+                "manual": "MANUAL",
+                "active": "ACTIV",
+                "initiated": "INIȚIAT",
+                "modified": "MODIFICAT",
+                "expired": "EXPIRAT"
+            },
+            "uitDetails": {
+                "uitNotificationError1": "Vehiculul alocat pe UIT nu este monitorizat in sistemul CargoTrack.",
+                "uitNotificationError2": "Vehiculul alocat pe UIT nu este alocat pe userul dvs.",
+                "uitNotificationError3": "Vehiculul nu este alocat pe contractul de eTransport al partenerului [#name#].",
+                "declarant": "Declarant",
+                "operationType": "Tip operațiune",
+                "loadingPlace": "Loc încărcare / PTF / BV",
+                "dischargePlace": "Loc descărcare / PTF / BV",
+                "transportDate": "Dată transport",
+                "expirationDate": "Dată expirare UIT",
+                "initialVehicle": "Vehicul inițial",
+                "currentVehicle": "Vehicul curent",
+                "tractorHead": "Cap tractor",
+                "trailer": "Remorcă",
+                "document": "Document",
+                "changeVehicle": "SCHIMBĂ VEHICUL",
+                "gpsPositionHistory": "ISTORIC POZIȚII GPS",
+                "transmissionOnText": "Transmiterea datelor GPS este pornită",
+                "plannedDataTransmission": "TRANSMITERE DATE PLANIFICATE",
+                "showMapHistory": "Harta transmisie",
+                "showMapHistoryTitle": "Harta transmisie",
+                "transportData": "date transport",
+                "dataTransmissionHistory": "istoric transmitere date",
+                "planVehicle": "planifica vehicul",
+                "deviceList": {
+                    "tabLabel": "Lista planificari",
+                    "device": "Vehicul",
+                    "trailer1": "Remorca 1",
+                    "trailer2": "Remorca 2",
+                    "startTransmission": "Start transmisie",
+                    "stopTransmission": "Stop transmisie",
+                    "username": "Utilizator",
+                    "status": "Status",
+                    "options": "Opțiuni",
+                    "statusList": {
+                        "planned": "planificat",
+                        "ongoing": "in desfasurare",
+                        "completed": "date trimise",
+                        "canceled": "anulat"
+                    }
+                },
+                "planningModal" : {
+                    "title": "Planifica transmitere date ",
+                    "info": "Planifica  intervalul transmiterii datelor catre e-Transport. Vei putea opri sau edita in orice moment transmiterea datelor atat timp cat codul UIT nu este expirat!",
+                    "attention": "Atentie! Transmiterea datelor GPS catre e-Transport se va face doar pe teritoriul Romaniei!",
+                    "infoStop": "Oprește transmiterea datelor catre e-Transport. Vei putea planifica din nou transmiterea datelor atat timp cât codul UIT nu este expirat.",
+                    "infoCancel": "Modifică sau anulează planificarea intervalului transmiterii datelor catre e-Transport. Vei putea opri sau edita din nou transmiterea datelor atat timp cât codul UIT nu este expirat sau transmisia de date nu a început!",
+                    "vehicle": "Numar inmatriculare cap tractor",
+                    "trail": "Remorca",
+                    "startTransmitting": "Start transmitere date GPS",
+                    "stopTransmitting": "Stop transmitere date GPS",
+                    "hour": "Ora",
+                    "schedule": "Planifica",
+                    "editSchedule": "Modifica Planificare",
+                    "cancelSchedule": "ANULEAZĂ PLANIFICARE",
+                    "stopSchedule": "OPRIRE TRANSMISIE",
+                    "stopScheduleSucces": "Oprirea transmisiei GPS a fost realizată cu succes",
+                    "stopScheduleError": "Oprirea transmisiei GPS nu s-a putut efectua. Vă rugăm să reîncercați."
+                },
+                "transmissionMap": {
+                    "loadingMapError": "A aparut o eroare la incarcarea hartii. Va rugam contactati suportul.",
+                    "loadingPositionsError": "A aparut o eroare la incarcarea pozitiilor. Va rugam contactati suportul.",
+                    "startDate": "Data inceput",
+                    "endDate": "Data sfarsit",
+                    "uitCode": "Cod UIT"
+                },
+                "planning": {
+                    "errorHours": "Planificarea nu poate depăși 12 ore în trecut",
+                    "errorExisting": "Pe perioada selectată există deja o planificare pe acest UIT.",
+                    "errorStopTrasmissionError": "Data opririi transmisiei este in trecut sau inaintea datei de pornire a transmisiei.",
+                    "successSave": "Planificarea a fost salvata cu succes.",
+                    "errorSave": "Planificarea nu a putut fi salvată! Vă rugăm să reîncercați!",
+                    "successCancel": "Planificarea a fost anulată cu succes.",
+                    "errorCancel": "Planificarea nu a putut fi anulată! Vă rugăm să reîncercați!",
+                    "errorNotBeRemoved": "Planificarea UIT nu poate fi eliminată!",
+                    "selectDevice": "Va rugam selectați vehiculul!",
+                    "historyModal": {
+                        "title": "Istoric planificare",
+                        "dateTime": "Data si ora",
+                        "vehicle": "Vehicul",
+                        "tow1": "Remorca 1",
+                        "tow2": "Remorca 2",
+                        "transmissionStart": "Start transmitere",
+                        "transmissionStop": "Stop transmitere",
+                        "username": "Utilizator",
+                        "status": "Status",
+                        "loadingHistoryError": "A aparut o eroare la incarcarea istoricului. Va rugam contactati suportul."
+                    }
+                }
+            },
+            "sendGpsDataTransmissionLog": {
+                "title": "ISTORIC POZIȚII GPS",
+                "close": "Închide",
+                "subTitle": "Istoric transmitere date"
+            },
+            "sendGpsData": {
+                "sendGpsDataTransmissionTitle": "PLANIFICĂ TRANSMITEREA DATELOR GPS",
+                "startGpsDataTransmission": "Start transmitere date GPS",
+                "stopGpsDataTransmission": "Stop transmitere date GPS",
+                "hour": "Oră",
+                "planify": "SALVEAZĂ",
+                "error": "Data din câmpul start transmitere date nu pote fi după sau egală cu data din câmpul stop transmitere date!",
+                "pastError": " Data de început nu poate fi în trecut!",
+                "success1": "Planificarea transmisiei datelor GPS pentru vehiculul: ",
+                "success2": " a fost realizată cu success!",
+                "text": "Planifică intervalul transmiterii datelor către e-Transport. Vei putea opri în orice moment transmiterea datelor și replanifica atât timp cât codul UIT nu este expirat!"
+            },
+            "uitVehicleHistory": {
+                "title": "Istoric vehicule",
+                "removeModalTitle": "Sterge planificarea",
+                "removeModalConfirmationMessage": "Sunteti sigur ca doriti să stergeti planificarea selectată?",
+                "close": "Închide",
+                "back": "Înapoi",
+                "remove": "Sterge",
+                "dataTable": {
+                    "vehicleName": "Vehicul",
+                    "vehicleTow1": "Remorcă 1",
+                    "vehicleTow2": "Remorcă 2",
+                    "periodBegin": "Dată planificare",
+                    "createdAt": "Dată adăugare",
+                    "remove": "Sterge",
+                    "username": "Utilizator"
+                }
+            },
+            "stopGpsTransmission": {
+                "stopGpsTransmissionTitle": "STOP TRANSMITERE DATE GPS",
+                "stopGpsTransmissionTitleText": "Alege “Stop transmitere date GPS” pentru a opri temporar transmiterea datelor GPS pentru acest cod UIT. Ulterior vei putea relua transmiterea datelor GPS ale vehiculului, cu condiția ca acest cod UIT să fie activ",
+                "success1": "Oprirea transmisiei datelor GPS pentru vehiculul: ",
+                "success2": " a fost realizată cu succes!"
+            },
+            "changeVehicle": {
+                "changeVehiceTitle": "SCHIMBĂ VEHICUL",
+                "newCurrentVehicle": "Vehicul curent nou",
+                "tractorHeadLabel": "Număr înmatriculare cap tractor",
+                "trailer1Label": "Remorcă 1",
+                "trailer2Label": "Remorcă 2",
+                "scheduleDateLabel": "Dată planificare schimbare vehicul",
+                "hourLabel": "Oră",
+                "vehicleHistory": "ISTORIC VEHICUL",
+                "error": "Data selectată nu poate fi în trecut!",
+                "vehicleErorr": "Vă rugăm selectați un vehicul!",
+                "success": "Vehicul modificat cu succes!",
+                "errorOnChange": "A apărut o eroare la modificarea vehiculului, vă rugăm încercați din nou!"
+            }
+        },
+        "addUit": {
+            "uitLabel": "UIT",
+            "uitPlaceholder": "Cod UIT",
+            "initialVehicleLabel": "Vehicul inițial",
+            "initialVehiclePlaceholder": "Număr înmatriculare vehicul",
+            "success": "Codul UIT a fost adăugat cu succes!",
+            "error": "A apărut o eroare la adăugarea codului UIT, vă rugăm încercați din nou!",
+            "uitLengthError": "Codul UIT introdus nu respecta formatul de 16 caractere, va rugam sa introduceti codul corect!",
+            "etransportAddUITCodeNotAcceptable": "Codul UIT nu este valid. Asigură-te că acesta are exact 16 caractere și nu conține literele O, I, Z, S, G sau B."
+        }
+    }
+}

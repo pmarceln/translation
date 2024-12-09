@@ -1,0 +1,31 @@
+{
+    "Package" : {
+        "availableTabTitle" : "Disponibile",
+        "installedTabTitle" : "Instalate",
+        "freeText" : "Gratuit : Perioada de proba 30 zile",
+        "description" : "Descriere",
+        "details" : "Detalii",
+        "features" : "Functionalitati",
+        "licence" : "Licenta",
+        "tryNow" : "Incearca acum",
+        "buy" : "Cumpara",
+        "activate": "Activeaza",
+        "trialExpired" : "Activeaza acum",
+        "packageInstalled" : "Pachetul a fost instalat cu success!",
+        "packageInstallationError" : "Pachetul selectat nu a putut si instalat! Acest pachet a fost testat in trecut. Pentru mai multe detalii contactati echipa de suport!",
+        "moduleDemoExpired" : "Pachetul contine un modul pe care l-ati avut deja in demo dar perioada de demo a expirat, pentru detalii va rugam sa contactati echipa de suport tehnic!",
+        "requestSupport": "Solicita Suport",
+        "getSupportSuccess" : "In sistemul nostru s-a creat o notificare pentru cererea ta. Urmeaza sa fii contactat in cel mai scurt timp!",
+        "moduleActivation": {
+            "title": "Activare modul",
+            "content": "Vei fi contactat de un reprezentant de vânzări cât mai curând posibil"
+        },
+        "package": {
+            "description": "Descriere",
+            "features": "Caracteristici",
+            "details": "Detalii",
+            "addDemoPackageSuccessMessage": "Modulul {{ name }} este activ pentru o perioada de proba de 30 de zile. Puteti sa il achizitionati cand doriti prin apasarea butonului Activeaza acum. Dupa ce inchizi aceasta fereastra, te rugam sa te autentifici dinnou!",
+            "demoExpiresIn": "demo-ul expira in {{ days }} zile"
+        }
+    }
+}
