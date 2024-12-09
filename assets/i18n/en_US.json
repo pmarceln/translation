@@ -85,17 +85,16 @@
         "username": "Username",
         "description": "Please enter your login username!",
         "resetPassword": "Reset password",
-        "emailSent":"An email for reseting your password was sent on your email account. The reset link will be active for 10 minutes, and only after that you will be able to make a new request. If you don't remember your email address or you can't access your don't use it anymore, please contanct our support department!",
+        "emailSent": "An email for reseting your password was sent on your email account. The reset link will be active for 10 minutes, and only after that you will be able to make a new request. If you don't remember your email address or you can't access your don't use it anymore, please contanct our support department!",
         "emailModal": "Email sent successfully",
-        "de":"Deutsch",
-        "en":"English",
-        "ro":"Română",
-        "it":"Italiano",
+        "de": "Deutsch",
+        "en": "English",
+        "ro": "Română",
+        "it": "Italiano",
         "invalidCredentialsTitle": "Invalid credentials!",
         "invalidCredentials": "The username or password provided are incorrect!",
         "oldPasswordTitle": "You entered an old password!",
         "oldPassword": "Your password has been previously changed. Please insert the new password or reset it from reset password section!"
-
     },
     "upgradeRequired": {
         "header": "Update app version!",
@@ -112,7 +111,7 @@
         "unknownerror": "Unknown error. Please try again later!",
         "mailNotFound": "Mail / Username not found",
         "emailRequired": "Email required!",
-        "emailSent":"An email for reseting your password was sent on your email account. The reset link will be active for 10 minutes, and only after that you will be able to make a new request. If you don't remember your email address or you can't access your don't use it anymore, please contanct our support department!",
+        "emailSent": "An email for reseting your password was sent on your email account. The reset link will be active for 10 minutes, and only after that you will be able to make a new request. If you don't remember your email address or you can't access your don't use it anymore, please contanct our support department!",
         "emailModal": "Email sent successfully",
         "linkExpired": "The reset password link is expired. Please start again the password recovery process or contat our support team!"
     },
@@ -132,8 +131,8 @@
             "name": "Name",
             "description": "Description"
         },
-        "pageTitle" : {
-            "empty" : "Routing"
+        "pageTitle": {
+            "empty": "Routing"
         }
     },
     "Coordinates": {
@@ -179,7 +178,7 @@
         "unread": "unread"
     },
     "Accounting": {
-        "invoice" : {
+        "invoice": {
             "number": "Invoice number",
             "company": "Company",
             "date": "Invoice date",
@@ -218,7 +217,7 @@
             "recurency": "Recurency",
             "cancelRecurency": "Cancel recurency",
             "successfullyCanceled": "Recurent payment successfully canceled!",
-            "paymentMethod" :{
+            "paymentMethod": {
                 "paymentInformation": "Payment Information",
                 "transilvaniaBank": "Transilvania Bank",
                 "anotherBank": "Other Bank"
@@ -233,7 +232,6 @@
         "invoicesPaid": "Invoices Paid",
         "isSuspended": "Your account is suspended for non payment. In order to activate the account please pay the outstanding invoices and reactivation will be automaticaly done in aproximately 10 minutes!",
         "isSuspendedUnderProcesing": "Your payment is under procesing. After having the bank confirmation the account will be automaticaly activated!"
-
     },
     "Reports": {
         "page": "Page",
@@ -244,7 +242,7 @@
         "fuelLevelGraph": "Refuel / Leaks graph",
         "errorGenerate": "Report could not be generated.",
         "contactSupport": "Please contact the support team!",
-        "doorSensor":"Display Door Sensor",
+        "doorSensor": "Display Door Sensor",
         "raportType": {
             "refuelings": {
                 "label": "Fuel Level Report",
@@ -265,7 +263,7 @@
                 "total_distance": "Distance",
                 "refuel_no": "Total Refuels",
                 "consumption_mean": "Average Consumption",
-                "pdfFileHeadername" : "Fuel Level Report"
+                "pdfFileHeadername": "Fuel Level Report"
             }
         }
     },
@@ -284,8 +282,8 @@
         "line5": "The CargoTrack Team"
     },
     "Dispatcher": {
-        "pageTitle" : {
-            "empty" : "Dispatch"
+        "pageTitle": {
+            "empty": "Dispatch"
         }
     },
     "startTime": "Start time",
@@ -324,9 +322,9 @@
     "actions": "Actions",
     "quicksearch": "Quick search",
     "available": "Available",
-	"unavailable" : "Unavailable",
-    "ongoing" : "On going",
-	"yes": "Yes",
+    "unavailable": "Unavailable",
+    "ongoing": "On going",
+    "yes": "Yes",
     "no": "No",
     "next": "Next",
     "previous": "Previous",
@@ -360,7 +358,7 @@
     "forgotPassword": "Forgot password",
     "remember": "Remember me",
     "dateRange": "Date Range",
-    "loadArchive":"Load archive",
+    "loadArchive": "Load archive",
     "warning": "Warning!!!",
     "pay": "Pay"
 }
